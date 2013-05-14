@@ -1,8 +1,85 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+html,body {
+	height:100%;
+	display:block;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+#container{
+	width: 100%;
+}
+
+#mainHeader {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6f3531), to(#570d13));;
+	background-color: #570d13;
+	border-bottom: 2px solid #b72d25;
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+#mainHeader #title {
+	font: 25px "Quando", Georgia, serif;
+	margin: 8px 0 0 20px;
+	color: #fdf5a8;
+	text-shadow: 2px 2px 0px rgba(0,0,0,.5);
+}
+
+#leftContainer{
+	width: 300px;
+	height: 100%;
+	position: fixed;
+	top: 50px;
+	left: 0;
+	z-index: 99;
+	background-color: #fff9e9;
+	box-shadow: 5px 0 10px rgba(0,0,0,.2);
+}
+#leftContainer .header{
+
+}
+
+#mapContainer{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	top: 50px;
+	left: 300px;
+}
+
+#mapContainer .searchIndicatorBar{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	z-index:98;
+	background-color: #fdf5a8;
+	color: #570d13;
+	padding: 5px 0 5px 15px;
+	opacity: .8;
+}
+
+#infoPanel {
+	width:25%;
+	max-width: 300px;
+	height:100%;
+	position: fixed;
+	top: 50px;
+	right: -25%;
+	z-index: 102;
+	background-color: #FDFDFD;
+	box-shadow: -5px 0 10px rgba(0,0,0,.2);
+}
+
+#mapView {
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right:0;
 }
