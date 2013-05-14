@@ -15,6 +15,16 @@ describe('Pantry', function() {
           if (err) throw err;
           done();
         });
+    }),
+    it('should list of pantries each with a name, location, etc.', function(done) {
+      request(app)
+        .get('/pantry')
+        .expect('Content-Type', /json/)
+        .expect(200)
+        .end(function(err, res){
+          if (err) throw err;
+          done();
+        });
     })
   })
 })
