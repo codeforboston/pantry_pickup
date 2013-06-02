@@ -23,6 +23,7 @@ $(document).ready(function() {
       var $el = this.$el;
       this.collection.each(function(pantry) {
         $el.append(new PantryPickup.PantryListingView({model: pantry}).render().el);
+        addPantryToMap(pantry);
       });
       return this;
     }
@@ -51,37 +52,31 @@ $(document).ready(function() {
     }
   });
 
-  PantryPickup.map.addMarker({
-    lat: 42.3583,
-    lng: -71.0603,
-    title: 'TestPantry',
-    click: function(e) {
-      alert('You clicked in this marker');
-      // change infobox display
-    },
-    infoWindow: {
-      content: '<p>Info about pantry</p>'
-    }
-  });
 
+  //Adding a Pantry
+  function addPantryToMap(pantry){
+    fullAddress = pantry.get("address") + " " + pantry.get("city") + " " + pantry.get("zipcode");
+    console.log("adding " + fullAddress);
 
-  GMaps.geocode({
-    address: "351 Boylston St. Boston MA 02120",
-    callback: function(results, status) {
-      if (status == 'OK') {
-        var latlng = results[0].geometry.location;
-        PantryPickup.map.setCenter(latlng.lat(), latlng.lng());
-        PantryPickup.map.addMarker({
-          title: 'Rice Sticks + Tea/Asian Food Pantry',
-          lat: latlng.lat(),
-          lng: latlng.lng(),
-          infoWindow: {
-            content: "<p> <p>Rice Sticks + Tea/Asian Food Pantry</p> <p>351 Boylston St. Boston MA 02120</p> <p>F: 5pm-7pm</p> </p>"
+    GMaps.geocode({
+      address: fullAddress,
+      callback: function(results, status) {
+        if (status == 'OK') {
+            var latlng = results[0].geometry.location;
+                //PantryPickup.map.setCenter(latlng.lat(), latlng.lng());
+                  PantryPickup.map.addMarker({
+                        title: 'title',
+                        lat: latlng.lat(),
+                        lng: latlng.lng(),
+                        infoWindow: {
+                          content: "<p>"+pantry.get("site_name")+"</p>"
+                        }
+                      });
+                    }
           }
-        });
-      }
-    }
-  });
+    });
+  }
+
 
 });
 
