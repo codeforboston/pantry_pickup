@@ -18,19 +18,22 @@ block content
 
     div#infoPanel
       div#locationInfo
-        div.locationName
-        div.locationAdd1
-        div.locationAdd1
-        div.locationCity
-        div.locationState
-        div.locationZip
-        div.locationPhone
-        div.locationHours
       div#orgNeeds
         //To do in v2
 
-    script(type="text/teplate", class="template", id="pantryListing").
-      <h2><%- pantry.get('source') %></h2>
+    script(type="text/template", class="template", id="pantryListingTmpl").
+      <h2><a class="name"><%- pantry.get('site_name') %></a></h2>
+
+    script(type="text/template", class="template", id="pantryDetailsTmpl").
+      <a class="close">x</a>
+      <h2><%- pantry.get('site_name') %></h2>
+      <% if (pantry.get('website') != '') { %>[<a href="<%- pantry.get('website') %>" target="_blank">link</a>]<% } %>
+      <address>
+        <%- pantry.get('address') %><br>
+        <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
+      </address>
+      <div class="phone"><%- pantry.get('phone') %></div>
+      <div class="source">Source: <%- pantry.get('source') %></div>
 
     script.
       window.pantries = !{JSON.stringify(pantries)}
