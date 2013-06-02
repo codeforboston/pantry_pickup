@@ -38,6 +38,18 @@ block content
       </address>
       <div class="phone"><%- pantry.get('phone') %></div>
       <div class="source">Source: <%- pantry.get('source') %></div>
+      <% if (pantry.get('hours').length > 0) { %>
+      <div class="hours">Hours:<br>
+        <% _(pantry.get('hours')).each(function(hours) { %>
+          Open from <%- hours.start %> until <%- hours.end %>
+          <%- hours.repeats %> on <%- hours.repeatsOn %>
+        <% }); %>
+      </div>
+      <% } %>
+      <div class="needs">
+        Food donations accepted: <%- pantry.get('food_donations_accepted') ? 'Yes' : 'No' %><br>
+        <%- pantry.get('volunteers_should_contact') ? 'Currently' : 'Not currently' %> looking for volunteers.
+      </div>
 
     script.
       window.pantries = !{JSON.stringify(pantries)}
