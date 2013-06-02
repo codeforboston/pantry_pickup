@@ -4,6 +4,8 @@ html,body {
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+a {cursor:pointer;}
+
 #container{
 	width: 100%;
 }
@@ -63,12 +65,13 @@ html,body {
 }
 
 #infoPanel {
+	display: none;
 	width:25%;
 	max-width: 300px;
 	height:100%;
 	position: fixed;
 	top: 50px;
-	right: -25%;
+	right: 0;
 	z-index: 102;
 	background-color: #FDFDFD;
 	box-shadow: -5px 0 10px rgba(0,0,0,.2);

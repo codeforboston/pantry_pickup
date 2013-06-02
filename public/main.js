@@ -8,14 +8,36 @@ $(document).ready(function() {
     }
   });
   PantryPickup.PantryListingView = Backbone.View.extend({
-    template: _.template( $('#pantryListing').html() ),
+    template: _.template( $('#pantryListingTmpl').html() ),
+    events: {
+      'click .name': 'showDetails'
+    },
     render: function() {
       this.$el.append(this.template({pantry: this.model}));
       return this;
+    },
+    showDetails: function() {
+      var detailView = new PantryPickup.PantryDetailView({model: this.model});
+      detailView.render();
     }
   });
 
-  PantryPickup.PantriesView = Backbone.View.extend({
+  PantryPickup.PantryDetailView = Backbone.View.extend({
+    el: '#infoPanel',
+    template: _.template( $('#pantryDetailsTmpl').html() ),
+    events: {
+      'click .close': 'close'
+    },
+    render: function() {
+      this.$el.show().html(this.template({pantry: this.model}));
+      return this;
+    },
+    close: function() {
+      this.$el.hide();
+    }
+  });
+
+  PantryPickup.PantryListingsView = Backbone.View.extend({
     initialize: function() {
       this.collection.on('reset', this.render, this);
     },
@@ -28,7 +50,17 @@ $(document).ready(function() {
       return this;
     }
   });
-  PantryPickup.view = new PantryPickup.PantriesView({collection: new PantryPickup.PantryCollection(), el: '#pantryList'});
+
+  PantryPickup.PantriesView = Backbone.View.extend({
+    initialize: function() {
+      this.listingsView = new PantryPickup.PantryListingsView({collection: this.collection, el: '#pantryList'});
+    },
+    render: function() {
+      this.listingsView.render();
+    }
+  });
+
+  PantryPickup.view = new PantryPickup.PantriesView({collection: new PantryPickup.PantryCollection(), el: '#content'});
 
 	PantryPickup.map = new GMaps({
 	  div: '#mapView',
