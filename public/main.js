@@ -8,9 +8,10 @@ $(document).ready(function() {
     }
   });
   PantryPickup.PantryListingView = Backbone.View.extend({
+    className: 'pantryListItem',
     template: _.template( $('#pantryListingTmpl').html() ),
     events: {
-      'click .name': 'showDetails'
+      'click': 'showDetails'
     },
     render: function() {
       this.$el.append(this.template({pantry: this.model}));
@@ -33,6 +34,7 @@ $(document).ready(function() {
     },
     close: function() {
       this.$el.hide();
+      //this.$el.css();
     }
   });
 

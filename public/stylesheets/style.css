@@ -39,11 +39,39 @@ a {cursor:pointer;}
 	z-index: 99;
 	background-color: #fff9e9;
 	box-shadow: 5px 0 10px rgba(0,0,0,.2);
+	overflow: scroll;
 }
 #leftContainer .header{
 
 }
+#pantryList {
+	padding: 20px;
+}
 
+.pantryListItem {
+	border-bottom: 1px solid #dedede;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+
+.pantryListItem:hover {
+	background-color: rgba(0,0,0,.05);
+}
+
+.pantryListItem h2 {
+	font-size:18px;
+	font-weight: normal;
+}
+
+.pantryListItem address {
+}
+
+.pantryListItem address .address1 {
+
+}
+.pantryListItem address .address2 {
+	
+}
 #mapContainer{
 	width:100%;
 	height: 100%;
