@@ -84,10 +84,16 @@ $(document).ready(function() {
   });
 
   function clickOnPantry(pantry) {
+    // load details pane
     var detailView = new PantryPickup.PantryDetailView({model: pantry});
     detailView.render();
+
     // center pantry on map
-    // load details pane
+    lat = pantry.get("loc").coordinates[1];
+    lng = pantry.get("loc").coordinates[0];
+    //TODO 'center' is 200 px off right now, need to fix map alignment
+    PantryPickup.map.setCenter(lat, lng);
+
     // change icon
   }
 
@@ -104,37 +110,12 @@ $(document).ready(function() {
     console.log(lat + " " + lng);
 
     PantryPickup.map.addMarker({
-          title: 'title',
+          title: pantry.get("site_name"),
           lat: lat,
           lng: lng,
           //add a click action which opens the infobox
           click: function() { clickOnPantry(pantry); }
         });
-
-    /*
-    GMaps.geocode({
-      address: fullAddress,
-      callback: function(results, status) {
-        if (status == 'OK') {
-            console.log("success geocoding " + fullAddress);
-            var latlng = results[0].geometry.location;
-            console.log(latlng.lat() + " " + latlng.lng());
-                //PantryPickup.map.setCenter(latlng.lat(), latlng.lng());
-                  PantryPickup.map.addMarker({
-                        title: 'title',
-                        lat: latlng.lat(),
-                        lng: latlng.lng(),
-                        infoWindow: {
-                          content: "<p>"+pantry.get("site_name")+" "+fullAddress+"</p>"
-                        }
-                      });
-           }
-        else {
-          console.log("failed to geocode: " + fullAddress);
-        }
-          }
-    });
-    */
   }
 
 
