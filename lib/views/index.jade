@@ -50,17 +50,41 @@ block content
       <div class="phone"><%- pantry.get('phone') %></div>
       <div class="source">Source: <%- pantry.get('source') %></div>
       <% if (pantry.get('hours').length > 0) { %>
-      <div class="hours">Hours:<br>
+      <p class="hours">Hours:<br>
         <% _(pantry.get('hours')).each(function(hours) { %>
           Open from <%- hours.start %> until <%- hours.end %>
-          <%- hours.repeats %> on <%- hours.repeatsOn %>
+          <%- hours.repeats %> on <%- hours.repeatsOn %><br>
         <% }); %>
-      </div>
+      </p>
       <% } %>
-      <div class="needs">
+
+      <p class="donations">
         Food donations accepted: <%- pantry.get('food_donations_accepted') ? 'Yes' : 'No' %><br>
         <%- pantry.get('volunteers_should_contact') ? 'Currently' : 'Not currently' %> looking for volunteers.
-      </div>
+      </p>
+
+      <p class="needs">
+        Food needs:
+        <% if (pantry.get('food_needs').length) { %>
+          <ul>
+            <% _(pantry.get('food_needs')).each(function(need) { %>
+              <li><%- need %></li>
+            <% }); %>
+          </ul>
+        <% } else { %>
+          None currently.
+        <% } %>
+      </p>
+      <% if (pantry.get('cannot_accept').length) { %>
+        <p class="cannot-accept">
+          Can't accept:
+          <ul>
+            <% _(pantry.get('cannot_accept')).each(function(bad) { %>
+              <li><%- bad %></li>
+            <% }); %>
+          </ul>
+        </p>
+      <% } %>
 
     script.
       window.pantries = !{JSON.stringify(pantries)}
