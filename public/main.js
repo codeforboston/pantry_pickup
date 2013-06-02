@@ -17,8 +17,7 @@ $(document).ready(function() {
       return this;
     },
     showDetails: function() {
-      var detailView = new PantryPickup.PantryDetailView({model: this.model});
-      detailView.render();
+      clickOnPantry(this.model);
     }
   });
 
@@ -84,6 +83,14 @@ $(document).ready(function() {
     }
   });
 
+  function clickOnPantry(pantry) {
+    var detailView = new PantryPickup.PantryDetailView({model: pantry});
+    detailView.render();
+    // center pantry on map
+    // load details pane
+    // change icon
+  }
+
 
   //Adding a Pantry
   function addPantryToMap(pantry){
@@ -101,9 +108,7 @@ $(document).ready(function() {
           lat: lat,
           lng: lng,
           //add a click action which opens the infobox
-          infoWindow: {
-            content: "<p>"+pantry.get("site_name")+"</p><p>"+fullAddress+"</p>"
-          }
+          click: function() { clickOnPantry(pantry); }
         });
 
     /*
