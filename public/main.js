@@ -29,12 +29,24 @@ $(document).ready(function() {
       'click .close': 'close'
     },
     render: function() {
-      this.$el.show().html(this.template({pantry: this.model}));
+      this.$el.animate({
+        right: '0',
+        },
+        250,
+        function() {
+          // Animation complete.
+      }).html(this.template({pantry: this.model}));
       return this;
     },
     close: function() {
-      this.$el.hide();
-      //this.$el.css();
+      //this.$el.hide();
+      this.$el.animate({
+        right: '-25%',
+        },
+        150,
+        function() {
+          // Animation complete.
+      });
     }
   });
 

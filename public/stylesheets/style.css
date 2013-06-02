@@ -64,6 +64,7 @@ a {cursor:pointer;}
 }
 
 .pantryListItem address {
+
 }
 
 .pantryListItem address .address1 {
@@ -93,16 +94,21 @@ a {cursor:pointer;}
 }
 
 #infoPanel {
-	display: none;
 	width:25%;
 	max-width: 300px;
 	height:100%;
 	position: fixed;
+	padding:15px;
 	top: 50px;
-	right: 0;
+	right: -25%;
 	z-index: 102;
-	background-color: #FDFDFD;
+	background-color: #F0F0F0;
 	box-shadow: -5px 0 10px rgba(0,0,0,.2);
+}
+
+#infoPanel .source{
+	padding-bottom:10px;
+	border-bottom: 1px solid #dedede;
 }
 
 #mapView {
