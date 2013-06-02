@@ -55,26 +55,49 @@ $(document).ready(function() {
 
   //Adding a Pantry
   function addPantryToMap(pantry){
-    fullAddress = pantry.get("address") + " " + pantry.get("city") + " " + pantry.get("zipcode");
+    var state = "MA" //assuming all data is in Mass.
+    var fullAddress = pantry.get("address") + ", " + pantry.get("city") + " " + state + " " + pantry.get("zipcode");
     console.log("adding " + fullAddress);
+    console.log(pantry);
+    lat = pantry.get("loc").coordinates[1];
+    lng = pantry.get("loc").coordinates[0];
 
+    console.log(lat + " " + lng);
+
+    PantryPickup.map.addMarker({
+          title: 'title',
+          lat: lat,
+          lng: lng,
+          //add a click action which opens the infobox
+          infoWindow: {
+            content: "<p>"+pantry.get("site_name")+"</p><p>"+fullAddress+"</p>"
+          }
+        });
+
+    /*
     GMaps.geocode({
       address: fullAddress,
       callback: function(results, status) {
         if (status == 'OK') {
+            console.log("success geocoding " + fullAddress);
             var latlng = results[0].geometry.location;
+            console.log(latlng.lat() + " " + latlng.lng());
                 //PantryPickup.map.setCenter(latlng.lat(), latlng.lng());
                   PantryPickup.map.addMarker({
                         title: 'title',
                         lat: latlng.lat(),
                         lng: latlng.lng(),
                         infoWindow: {
-                          content: "<p>"+pantry.get("site_name")+"</p>"
+                          content: "<p>"+pantry.get("site_name")+" "+fullAddress+"</p>"
                         }
                       });
-                    }
+           }
+        else {
+          console.log("failed to geocode: " + fullAddress);
+        }
           }
     });
+    */
   }
 
 
