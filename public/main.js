@@ -75,25 +75,37 @@ $(document).ready(function() {
 
   PantryPickup.view = new PantryPickup.PantriesView({collection: new PantryPickup.PantryCollection(), el: '#content'});
 
-	PantryPickup.map = new GMaps({
+	PantryPickup.defaults = {
+    coords: {
+      latitude: 42.3583,
+      longitude: -71.0603
+    }
+  };
+
+
+  PantryPickup.map = new GMaps({
 	  div: '#mapView',
-	  lat: 42.3583,
-	  lng: -71.0603
+	  lat: PantryPickup.defaults.coords.latitude,
+	  lng: PantryPickup.defaults.coords.longitude
 	});
+
+  PantryPickup.search = function(message, coords, radius) {
+    $('.searchIndicatorBar').text(message);
+    PantryPickup.view.collection.search(coords, radius);
+    PantryPickup.map.setCenter(coords.latitude, coords.longitude);
+  }
 
 
   //Geolocation
   GMaps.geolocate({
     success: function(position) {
-      $('.searchIndicatorBar').text('Viewing based on your current location.');
-      PantryPickup.view.collection.search(position.coords, 5);
-      PantryPickup.map.setCenter(position.coords.latitude, position.coords.longitude);
+      PantryPickup.search('Viewing based on your current location.', position.coords, 5);
     },
     error: function(error) {
-      alert('Geolocation failed: '+error.message);
+      PantryPickup.search(error.message, PantryPickup.defaults.coords, 5);
     },
     not_supported: function() {
-      alert("Your browser does not support geolocation");
+      PantryPickup.search('Your browser does not support geolocation.', PantryPickup.defaults.coords, 5);
     }
   });
 
