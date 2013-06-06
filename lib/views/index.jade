@@ -3,28 +3,31 @@ extends layout
 block content
   div#content
     div#mainHeader
-      div#social.
-        <!-- AddThis Button BEGIN -->
-        <div class="addthis_toolbox addthis_default_style ">
-        <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-        <a class="addthis_button_tweet"></a>
-        <a class="addthis_button_pinterest_pinit"></a>
-        <a class="addthis_counter addthis_pill_style"></a>
-        </div>
-        <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51ab8b8269a4fc9b"></script>
-        <!-- AddThis Button END -->
-      div#title Pantry Pickup
+      div#title
+        span Pantry
+        img.logo(src='img/logo_icon_alpha.png') 
+        span Pickup
+    div#social.
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox addthis_default_style ">
+      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+      <a class="addthis_button_tweet"></a>
+      <a class="addthis_button_pinterest_pinit"></a>
+      <a class="addthis_counter addthis_pill_style"></a>
+      </div>
+      <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51ab8b8269a4fc9b"></script>
+      <!-- AddThis Button END -->
 
     div#leftContainer
+      div.searchIndicatorBar
+        span Viewing [this location]
       div#filterWidget
         div#searchBar
         div#filterBar
       div#pantryList
 
     div#mapContainer
-      div.searchIndicatorBar
-        span Viewing [this location]
       div#mapView
 
     div#infoPanel
@@ -34,10 +37,10 @@ block content
 
     script(type="text/template", class="template", id="pantryListingTmpl").
       <h2><a class="name"><%- pantry.get('site_name') %></a></h2>
-      <address class='address'>
+      <div class='address'>
         <div class='address1'><%- pantry.get('address') %></div>
         <div class='address2'><%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %></div>
-      </address>
+      </div>
 
     script(type="text/template", class="template", id="pantryDetailsTmpl").
       <a class="close">x</a>
@@ -50,20 +53,20 @@ block content
       <div class="phone"><%- pantry.get('phone') %></div>
       <div class="source">Source: <%- pantry.get('source') %></div>
       <% if (pantry.get('hours').length > 0) { %>
-      <p class="hours">Hours:<br>
+      <div class="hours">Hours:<br>
         <% _(pantry.get('hours')).each(function(hours) { %>
           Open from <%- hours.start %> until <%- hours.end %>
           <%- hours.repeats %> on <%- hours.repeatsOn %><br>
         <% }); %>
-      </p>
+      </div>
       <% } %>
 
-      <p class="donations">
+      <div class="donations">
         Food donations accepted: <%- pantry.get('food_donations_accepted') ? 'Yes' : 'No' %><br>
         <%- pantry.get('volunteers_should_contact') ? 'Currently' : 'Not currently' %> looking for volunteers.
-      </p>
+      </div>
 
-      <p class="needs">
+      <div class="needs">
         Food needs:
         <% if (pantry.get('food_needs').length) { %>
           <ul>
@@ -74,16 +77,16 @@ block content
         <% } else { %>
           None currently.
         <% } %>
-      </p>
+      </div>
       <% if (pantry.get('cannot_accept').length) { %>
-        <p class="cannot-accept">
+        <div class="cannot-accept">
           Can't accept:
           <ul>
             <% _(pantry.get('cannot_accept')).each(function(bad) { %>
               <li><%- bad %></li>
             <% }); %>
           </ul>
-        </p>
+        </div>
       <% } %>
 
     script.

@@ -1,7 +1,7 @@
 html,body {
 	height:100%;
 	display:block;
-	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 14px "Lato", Helvetica, Arial, sans-serif;
 }
 
 a {cursor:pointer;}
@@ -11,26 +11,42 @@ a {cursor:pointer;}
 }
 
 #mainHeader {
-	width: 100%;
+	width: 300px;
 	height: 50px;
 	position: fixed;
-	top: 0;
-	left: 0;
+	top: 20px;
+	left: 20px;
 	z-index: 100;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6f3531), to(#570d13));;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#911520), to(#570d13));
+	background: -moz-linear-gradient(top,  #911520,  #570d13);
 	background-color: #570d13;
-	border-bottom: 2px solid #b72d25;
 	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top: 1px solid #333;
+	border-left: 1px solid #333;
+	border-bottom: 2px solid #000;
+	border-right: 1px solid #333;
+
 }
 
 #mainHeader #title {
 	font: 25px "Quando", Georgia, serif;
-	margin: 8px 0 0 20px;
+	/*margin: 8px 0 0 20px;*/
 	color: #fdf5a8;
 	text-shadow: 2px 2px 0px rgba(0,0,0,.5);
+	vertical-align: center;
 }
-
+#mainHeader #title .logo{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 0 10px 0 6px;
+	vertical-align: bottom;
+}
 #social {
+	display:none;
 	float: right;
 	margin-top: 15px;
 	width: 375px;
@@ -38,26 +54,44 @@ a {cursor:pointer;}
 
 #leftContainer{
 	width: 300px;
-	height: 100%;
+	/*height: 100%;*/
 	position: fixed;
-	top: 50px;
-	left: 0;
+	top: 70px;
+	bottom: 20px;
+	left: 20px;
 	z-index: 99;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff6f6), to(#fff9e9));;
 	background-color: #fff9e9;
 	box-shadow: 5px 0 10px rgba(0,0,0,.2);
-	overflow: scroll;
+/*	overflow: scroll;
+*/	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-left: 1px solid #333;
+	border-bottom: 1px solid #333;
+	border-right: 1px solid #333;
+	text-shadow: 0px 2px 0px rgba(255,255,255,.9);
 }
 #leftContainer .header{
 
 }
 #pantryList {
-	padding: 20px;
+	position: absolute;
+	top:20px;
+	bottom:0;
+/*	height:95%;
+	margin-top:5%;*/
+	font-weight:300;
+	overflow: scroll;
 }
 
 .pantryListItem {
+	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #dedede;
-	padding-bottom: 15px;
+	padding: 0 20px 15px 20px;
 	cursor: pointer;
+}
+.pantryListItem:first-child {
+	border-top:none;
 }
 
 .pantryListItem:hover {
@@ -81,40 +115,54 @@ a {cursor:pointer;}
 }
 #mapContainer{
 	position: fixed;
-	top: 50px;
-	left: 300px;
+	/*top: 50px;*/
+	/*left: 300px;*/
+	top:0px;
+	left:0px;
 	bottom: 0px;
 	right: 0px;
 }
 
-#mapContainer .searchIndicatorBar{
-	width: 100%;
-	height: 20px;
+#leftContainer .searchIndicatorBar{
+	width: 280px;
+	height: 25px;
+	text-align:left;
 	position: absolute;
 	top: 0;
+	padding-left: 20px;
+	padding-top:5px;
 	z-index:98;
 	background-color: #fdf5a8;
 	color: #570d13;
-	padding: 5px 0 5px 15px;
+	/*padding: 5px 0 5px 15px;*/
 	opacity: .8;
+	text-shadow: none;
 }
 
 #infoPanel {
-	width:25%;
+	opacity:0;
+	width:300px;
 	max-width: 300px;
-	height:100%;
+	/*height:100%;*/
 	position: fixed;
 	padding:15px;
-	top: 50px;
-	right: -25%;
+	top: 20px;
+	bottom:20px;
+	right: -300px;
 	z-index: 102;
 	background-color: #F0F0F0;
 	box-shadow: -5px 0 10px rgba(0,0,0,.2);
+	border-radius:10px;
+	border:1px solid #999;
+	text-shadow: 0px 2px 0px rgba(255,255,255,.9);
 }
 
 #infoPanel .source{
 	padding-bottom:10px;
-	border-bottom: 1px solid #dedede;
+}
+
+#infoPanel .donations{
+	padding-top:10px;
 }
 
 #mapView {
