@@ -45,7 +45,7 @@ $(document).ready(function() {
         right: '-300',
         opacity:0,
         },
-        100,
+        50,
         function() {
           // Animation complete.
         });
