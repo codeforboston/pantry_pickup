@@ -30,9 +30,10 @@ $(document).ready(function() {
     },
     render: function() {
       this.$el.animate({
-        right: '0',
+        right: '20',
+        opacity:1,
         },
-        250,
+        100,
         function() {
           // Animation complete.
       }).html(this.template({pantry: this.model}));
@@ -41,12 +42,13 @@ $(document).ready(function() {
     close: function() {
       //this.$el.hide();
       this.$el.animate({
-        right: '-25%',
+        right: '-300',
+        opacity:0,
         },
-        150,
+        100,
         function() {
           // Animation complete.
-      });
+        });
     }
   });
 
