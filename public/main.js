@@ -1,6 +1,7 @@
 window.PantryPickup = {};
 
 $(document).ready(function() {
+
   PantryPickup.PantryCollection = Backbone.Collection.extend({
     url: '/search',
     search: function(location, radius) {
@@ -117,7 +118,6 @@ $(document).ready(function() {
     // center pantry on map
     lat = pantry.get("loc").coordinates[1];
     lng = pantry.get("loc").coordinates[0];
-    //TODO 'center' is 200 px off right now, need to fix map alignment
     PantryPickup.map.setCenter(lat, lng);
 
     // change icon
@@ -136,6 +136,7 @@ $(document).ready(function() {
     console.log(lat + " " + lng);
 
     PantryPickup.map.addMarker({
+          icon: "../images/bakery.png",
           title: pantry.get("site_name"),
           lat: lat,
           lng: lng,
