@@ -154,7 +154,7 @@ def import_pantry(filename = FILENAME, db = CON[DB_NAME][COLLECTION]):
                     }
                 try:
                     obj['loc'] = {
-                            "type":"point",
+                            "type":"Point",
                             "coordinates":[float(lng), float(lat)]
                         }
                 except:
