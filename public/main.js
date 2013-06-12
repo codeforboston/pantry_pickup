@@ -138,7 +138,7 @@ $(document).ready(function() {
     console.log(lat + " " + lng);
 
     PantryPickup.map.addMarker({
-          icon: "../images/bakery.png",
+          icon: "../img/bread_unselected.png",
           title: pantry.get("site_name"),
           lat: lat,
           lng: lng,
