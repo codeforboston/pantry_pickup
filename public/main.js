@@ -70,9 +70,13 @@ $(document).ready(function() {
   PantryPickup.PantriesView = Backbone.View.extend({
     initialize: function() {
       this.listingsView = new PantryPickup.PantryListingsView({collection: this.collection, el: '#pantryList'});
+      this.collection.on('reset', this.resetMap, this);
     },
     render: function() {
       this.listingsView.render();
+    },
+    resetMap: function() {
+      delete PantryPickup.selectedPantry;
     }
   });
 
@@ -82,6 +86,10 @@ $(document).ready(function() {
     coords: {
       latitude: 42.3583,
       longitude: -71.0603
+    },
+    icons: {
+      unselected: '../img/bread_unselected.png',
+      selected: '../img/bread_selected.png'
     }
   };
 
@@ -113,37 +121,42 @@ $(document).ready(function() {
   });
 
   function clickOnPantry(pantry) {
-    // load details pane
-    var detailView = new PantryPickup.PantryDetailView({model: pantry});
-    detailView.render();
+    if (PantryPickup.selectedPantry != pantry) {
+      // load details pane
+      var detailView = new PantryPickup.PantryDetailView({model: pantry});
+      detailView.render();
 
-    // center pantry on map
-    lat = pantry.get("loc").coordinates[1];
-    lng = pantry.get("loc").coordinates[0];
-    PantryPickup.map.setCenter(lat, lng);
+      // center pantry on map
+      var lat = pantry.get("loc").coordinates[1];
+      var lng = pantry.get("loc").coordinates[0];
+      PantryPickup.map.setCenter(lat, lng);
 
-    // change icon
+      // change icon
+      pantry.marker.setIcon(PantryPickup.defaults.icons.selected);
+      if (PantryPickup.selectedPantry) {
+        PantryPickup.selectedPantry.marker.setIcon(PantryPickup.defaults.icons.unselected);
+      }
+      PantryPickup.selectedPantry = pantry;
+    }
   }
 
-
   //Adding a Pantry
-  function addPantryToMap(pantry){
+  function addPantryToMap (pantry) {
     var state = "MA" //assuming all data is in Mass.
     var fullAddress = pantry.get("address") + ", " + pantry.get("city") + " " + state + " " + pantry.get("zipcode");
     console.log("adding " + fullAddress);
-    console.log(pantry);
-    lat = pantry.get("loc").coordinates[1];
-    lng = pantry.get("loc").coordinates[0];
+    var lat = pantry.get("loc").coordinates[1];
+    var lng = pantry.get("loc").coordinates[0];
 
-    console.log(lat + " " + lng);
-
-    PantryPickup.map.addMarker({
-          icon: "../img/bread_unselected.png",
+    pantry.marker = PantryPickup.map.addMarker({
+          icon: PantryPickup.defaults.icons.unselected,
           title: pantry.get("site_name"),
           lat: lat,
           lng: lng,
           //add a click action which opens the infobox
-          click: function() { clickOnPantry(pantry); }
+          click: function() {
+            clickOnPantry(pantry);
+          }
         });
   }
 
