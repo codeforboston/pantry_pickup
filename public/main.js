@@ -137,7 +137,8 @@ $(document).ready(function() {
   //Geolocation
   GMaps.geolocate({
     success: function(position) {
-      PantryPickup.search('Viewing based on your current location.', position.coords, 5);
+      var coords = {latitude: position.coords.latitude, longitude: position.coords.longitude};
+      PantryPickup.search('Viewing based on your current location.', coords, 5);
     },
     error: function(error) {
       PantryPickup.search(error.message, PantryPickup.defaults.coords, 5);

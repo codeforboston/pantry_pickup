@@ -81,7 +81,7 @@ a {cursor:pointer;}
 /*	height:95%;
 	margin-top:5%;*/
 	font-weight:300;
-	overflow: scroll;
+	overflow: auto;
 }
 
 .pantryListItem {
