@@ -6,6 +6,17 @@ $(document).ready(function() {
     url: '/search',
     search: function(location, radius) {
       this.fetch({data: {location: location, radius: radius}, reset: true});
+    },
+    parse: function(response) {
+      // if collection contains center of locations, trigger a re-center event
+      if (response.loc) {
+        this.trigger('recenter', response.loc);
+      }
+      if (response.pantries) {
+        return response.pantries;
+      } else {
+        return response;
+      }
     }
   });
   PantryPickup.PantryListingView = Backbone.View.extend({
@@ -55,7 +66,7 @@ $(document).ready(function() {
 
   PantryPickup.PantryListingsView = Backbone.View.extend({
     initialize: function() {
-      this.collection.on('reset', this.render, this);
+      this.collection.on('sync', this.render, this);
     },
     render: function() {
       var $el = this.$el;
@@ -68,15 +79,32 @@ $(document).ready(function() {
   });
 
   PantryPickup.PantriesView = Backbone.View.extend({
+    events: {
+      'submit form.search': 'search'
+    },
     initialize: function() {
       this.listingsView = new PantryPickup.PantryListingsView({collection: this.collection, el: '#pantryList'});
       this.collection.on('reset', this.resetMap, this);
+      this.collection.on('recenter', function(center) {
+        PantryPickup.map.setCenter(center.latitude, center.longitude);
+      });
     },
     render: function() {
       this.listingsView.render();
     },
     resetMap: function() {
       delete PantryPickup.selectedPantry;
+      if (PantryPickup.detailView) {
+        PantryPickup.detailView.$el.empty();
+        PantryPickup.detailView.close();
+      }
+      PantryPickup.map.removeMarkers();
+    },
+    search: function(e) {
+      e.preventDefault();
+      var $form = $(e.target);
+      var term = $form.find('[name=term]').val(), radius = $form.find('[name=radius]').val();
+      this.collection.search({term: term}, parseInt(radius));
     }
   });
 
@@ -103,7 +131,6 @@ $(document).ready(function() {
   PantryPickup.search = function(message, coords, radius) {
     $('.searchIndicatorBar').text(message);
     PantryPickup.view.collection.search(coords, radius);
-    PantryPickup.map.setCenter(coords.latitude, coords.longitude);
   }
 
 
@@ -123,8 +150,8 @@ $(document).ready(function() {
   function clickOnPantry(pantry) {
     if (PantryPickup.selectedPantry != pantry) {
       // load details pane
-      var detailView = new PantryPickup.PantryDetailView({model: pantry});
-      detailView.render();
+      PantryPickup.detailView = new PantryPickup.PantryDetailView({model: pantry});
+      PantryPickup.detailView.render();
 
       // center pantry on map
       var lat = pantry.get("loc").coordinates[1];
@@ -144,7 +171,6 @@ $(document).ready(function() {
   function addPantryToMap (pantry) {
     var state = "MA" //assuming all data is in Mass.
     var fullAddress = pantry.get("address") + ", " + pantry.get("city") + " " + state + " " + pantry.get("zipcode");
-    console.log("adding " + fullAddress);
     var lat = pantry.get("loc").coordinates[1];
     var lng = pantry.get("loc").coordinates[0];
 

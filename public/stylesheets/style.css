@@ -76,7 +76,7 @@ a {cursor:pointer;}
 }
 #pantryList {
 	position: absolute;
-	top:20px;
+	top:55px;
 	bottom:0;
 /*	height:95%;
 	margin-top:5%;*/
@@ -123,12 +123,10 @@ a {cursor:pointer;}
 	right: 0px;
 }
 
-#leftContainer .searchIndicatorBar{
+#leftContainer .searchIndicatorBar {
 	width: 280px;
 	height: 25px;
 	text-align:left;
-	position: absolute;
-	top: 0;
 	padding-left: 20px;
 	padding-top:5px;
 	z-index:98;

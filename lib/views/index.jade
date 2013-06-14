@@ -24,6 +24,14 @@ block content
         span
       div#filterWidget
         div#searchBar
+          form.search(action='/search', method='GET')
+            input(type='text', name='term')
+            select(name='radius', style='width: 75px')
+              option(value='5') 5 Miles
+              option 10
+              option 25
+              option 50
+            input(type='submit')
         div#filterBar
       div#pantryList
 

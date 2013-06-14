@@ -8,7 +8,8 @@
   "dependencies": {
     "express": "3.2.4",
     "jade": "*",
-    "mongoose": "~3.6.10",
+    "mongoose": "3.6.x",
+    "geocoder": "0.1.x",
     "winston": "~0.7.1",
     "backbone": "1.0.0"
   },
