@@ -20,6 +20,8 @@ import urllib2
 import simplejson as json
 
 from pymongo import MongoClient
+from pymongo import GEOSPHERE
+from pymongo import ASCENDING
 
 # Data source
 
@@ -27,7 +29,7 @@ FILENAME = 'pantry.csv'
 
 # MongoDB connection settings
 
-CON = MongoClient("23.23.213.207", 27017)
+CON = MongoClient("localhost", 27017)
 DB_NAME = 'pantry_pickup'
 COLLECTION = 'pantries'
 
@@ -179,7 +181,7 @@ def import_pantry(filename = FILENAME, db = CON[DB_NAME][COLLECTION]):
                 # Write result to Mongo
                 db.insert(obj, safe = True)
             counter +=1
-
+    db.ensure_index([("loc", GEOSPHERE)])
 
 if __name__ == '__main__':
     import_pantry()
