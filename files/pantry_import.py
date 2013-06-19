@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
     Super sloppy import script.
 
@@ -17,7 +19,7 @@ import time
 import datetime
 import calendar
 import urllib2
-import simplejson as json
+import json
 
 from pymongo import MongoClient
 from pymongo import GEOSPHERE

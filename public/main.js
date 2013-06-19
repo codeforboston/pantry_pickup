@@ -149,10 +149,10 @@ $(document).ready(function() {
   });
 
   function clickOnPantry(pantry) {
+    // load details pane
+    PantryPickup.detailView = new PantryPickup.PantryDetailView({model: pantry});
+    PantryPickup.detailView.render();
     if (PantryPickup.selectedPantry != pantry) {
-      // load details pane
-      PantryPickup.detailView = new PantryPickup.PantryDetailView({model: pantry});
-      PantryPickup.detailView.render();
 
       // center pantry on map
       var lat = pantry.get("loc").coordinates[1];
