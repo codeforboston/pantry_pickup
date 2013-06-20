@@ -41,32 +41,17 @@ $(document).ready(function() {
       'click .close': 'close'
     },
     render: function() {
-      this.$el.animate({
-        right: '20',
-        opacity:1,
-        },
-        100,
-        function() {
-          // Animation complete.
-      }).html(this.template({pantry: this.model}));
+      this.$el.animate({right: '20', opacity: 1}, 100).html(this.template({pantry: this.model}));
       return this;
     },
     close: function() {
-      //this.$el.hide();
-      this.$el.animate({
-        right: '-300',
-        opacity:0,
-        },
-        50,
-        function() {
-          // Animation complete.
-        });
+      this.$el.animate({right: '-300', opacity: 0}, 50);
     }
   });
 
   PantryPickup.PantryListingsView = Backbone.View.extend({
     initialize: function() {
-      this.collection.on('sync', this.render, this);
+      this.collection.on('sync', function() { this.$el.empty(); this.render(); }, this);
     },
     render: function() {
       var $el = this.$el;
@@ -138,13 +123,13 @@ $(document).ready(function() {
   GMaps.geolocate({
     success: function(position) {
       var coords = {latitude: position.coords.latitude, longitude: position.coords.longitude};
-      PantryPickup.search('Viewing based on your current location.', coords, 5);
+      PantryPickup.search('Viewing based on your current location.', coords);
     },
     error: function(error) {
-      PantryPickup.search(error.message, PantryPickup.defaults.coords, 5);
+      PantryPickup.search(error.message, PantryPickup.defaults.coords);
     },
     not_supported: function() {
-      PantryPickup.search('Your browser does not support geolocation.', PantryPickup.defaults.coords, 5);
+      PantryPickup.search('Your browser does not support geolocation.', PantryPickup.defaults.coords);
     }
   });
 
