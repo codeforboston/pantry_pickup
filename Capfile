@@ -2,7 +2,7 @@ require "capistrano/node-deploy"
 
 set :application, "pantry-pickup"
 set :repository,  "git@github.com:codeforboston/pantry_pickup.git"
-set :user, "ubuntu"
+set :node_user, "root"
 set :scm, :git
 set :deploy_to, "/home/ubuntu/pantry_pickup"
 set :deploy_via, :remote_cache

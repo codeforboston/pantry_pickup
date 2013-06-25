@@ -29,9 +29,8 @@ add to ~/.ssh/config
     user ubuntu
     IdentityFile ~/.ssh/cfb
 
+To deploy
 
     gem install capistrano
     gem install capistrano-node-deploy
-    cap node:stop
     cap deploy
-    cap node:start
