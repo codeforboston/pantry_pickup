@@ -22,16 +22,16 @@ The default database is `mongodb://localhost/pantry_pickup`. To use a different 
 
 For automated deployments:
 
-#add to ~/.ssh/config
+add to ~/.ssh/config
 
     #Pantry Pickup
     Host pantrypickup.com
     user ubuntu
     IdentityFile ~/.ssh/cfb
 
-gem install capistrano
-gem install capistrano-node-deploy
 
-cap node:stop
-cap deploy
-cap node:start
+    gem install capistrano
+    gem install capistrano-node-deploy
+    cap node:stop
+    cap deploy
+    cap node:start
