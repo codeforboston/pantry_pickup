@@ -70,10 +70,7 @@ block content
         ul
           | <% _(pantry.get('hours')).each(function(hours) { %>
           li.
-            <% console.log(hours.repeatsOn) %>
-            <% if (typeof hours.repeatsOn != 'undefined') { %>
-              <%- hours.repeatsOn %>:
-            <% } %>
+            <% if (hours.repeatsOn) { %><%- hours.repeatsOn %>: <% } %>
             <%- hours.start %> to <%- hours.end %>
           | <% }); %>
       | <% } %>
