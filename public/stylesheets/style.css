@@ -134,7 +134,6 @@ a {cursor:pointer;}
 	opacity:0;
 	width:300px;
 	max-width: 300px;
-	/*height:100%;*/
 	position: fixed;
 	padding:15px;
 	top: 20px;
@@ -146,14 +145,7 @@ a {cursor:pointer;}
 	border-radius:10px;
 	border:1px solid #999;
 	text-shadow: 0px 2px 0px rgba(255,255,255,.9);
-}
-
-#infoPanel .source{
-	padding-bottom:10px;
-}
-
-#infoPanel .donations{
-	padding-top:10px;
+	overflow-y: auto;
 }
 
 #mapView {

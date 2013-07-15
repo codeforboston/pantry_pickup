@@ -43,56 +43,69 @@ block content
       div#orgNeeds
         //To do in v2
 
-    script(type="text/template", class="template", id="pantryListingTmpl").
-      <h2><a class="name"><%- pantry.get('site_name') %></a></h2>
-      <div class='address'>
-        <div class='address1'><%- pantry.get('address') %></div>
-        <div class='address2'><%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %></div>
-      </div>
+    script(type="text/template", class="template", id="pantryListingTmpl")
+      h2
+        a.name <%- pantry.get('site_name') %>
+      div.address
+        div.address1 <%- pantry.get('address') %>
+        div.address2 <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
 
     script#pantryDetailsTmpl.template(type="text/template")
       div.right
         a#detailClose X
       h2#siteName <%- pantry.get('site_name') %>
-      | <% if (pantry.get('website') != '') { %>[<a href="<%- pantry.get('website') %>" target="_blank">link</a>]<% } %>
+
+      | <% if (pantry.get('website') != '') { %>
+      a(href="<%- pantry.get('website') %>", target="_blank") Visit Website
+      | <% } %>
+
       address
-        <%- pantry.get('address') %><br>
-        <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
+        div <%- pantry.get('address') %>
+        div <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
       div.phone <%- pantry.get('phone') %>
-      div.source Source: <%- pantry.get('source') %>
+
       | <% if (pantry.get('hours').length > 0) { %>
-      div.hours.
-        Hours:<br>
-        <% _(pantry.get('hours')).each(function(hours) { %>
-          Open from <%- hours.start %> until <%- hours.end %>
-          <%- hours.repeats %> on <%- hours.repeatsOn %><br>
-        <% }); %>
+      div.hours
+        h3 Hours:
+        ul
+          | <% _(pantry.get('hours')).each(function(hours) { %>
+          li.
+            <% console.log(hours.repeatsOn) %>
+            <% if (typeof hours.repeatsOn != 'undefined') { %>
+              <%- hours.repeatsOn %>:
+            <% } %>
+            <%- hours.start %> to <%- hours.end %>
+          | <% }); %>
       | <% } %>
 
-      div.donations.
-        Food donations accepted: <%- pantry.get('food_donations_accepted') ? 'Yes' : 'No' %><br>
-        <%- pantry.get('volunteers_should_contact') ? 'Currently' : 'Not currently' %> looking for volunteers.
+      p
+        div
+          strong Food donations accepted:
+          |  <%- pantry.get('food_donations_accepted') ? 'Yes' : 'No' %>
+        div
+          strong <%- pantry.get('volunteers_should_contact') ? 'Currently' : 'Not currently' %>
+          |  looking for volunteers.
 
-      div.needs.
-        Food needs:
-        <% if (pantry.get('food_needs').length) { %>
-          <ul>
-            <% _(pantry.get('food_needs')).each(function(need) { %>
-              <li><%- need %></li>
-            <% }); %>
-          </ul>
-        <% } else { %>
-          None currently.
-        <% } %>
+      | <% if (pantry.get('food_needs').length) { %>
+      h3#foodNeeds Food needs:
+      ul
+        | <% _(pantry.get('food_needs')).each(function(need) { %>
+        li <%- need %>
+        | <% }); %>
+      | <% } else { %>
+      h3 Food needs: none, currently.
+      | <% } %>
+
       | <% if (pantry.get('cannot_accept').length) { %>
-      div.cannot-accept.
-        Can't accept:
-        <ul>
-          <% _(pantry.get('cannot_accept')).each(function(bad) { %>
-            <li><%- bad %></li>
-          <% }); %>
-        </ul>
+      h3#cannotAccept Cannot accept:
+      ul
+        | <% _(pantry.get('cannot_accept')).each(function(bad) { %>
+        li <%- bad %>
+        | <% }); %>
       | <% } %>
+
+      p
+        em Source: <%- pantry.get('source') %>
 
     script.
       window.pantries = !{JSON.stringify(pantries)}
