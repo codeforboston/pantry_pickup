@@ -137,6 +137,9 @@ a {cursor:pointer;}
 	text-shadow: none;
 }
 
+#searchInput {width:140px;}
+#searchRadius {width:6em;}
+
 #infoPanel {
 	opacity:0;
 	width:300px;

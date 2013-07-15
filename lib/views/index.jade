@@ -5,18 +5,18 @@ block content
     div#mainHeader
       div#title
         span Pantry
-        img.logo(src='img/logo_icon_alpha.png') 
+        img.logo(src='img/logo_icon_alpha.png')
         span Pickup
-    div#social.
+    div#social
       <!-- AddThis Button BEGIN -->
-      <div class="addthis_toolbox addthis_default_style ">
-      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-      <a class="addthis_button_tweet"></a>
-      <a class="addthis_button_pinterest_pinit"></a>
-      <a class="addthis_counter addthis_pill_style"></a>
-      </div>
-      <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51ab8b8269a4fc9b"></script>
+      div.addthis_toolbox.addthis_default_style
+        a.addthis_button_facebook_like(fb:like:layout='button_count')
+        a.addthis_button_tweet
+        a.addthis_button_pinterest_pinit
+        a.addthis_counter.addthis_pill_style
+      script.
+        var addthis_config = {"data_track_addressbar":true};
+      script(src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51ab8b8269a4fc9b')
       <!-- AddThis Button END -->
 
     div#leftContainer
@@ -25,13 +25,13 @@ block content
       div#filterWidget
         div#searchBar
           form.search(action='/search', method='GET')
-            input(type='text', name='term')
-            select(name='radius', style='width: 75px')
+            input#searchInput(type='text', name='term')
+            select#searchRadius(name='radius')
               option(value='5') 5 Miles
               option 10
               option 25
               option 50
-            input(type='submit')
+            input(type='submit', value='Submit')
         div#filterBar
       div#pantryList
 
