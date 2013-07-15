@@ -165,3 +165,6 @@ a {cursor:pointer;}
 	bottom: 0;
 	right:0;
 }
+
+#siteName {margin-top:0;}
+.right {float:right; margin:0 0 1em 1em;}

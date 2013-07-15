@@ -38,7 +38,7 @@ $(document).ready(function() {
     el: '#infoPanel',
     template: _.template( $('#pantryDetailsTmpl').html() ),
     events: {
-      'click .close': 'close'
+      'click #detailClose': 'close'
     },
     render: function() {
       this.$el.animate({right: '20', opacity: 1}, 100).html(this.template({pantry: this.model}));
