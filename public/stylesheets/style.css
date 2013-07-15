@@ -103,16 +103,6 @@ a {cursor:pointer;}
 	font-weight: normal;
 }
 
-.pantryListItem address {
-
-}
-
-.pantryListItem address .address1 {
-
-}
-.pantryListItem address .address2 {
-	
-}
 #mapContainer{
 	position: fixed;
 	/*top: 50px;*/

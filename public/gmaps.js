@@ -469,7 +469,7 @@ if(window.google && window.google.maps){
                   if(!me.pixel){
                     me.pixel = map.getProjection().fromLatLngToPoint(me.latLng)
                   }
-                  
+
                   options[name].apply(this, [me]);
                 });
               }
