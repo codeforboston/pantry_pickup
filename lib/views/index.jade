@@ -25,13 +25,9 @@ block content
       div#filterWidget
         div#searchBar
           form.search(action='/search', method='GET')
-            input#searchInput(type='text', name='term')
-            select#searchRadius(name='radius')
-              option(value='5') 5 Miles
-              option 10
-              option 25
-              option 50
-            input(type='submit', value='Submit')
+            input#searchInput(type='text', name='term',
+              placeholder='Address/City/Zip')
+            input#searchSubmit(type='submit', value='Locate')
         div#filterBar
       div#pantryList
 
