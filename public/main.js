@@ -156,7 +156,7 @@ $(document).ready(function() {
   });
 
   PantryPickup.search = function(message, coords) {
-    $('.searchIndicatorBar').text(message);
+    $('#searchIndicatorBar').text(message);
     PantryPickup.view.collection.search(coords);
   }
 

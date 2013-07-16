@@ -1,148 +1,56 @@
-html,body {
-	height:100%;
-	display:block;
-	font: 14px "Lato", Helvetica, Arial, sans-serif;
+body {font:14px "Lato", Helvetica, Arial, sans-serif;}
+#infoPanel {width:22em;}
+#mainHeader,#leftContainer {width:24em;}
+
+#mainHeader {position:fixed; top:0; left:0;
+	height:50px; text-align:center;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#911520), to(#570d13));
+	background:-moz-linear-gradient(top,  #911520,  #570d13);
+	background-color:#570d13;
 }
 
-a {cursor:pointer;}
-
-#container{
-	width: 100%;
+#title {font:25px "Quando", Georgia, serif; vertical-align:center;
+	color:#fdf5a8; text-shadow:2px 2px 0px rgba(0,0,0,.5);
+}
+#title .logo{display:inline-block; vertical-align:bottom;
+	width:40px; height:40px; margin:0 10px 0 6px;
 }
 
-#mainHeader {
-	width: 22em;
-	height: 50px;
-	position: fixed;
-	top: 1em;
-	left: 1em;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#911520), to(#570d13));
-	background: -moz-linear-gradient(top,  #911520,  #570d13);
-	background-color: #570d13;
-	box-shadow: 0 5px 10px rgba(0,0,0,.2);
-	text-align: center;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	border-top: 1px solid #333;
-	border-left: 1px solid #333;
-	border-bottom: 2px solid #000;
-	border-right: 1px solid #333;
+#leftContainer{position:fixed; top:50px; bottom:3em; left:0;
+	background:background:rgb(242,242,242);
+	text-shadow:0px 2px 0px rgba(255,255,255,.9);
+}
+#social {position:fixed; bottom:0; height:2em; width:24em;}
+
+#pantryList {position:absolute; top:55px; bottom:0; font-weight:300;
+	overflow:auto;
 }
 
-#mainHeader #title {
-	font: 25px "Quando", Georgia, serif;
-	/*margin: 8px 0 0 20px;*/
-	color: #fdf5a8;
-	text-shadow: 2px 2px 0px rgba(0,0,0,.5);
-	vertical-align: center;
+.pantryListItem {border-top:1px solid #ffffff;
+	border-bottom:1px solid #dedede;
+	padding:0 20px 15px 20px; cursor:pointer;
 }
-#mainHeader #title .logo{
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 10px 0 6px;
-	vertical-align: bottom;
-}
-#social {
-	display:none;
-	float: right;
-	margin-top: 15px;
-	width: 375px;
+.pantryListItem:first-child {border-top:none;}
+.pantryListItem:hover {background-color:rgb(232,232,232);}
+.pantryListItem h2 {font-size:18px; font-weight:normal;}
+
+#mapContainer{position:fixed; top:0px; left:24em; bottom:0px; right:0px;}
+
+#searchIndicatorBar {text-align:left; padding:5pt 10pt;
+	background-color:#fdf5a8; color:#570d13;
+	opacity:.8; text-shadow:none; font-style:italic;
 }
 
-#leftContainer{
-	width: 22em;
-	position: fixed;
-	top: 65px;
-	bottom: 20px;
-	left: 1em;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff6f6), to(#fff9e9));;
-	background-color: #fff9e9;
-	box-shadow: 5px 0 10px rgba(0,0,0,.2);
-/*	overflow: scroll;
-*/	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	border-left: 1px solid #333;
-	border-bottom: 1px solid #333;
-	border-right: 1px solid #333;
-	text-shadow: 0px 2px 0px rgba(255,255,255,.9);
-}
-#pantryList {
-	position: absolute;
-	top:55px;
-	bottom:0;
-/*	height:95%;
-	margin-top:5%;*/
-	font-weight:300;
-	overflow: auto;
-}
-
-.pantryListItem {
-	border-top: 1px solid #ffffff;
-	border-bottom: 1px solid #dedede;
-	padding: 0 20px 15px 20px;
-	cursor: pointer;
-}
-.pantryListItem:first-child {
-	border-top:none;
-}
-
-.pantryListItem:hover {
-	background-color: rgba(0,0,0,.05);
-}
-
-.pantryListItem h2 {
-	font-size:18px;
-	font-weight: normal;
-}
-
-#mapContainer{
-	position: fixed;
-	top:0px;
-	left:24em;
-	bottom: 0px;
-	right: 0px;
-}
-
-#leftContainer .searchIndicatorBar {
-	text-align:left;
-	padding:5pt 10pt;
-	background-color: #fdf5a8;
-	color: #570d13;
-	opacity: .8;
-	text-shadow: none;
-	font-style:italic;
-}
-
-#searchInput {width:16em; padding:0; margin-right:2pt;}
+#searchInput {width:18em; margin:1pt;}
 #searchSubmit {width:5em;}
 
-#infoPanel {
-	opacity:0;
-	width:22em;
-	position: fixed;
-	padding:1em;
-	top:1em;
-	bottom:1em;
-	right:-22em;
-	background-color: #F0F0F0;
-	box-shadow: -5px 0 10px rgba(0,0,0,.2);
-	border-radius:10px;
-	border:1px solid #999;
-	text-shadow: 0px 2px 0px rgba(255,255,255,.9);
-	overflow-y: auto;
-	z-index:10;
+#infoPanel {opacity:0; position:fixed; top:1em; right:-22em; bottom:1em;
+	padding:1em; overflow-y:auto; z-index:10; border-radius:10px;
+	background-color:#F0F0F0; border:1px solid #999;
+	box-shadow:-5px 0 10px rgba(0,0,0,.2);
+	text-shadow:0px 2px 0px rgba(255,255,255,.9);
 }
 
-#mapView {
-	width:100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right:0;
-}
-
+#mapView {position:absolute; top:0; left:0; bottom:0; right:0;}
 #siteName {margin-top:0;}
 .right {float:right; margin:0 0 1em 1em;}
