@@ -49,3 +49,10 @@ body, input {font-size:11pt;}
 #siteName {margin-top:0;}
 .right {float:right; margin:0 0 1em 1em;}
 .pointer {cursor:pointer;}
+
+#forkGitHubImg {z-index:5; position:absolute; top:0; right:0; border:none;}
+
+@media mobile, handheld, all and (max-width:70em),
+all and (view-mode:minimized){
+	#forkGitHub {display:none;}
+}
