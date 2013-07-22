@@ -1,5 +1,5 @@
-OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google Calendar JSON,Website,Phone,Email,lat,lng
-1,GBFB Member Agency,Trinity Baptist Church Food Pantry,1367 Main St.,Brockton,02301,02301,1st & 2nd Tue of mo. 4-6pm,"""repeats"" : ""Monthly"",
+OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google Calendar JSON,Website,Phone,Email,lat,lng,
+1,GBFB Member Agency,Trinity Baptist Church Food Pantry,1367 Main St.,Brockton,2301,2301,1st & 2nd Tue of mo. 4-6pm,"""repeats"" : ""Monthly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsBy"" : ""Tuesday"",
 ""startsOn"" : ""06/04/2013""
@@ -50,8 +50,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
    ""transparency"": ""transparent"",
    ""iCalUID"": ""hqa0ae3up4tkhvpil4kr4i2kgo@google.com"",
    ""sequence"": 3
-  },",,508-588-4668,,42.058128,-71.013658
-2,GBFB Member Agency,A Better Tomorrow,3 Charleton St.,Everett,02149,02149,1st & 3rd Mo. Of mo. 10am-4pm,"""repeats"" : ""Monthly"",
+  },",,508-588-4668,,42.0582194,-71.01364,
+2,GBFB Member Agency,A Better Tomorrow,3 Charleton St.,Everett,2149,2149,1st & 3rd Mo. Of mo. 10am-4pm,"""repeats"" : ""Monthly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsBy"" : ""Monday"",
 ""startsOn"" : ""06/03/2013""
@@ -93,8 +93,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
    ],
    ""iCalUID"": ""6d7s2iq4cb8laq9sq3atc3osc4@google.com"",
    ""sequence"": 0
-  }",http://www.abticharity.org/,978-387-2542,info@abtservices.org,42.47934,-71.149239
-3,Unaffiliated,Millis Ecumenical Food Pantry,142 Exchange St.,Millis,02054,02054,1st & 3rd Wed. of mo. Every Sat. 10am-12pm,"""repeats"" : ""Weekly"",
+  }",http://www.abticharity.org/,978-387-2542,info@abtservices.org,42.3998035,-71.0640121,
+3,Unaffiliated,Millis Ecumenical Food Pantry,142 Exchange St.,Millis,2054,2054,1st & 3rd Wed. of mo. Every Sat. 10am-12pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday""]
 ""startsOn"" : ""06/01/2013""
@@ -109,8 +109,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsBy"" : ""Wednesday"",
 ""startsOn"" : ""06/12/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,,508-376-5034,,42.169783,-71.359795
-4,GBFB Member Agency,"The Cupboard of Kindness, Inc.",PO Box 874,Norton,02766,02766,1st and 3rd M. of mo. 4:30-6:30pm,"""repeats"" : ""Monthly"",
+""end"" : ""12:00""",,,508-376-5034,,42.1699979,-71.3596705,
+4,GBFB Member Agency,"The Cupboard of Kindness, Inc.",PO Box 874,Norton,2766,2766,1st and 3rd M. of mo. 4:30-6:30pm,"""repeats"" : ""Monthly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsBy"" : ""Monday"",
 ""startsOn"" : ""06/03/2013""
@@ -121,8 +121,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsBy"" : ""Monday"",
 ""startsOn"" : ""06/17/2013""
 ""start"": ""16:30""
-""end"" : ""18:30""",,http://www.cupboardofkindness.org/,508-285-3398,cupboardofkindness@yahoo.com,41.724548,-71.12365
-5,GBFB Member Agency,Sharing a Blessing,PO Box 79007,Dartmouth,02747,02747,1st and 3rd Sun. of mo. 7:30-10am,"""repeats"" : ""Monthly"",
+""end"" : ""18:30""",,http://www.cupboardofkindness.org/,508-285-3398,cupboardofkindness@yahoo.com,41.9629235,-71.1804988,
+5,GBFB Member Agency,Sharing a Blessing,PO Box 79007,Dartmouth,2747,2747,1st and 3rd Sun. of mo. 7:30-10am,"""repeats"" : ""Monthly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsBy"" : ""Sunday"",
 ""startsOn"" : ""06/02/2013""
@@ -133,92 +133,92 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsBy"" : ""sunday"",
 ""startsOn"" : ""06/16/2013""
 ""start"": ""7:30""
-""end"" : ""10:00""",,http://www.sharingablessing.org/,774-264-8301,,41.724548,0
-6,Unaffiliated,Yarmouth Senior Center Brown Bag Program,528 Forrest Rd.,W. Yarmouth,02673,02673,1st F of mo.: 2-4,"""repeats"" : ""Monthly"",
+""end"" : ""10:00""",,http://www.sharingablessing.org/,774-264-8301,,41.724548,0,
+6,Unaffiliated,Yarmouth Senior Center Brown Bag Program,528 Forrest Rd.,W. Yarmouth,2673,2673,1st F of mo.: 2-4,"""repeats"" : ""Monthly"",
 ""repeatsEvery"" : ""30"",
 ""repeatsBy"" : ""Friday"",
 ""startsOn"" : ""06/07/2013""
 ""start"": ""14:00""
-""end"" : ""16:00""",,,,,41.682957,-70.217537
-7,GBFB Member Agency,Finex House,95 McBride St.,Jamaica Plain,02130,02130,24 hrs.,"""repeats"" : ""Daily"",
+""end"" : ""16:00""",,,,,41.682957,-70.21754,
+7,GBFB Member Agency,Finex House,95 McBride St.,Jamaica Plain,2130,2130,24 hrs.,"""repeats"" : ""Daily"",
 ""repeatsEvery"" : ""1"",
 ""startsOn"" : ""06/01/2013""
 ""start"": ""12:00""
-""end"" : ""12:00""",,http://finexhouse.org/,617-436-2002,finex@finexhouse.org,42.306034,-71.058556
-8,GBFB Member Agency,Hanson Emergency Food Pantry,214 Main St.,Hanson,02341,02341,"2nd & 4th Tue of mo. 10:30-12, Tue: 6-8pm",,,,781-293-3502,,42.04267,-70.849574
-9,GBFB Member Agency,Raynham Food Basket,494 Church St.,Raynham,02767,02767,"2nd & 4th W. of mo. 9:30am-11am, 4-6pm",,,,508-823-1104,,41.898762,-71.003838
-10,GBFB Member Agency,Hingham Interfaith Food Pantry,685 Main St.,Hingham,02043,02043,"2nd and 4th W. of mo: 2-4:30pm, Tue: 9am-12pm",,,,781-740-8180,,42.210958,-70.88371
-11,GBFB Member Agency,St. Martin's Food Pantry,136 Rivet St. PO Box 40148,New Bedford,02744,02744,"2nd and last Sat. 10-11, last Thu: 5-6pm",,,http://stmartinsma.org/,508-994-8972,,41.620687,-70.923901
-12,GBFB Member Agency,Greater Anointing Church Pantry,20 Charlotte St.,Dorchester,02121,02121,2nd Sat. of mo. 10am-12pm,,,,617-287-2144,,42.194006,-71.006729
-13,GBFB Member Agency,Foods for Friends Pantry,900 Main St.,Brockton,02301,02301,2nd Sat. of mo. 9am-11am,,,,508-586-9021,,42.067568,-71.016848
-14,GBFB Member Agency,Full Gospel Tabernacle Food Pantry,441 Main St.,Brockton,02301,02301,2nd Tue of mo. 9am-12,,,,508-427-1620,,42.076269,-71.019555
-15,CofBoston,Pond St./M.M. Collins Apts.,29 Pond St.,Jamaica Plain,02130,02130,2nd Tue. of mo. 2:30 – 3:30 PM,,,http://www.fairfoods.org/dollarbag.html,,,42.319092,-71.059122
-16,CofBoston,Western Ave. Baptist Church,299 Western Ave.,Cambridge,02139,02139,2nd W of mo. 10:00 a.m.-12:00 p.m.,,,,617-661-0433,,42.47934,-71.149239
-17,GBFB Member Agency,Gethsemane Seventh Day Adventist Church Pantry,34 Nilsson St.,Brockton,02301,02301,2nd W. of mo. 10am-1pm,,,http://gethsemane22.adventistchurchconnect.org/,508-587-4343,,42.067538,-71.018896
-18,GBFB Member Agency,Fall River Portuguese Seventh-Day Adventist Church,3538 N. Main St.,Fall River,02760,02760,2nd W. of mo. 6-7pm,,,http://fallriverportuguese22.adventistchurchconnect.org/,508-675-2332,,41.744091,-71.127556
-19,GBFB Member Agency,Emmanuel Temple Church Food Pantry,471 Warren St.,Dorchester,02121,02121,2nd W. of mo.12-2pm,,,,617-442-8500,,42.268758,-71.233839
-20,GBFB Member Agency,Bread of Life Everett Food Pantry,460 Broadway,Everett,02149,02149,3rd & 4th Thu: 3-5pm,,,,781-397-0404,,42.407791,-71.055313
-21,Unaffiliated,Wachusett Food Pantry,56 Boydon Rd.,Holden,01520,01520,"3rd Sat. of mo. 9-11am, 3rd Fri. of mo. 10-11:30am",,,,508-829-2749,,42.348695,-71.856126
-22,GBFB Member Agency,Bethany Gospel Chapel,Lindsey Lane,Swansea,02777,02777,3rd Sat. of mo. 9am-11am,,,http://www.bethanygospelchapel.com/,508-675-0273,,42.430851,-71.200462
-23,GBFB Member Agency,Lincoln Congregational Church,13 Wales Ave.,Brockton,02301,02301,3rd Thu of mo. 3-6pm,,,http://www.lccofbrockton.org/,508-587-8219,,42.079537,-71.02079
-24,CofBoston,ABCD Headstart,19 Corinth St,Roslindale,02131,02131,Alt Wed. 3:00-4:00,,,http://www.fairfoods.org/dollarbag.html,617-348-6000,,42.286321,-71.398674
-25,CofBoston,Back of the Hill Apartments,100 S. Huntington Ave.,Jamaica Plain,02130,02130,Alt. Fri. 11:30 – 12:30,,,http://www.fairfoods.org/dollarbag.html,617-232-7606,www.BackOfTheHillApartments.com,42.329311,-71.110428
-26,CofBoston,Bellflower Apartments,24 Bellflower St.,Dorchester,02125,02125,Alt. Fri. 12 – 1 PM,,,http://www.fairfoods.org/dollarbag.html,,,42.32428,-71.058716
-27,CofBoston,Hawthorne Youth Center,9 Fulda St.,Roxbury,02119,02119,Alt. Fri. 5:30 – 6:30 PM,,,http://www.fairfoods.org/dollarbag.html,617-427-0613,,42.323145,-71.149239
-28,CofBoston,Cardinal Medeiros Manor,11 Woodcliff St,Dorchester,02125,02125,Alt. Thu. 1:30 - 2:30,,,http://www.fairfoods.org/dollarbag.html,617-445-8004,,42.389659,-71.077576
-29,CofBoston,Marcus Garvey Apartments,44 John Eliot Sq.,Roxbury,02119,02119,Alt. Thurs 1:30 - 2:30,,,http://www.fairfoods.org/dollarbag.html,,,42.32997,-71.091336
-30,CofBoston,Franklin Hill/Wayne Apartments,140 American Legion Highway,Dorchester,02124,02124,Alt. Wed. 1:00-2:00,,,http://www.fairfoods.org/dollarbag.html,,,42.328258,-71.127143
-31,CofBoston,Vietnamese Comm. Center,42 Charles St.,Dorchester,02122,02122,Alt. Wed. 10:30 – 11:30 AM,,,http://www.fairfoods.org/dollarbag.html,617-288-7344,,42.357208,-71.070259
-32,CofBoston,Nate Smith House,155 Lamartine St.,Jamaica Plain,02130,02130,Alt. Wed. 11 – 12,,,http://www.fairfoods.org/dollarbag.html,617-522-3750,,42.318157,-71.104232
-33,CofBoston,Cobble Hill Apts,74 Washington St,Somerville,02143,02143,Alt. Wed. 12:30 – 1:30 PM,,,http://www.fairfoods.org/dollarbag.html,,,42.381516,-71.084753
-34,CofBoston,Lower Mills Apartments,1245 Adams St.,Dorchester,02124,02124,Alt. Wed. 3:30 – 4:30 PM,,,http://www.loftsatlowermills.com/,617-833-5533,,42.271019,-71.068596
-35,CofBoston,Warren Gardens,45 Walnut Ave.,Roxbury,02119,02119,Alt. Wed. 5:30 - 6:30,,,http://www.fairfoods.org/dollarbag.html,617-427-1919,,42.185767,-71.205075
-36,GBFB Member Agency,Berea Church Pantry,108 Seaver St.,Dorchester,02121,02121,By appt.,,,,781-986-3971,,42.310402,-71.092125
-37,Unaffiliated,Mashpee Tribal Council Pantry,483 Great Neck Rd.,Mashpee,02649,02649,"Every other M, W: 10-2",,,,,,42.076085,-71.02193
-38,GBFB Member Agency,Saint Vincent de Paul/St. Joseph's Parish Food Pantry,40 Green St.,Lynn,01902,01902,every other W. 9-5,,,,781-593-8049,,42.466824,-70.93927
-39,CofBoston,Adams Templeton,455 Adams St,Dorchester,02122,02122,F: 1:30 - 2:30,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://finexhouse.org/,617-436-2002,finex@finexhouse.org,42.3061105,-71.1114351,
+8,GBFB Member Agency,Hanson Emergency Food Pantry,214 Main St.,Hanson,2341,2341,"2nd & 4th Tue of mo. 10:30-12, Tue: 6-8pm",,,,781-293-3502,,42.0426341,-70.8500446,
+9,GBFB Member Agency,Raynham Food Basket,494 Church St.,Raynham,2767,2767,"2nd & 4th W. of mo. 9:30am-11am, 4-6pm",,,,508-823-1104,,41.898761,-71.003834,
+10,GBFB Member Agency,Hingham Interfaith Food Pantry,685 Main St.,Hingham,2043,2043,"2nd and 4th W. of mo: 2-4:30pm, Tue: 9am-12pm",,,,781-740-8180,,42.2109857,-70.8836563,
+11,GBFB Member Agency,St. Martin's Food Pantry,136 Rivet St. PO Box 40148,New Bedford,2744,2744,"2nd and last Sat. 10-11, last Thu: 5-6pm",,,http://stmartinsma.org/,508-994-8972,,41.6207189,-70.9237882,
+12,GBFB Member Agency,Greater Anointing Church Pantry,20 Charlotte St.,Dorchester,2121,2121,2nd Sat. of mo. 10am-12pm,,,,617-287-2144,,42.29994,-71.085129,
+13,GBFB Member Agency,Foods for Friends Pantry,900 Main St.,Brockton,2301,2301,2nd Sat. of mo. 9am-11am,,,,508-586-9021,,42.0677142,-71.0169398,
+14,GBFB Member Agency,Full Gospel Tabernacle Food Pantry,441 Main St.,Brockton,2301,2301,2nd Tue of mo. 9am-12,,,,508-427-1620,,42.0768778,-71.019619,
+15,CofBoston,Pond St./M.M. Collins Apts.,29 Pond St.,Jamaica Plain,2130,2130,2nd Tue. of mo. 2:30 – 3:30 PM,,,http://www.fairfoods.org/dollarbag.html,,,42.3149385,-71.1150749,
+16,CofBoston,Western Ave. Baptist Church,299 Western Ave.,Cambridge,2139,2139,2nd W of mo. 10:00 a.m.-12:00 p.m.,,,,617-661-0433,,42.3645938,-71.1128018,
+17,GBFB Member Agency,Gethsemane Seventh Day Adventist Church Pantry,34 Nilsson St.,Brockton,2301,2301,2nd W. of mo. 10am-1pm,,,http://gethsemane22.adventistchurchconnect.org/,508-587-4343,,42.0676341,-71.018575,
+18,GBFB Member Agency,Fall River Portuguese Seventh-Day Adventist Church,3538 N. Main St.,Fall River,2760,2760,2nd W. of mo. 6-7pm,,,http://fallriverportuguese22.adventistchurchconnect.org/,508-675-2332,,41.7440479,-71.1273321,
+19,GBFB Member Agency,Emmanuel Temple Church Food Pantry,471 Warren St.,Dorchester,2121,2121,2nd W. of mo.12-2pm,,,,617-442-8500,,42.3151031,-71.0834402,
+20,GBFB Member Agency,Bread of Life Everett Food Pantry,460 Broadway,Everett,2149,2149,3rd & 4th Thu: 3-5pm,,,,781-397-0404,,42.40779,-71.05531,
+21,Unaffiliated,Wachusett Food Pantry,56 Boydon Rd.,Holden,1520,1520,"3rd Sat. of mo. 9-11am, 3rd Fri. of mo. 10-11:30am",,,,508-829-2749,,42.3496554,-71.857495,
+22,GBFB Member Agency,Bethany Gospel Chapel,Lindsey Lane,Swansea,2777,2777,3rd Sat. of mo. 9am-11am,,,http://www.bethanygospelchapel.com/,508-675-0273,,41.7311412,-71.19595,
+23,GBFB Member Agency,Lincoln Congregational Church,13 Wales Ave.,Brockton,2301,2301,3rd Thu of mo. 3-6pm,,,http://www.lccofbrockton.org/,508-587-8219,,42.0795329,-71.020724,
+24,CofBoston,ABCD Headstart,19 Corinth St,Roslindale,2131,2131,Alt Wed. 3:00-4:00,,,http://www.fairfoods.org/dollarbag.html,617-348-6000,,42.2863093,-71.1300942,
+25,CofBoston,Back of the Hill Apartments,100 S. Huntington Ave.,Jamaica Plain,2130,2130,Alt. Fri. 11:30 – 12:30,,,http://www.fairfoods.org/dollarbag.html,617-232-7606,www.BackOfTheHillApartments.com,42.329312,-71.110424,
+26,CofBoston,Bellflower Apartments,24 Bellflower St.,Dorchester,2125,2125,Alt. Fri. 12 – 1 PM,,,http://www.fairfoods.org/dollarbag.html,,,42.3242819,-71.058714,
+27,CofBoston,Hawthorne Youth Center,9 Fulda St.,Roxbury,2119,2119,Alt. Fri. 5:30 – 6:30 PM,,,http://www.fairfoods.org/dollarbag.html,617-427-0613,,42.3231197,-71.0923693,
+28,CofBoston,Cardinal Medeiros Manor,11 Woodcliff St,Dorchester,2125,2125,Alt. Thu. 1:30 - 2:30,,,http://www.fairfoods.org/dollarbag.html,617-445-8004,,42.315864,-71.0775759,
+29,CofBoston,Marcus Garvey Apartments,44 John Eliot Sq.,Roxbury,2119,2119,Alt. Thurs 1:30 - 2:30,,,http://www.fairfoods.org/dollarbag.html,,,42.3151978,-71.0913748,
+30,CofBoston,Franklin Hill/Wayne Apartments,140 American Legion Highway,Dorchester,2124,2124,Alt. Wed. 1:00-2:00,,,http://www.fairfoods.org/dollarbag.html,,,42.295076,-71.091071,
+31,CofBoston,Vietnamese Comm. Center,42 Charles St.,Dorchester,2122,2122,Alt. Wed. 10:30 – 11:30 AM,,,http://www.fairfoods.org/dollarbag.html,617-288-7344,,42.3000498,-71.0634432,
+32,CofBoston,Nate Smith House,155 Lamartine St.,Jamaica Plain,2130,2130,Alt. Wed. 11 – 12,,,http://www.fairfoods.org/dollarbag.html,617-522-3750,,42.318204,-71.1043421,
+33,CofBoston,Cobble Hill Apts,74 Washington St,Somerville,2143,2143,Alt. Wed. 12:30 – 1:30 PM,,,http://www.fairfoods.org/dollarbag.html,,,42.381608,-71.0842255,
+34,CofBoston,Lower Mills Apartments,1245 Adams St.,Dorchester,2124,2124,Alt. Wed. 3:30 – 4:30 PM,,,http://www.loftsatlowermills.com/,617-833-5533,,42.2713192,-71.0682005,
+35,CofBoston,Warren Gardens,45 Walnut Ave.,Roxbury,2119,2119,Alt. Wed. 5:30 - 6:30,,,http://www.fairfoods.org/dollarbag.html,617-427-1919,,42.323533,-71.084347,
+36,GBFB Member Agency,Berea Church Pantry,108 Seaver St.,Dorchester,2121,2121,By appt.,,,,781-986-3971,,42.310402,-71.0921259,
+37,Unaffiliated,Mashpee Tribal Council Pantry,483 Great Neck Rd.,Mashpee,2649,2649,"Every other M, W: 10-2",,,,,,42.076085,-71.02193,
+38,GBFB Member Agency,Saint Vincent de Paul/St. Joseph's Parish Food Pantry,40 Green St.,Lynn,1902,1902,every other W. 9-5,,,,781-593-8049,,42.466824,-70.939271,
+39,CofBoston,Adams Templeton,455 Adams St,Dorchester,2122,2122,F: 1:30 - 2:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday""]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""9:00""
-""end"" : ""12:00""",,http://www.fairfoods.org/dollarbag.html,617-282-7705,,42.180564,-71.484116
-40,CofBoston,Franklin Park Villa Co-Op,131 Morton St.,Jamaica Plain,02130,02130,F: 10:30 – 11:30 AM,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.fairfoods.org/dollarbag.html,617-282-7705,,42.2937306,-71.0570704,
+40,CofBoston,Franklin Park Villa Co-Op,131 Morton St.,Jamaica Plain,2130,2130,F: 10:30 – 11:30 AM,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday""]
 ""startsOn"" : ""06/17/2013""
 ""start"": ""10:30""
-""end"" : ""11:30""",,http://www.fairfoods.org/dollarbag.html,617-983-5554,,42.120199,-71.068596
-41,GBFB Member Agency,St. Lawrence Parish Food Pantry,110 Summer St.,New Bedford,02740,02740,"F: 10:30am, 11:30am","""repeats"" : ""Weekly"",
+""end"" : ""11:30""",,http://www.fairfoods.org/dollarbag.html,617-983-5554,,42.300252,-71.1063887,
+41,GBFB Member Agency,St. Lawrence Parish Food Pantry,110 Summer St.,New Bedford,2740,2740,"F: 10:30am, 11:30am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday""]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:30""
-""end"" : ""11:30""",,,508-992-4251,stloffice@saintlawrencemartyr.com,41.638943,-70.931732
-42,GBFB Member Agency,Brockton Assebly of God,199 Warren Ave.,Brockton,02301,02301,F: 10am-12,"""repeats"" : ""Weekly"",
+""end"" : ""11:30""",,,508-992-4251,stloffice@saintlawrencemartyr.com,41.638943,-70.931729,
+42,GBFB Member Agency,Brockton Assebly of God,199 Warren Ave.,Brockton,2301,2301,F: 10am-12,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday""]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,http://www.brocktonag.com/,508-583-7222,,42.082012,-71.022998
-43,GBFB Member Agency,Fall River Community Soup Kitchen /Church of the Holy Spirit,149 Purchase St.,Fall River,02720,02720,F: 11:30-12:30,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.brocktonag.com/,508-583-7222,,42.0820974,-71.0229602,
+43,GBFB Member Agency,Fall River Community Soup Kitchen /Church of the Holy Spirit,149 Purchase St.,Fall River,2720,2720,F: 11:30-12:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday""]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""11:30""
-""end"" : ""12:30""",,http://myfallriver.org/content/church-holy-spirit-soup-kitchen,508-672-5571,,41.703811,-71.153743
-44,GBFB Member Agency,"Food for the World, Inc./Saint Alfio's Villa",35 Common St.,Lawrence,01841,01841,F: 1-3pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:30""",,http://myfallriver.org/content/church-holy-spirit-soup-kitchen,508-672-5571,,41.7037957,-71.1536858,
+44,GBFB Member Agency,"Food for the World, Inc./Saint Alfio's Villa",35 Common St.,Lawrence,1841,1841,F: 1-3pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday""]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""13:00""
-""end"" : ""15:00""",,http://www.foodfortheworld.org/pantry.html,978-683-9949,,42.708505,-71.154502
-45,CofBoston,Mary Ellen McCormack,345 Old Colony Ave.,South Boston,02125,02125,F: 2:00– 3:00 PM,"""repeats"" : ""Weekly"",
+""end"" : ""15:00""",,http://www.foodfortheworld.org/pantry.html,978-683-9949,,42.7084977,-71.1544586,
+45,CofBoston,Mary Ellen McCormack,345 Old Colony Ave.,South Boston,2125,2125,F: 2:00– 3:00 PM,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday""]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""14:00""
-""end"" : ""15:00""",,http://www.fairfoods.org/dollarbag.html,,,42.328743,-71.05294
-46,GBFB Member Agency,Saint Vincent de Paul/Abington Food Pantry,455 Plymouth St.,Abington,02351,02351,"Tue: 5-7:30pm, F: 2-4pm","""repeats"" : ""Weekly"",
+""end"" : ""15:00""",,http://www.fairfoods.org/dollarbag.html,,,42.3287354,-71.0525809,
+46,GBFB Member Agency,Saint Vincent de Paul/Abington Food Pantry,455 Plymouth St.,Abington,2351,2351,"Tue: 5-7:30pm, F: 2-4pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -229,68 +229,68 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""14:00""
-""end"" : ""16:00""",,,781-878-1194,,42.116234,-70.936446
-47,CofBoston,Kelly House/Dot House,1363 Dorchester Ave,Dorchester,02122,02122,F: 3:30- 4:30,"""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,,781-878-1194,,42.1166258,-70.9364398,
+47,CofBoston,Kelly House/Dot House,1363 Dorchester Ave,Dorchester,2122,2122,F: 3:30- 4:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""15:30""
-""end"" : ""16:30""",,http://www.fairfoods.org/dollarbag.html,617-288-3230,,42.304062,-71.059288
-48,GBFB Member Agency,Saint Stephen's Food Pantry,74 South Common St.,Lynn,01902,01902,F: 3-4pm (except on 1st F. of mo.),,,,781-599-8963,,42.462795,-70.956276
-49,GBFB Member Agency,MCHC/Missionary Food Pantry,100 Temple St.,Somerville,02145,02145,"F: 4-6pm, every other Fri.",,,,617-776-0227,,42.395706,-71.090187
-50,CofBoston,Walnut Park Senior Bldg.,1990 Columbus Ave.,Roxbury,02119,02119,F: 5 – 6 PM,"""repeats"" : ""Weekly"",
+""end"" : ""16:30""",,http://www.fairfoods.org/dollarbag.html,617-288-3230,,42.3040238,-71.0592546,
+48,GBFB Member Agency,Saint Stephen's Food Pantry,74 South Common St.,Lynn,1902,1902,F: 3-4pm (except on 1st F. of mo.),,,,781-599-8963,,42.462796,-70.956273,
+49,GBFB Member Agency,MCHC/Missionary Food Pantry,100 Temple St.,Somerville,2145,2145,"F: 4-6pm, every other Fri.",,,,617-776-0227,,42.395707,-71.090185,
+50,CofBoston,Walnut Park Senior Bldg.,1990 Columbus Ave.,Roxbury,2119,2119,F: 5 – 6 PM,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""17:00""
-""end"" : ""18:00""",,http://www.fairfoods.org/dollarbag.html,,,42.315491,-71.097115
-51,CofBoston,Pasciucco Development,330 Bowdoin St.,Dorchester,02122,02122,F: 5:30 - 6:30,"""repeats"" : ""Weekly"",
+""end"" : ""18:00""",,http://www.fairfoods.org/dollarbag.html,,,42.3154899,-71.097111,
+51,CofBoston,Pasciucco Development,330 Bowdoin St.,Dorchester,2122,2122,F: 5:30 - 6:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""17:30""
-""end"" : ""18:30""",,http://www.fairfoods.org/dollarbag.html,,,42.373789,-70.977831
-52,GBFB Finder,Rice Sticks + Tea/Asian Food Pantry,351 Boylston Street,Boston,02116,02116,F: 5pm-7pm,"""repeats"" : ""Weekly"",
+""end"" : ""18:30""",,http://www.fairfoods.org/dollarbag.html,,,42.3082883,-71.0648702,
+52,GBFB Finder,Rice Sticks + Tea/Asian Food Pantry,351 Boylston Street,Boston,2116,2116,F: 5pm-7pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""17:00""
-""end"" : ""19:00""",,,617-536-7050,,42.351904,-71.070895
-53,GBFB Member Agency,St. Joseph's Food Cellar,208 S. Main St.,Attleboro,02703,02703,F: 6-7pm,"""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,617-536-7050,,42.3519728,-71.0711009,
+53,GBFB Member Agency,St. Joseph's Food Cellar,208 S. Main St.,Attleboro,2703,2703,F: 6-7pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""18:00""
-""end"" : ""19:00""",,,508-226-1115,,41.935809,-71.284776
-54,GBFB Member Agency,United Parish Food Pantry,50 Essex St.,Saugus,01906,01906,F: 9:30-11am,"""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,508-226-1115,,41.9361613,-71.2848091,
+54,GBFB Member Agency,United Parish Food Pantry,50 Essex St.,Saugus,1906,1906,F: 9:30-11am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:30""
-""end"" : ""11:00""",,,781-233-2663,,42.448795,-71.012107
-55,GBFB Member Agency,East Coast International Church Pantry,65 Munroe St.,Lynn,01901,01901,F: 9:30am-11am,"""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,,781-233-2663,,42.4488453,-71.0118954,
+55,GBFB Member Agency,East Coast International Church Pantry,65 Munroe St.,Lynn,1901,1901,F: 9:30am-11am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:30""
-""end"" : ""11:00""",,,781-592-3242,,42.462919,-71.237617
-56,GBFB Finder,Stow Food Pantry,"1 1st Parish Church Great Road, Route 117",Stow,01775,01775,F: 9am-12am,"""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,,781-592-3242,,42.4629437,-70.9465546,
+56,GBFB Finder,Stow Food Pantry,"1 1st Parish Church Great Road, Route 117",Stow,1775,1775,F: 9am-12am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,,978-897-4230,,42.436436,-71.502281
-57,GBFB Member Agency,Annelle Delorme Hagerman Food Pantry,2112 County St.,Somerset,02726,02726,F: 9pm-11pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,978-897-4230,,42.434278,-71.4905758,
+57,GBFB Member Agency,Annelle Delorme Hagerman Food Pantry,2112 County St.,Somerset,2726,2726,F: 9pm-11pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""11:00""",,http://www.church-of-our-saviour.com/Spire/Page1.html,508-677-3825,geo@paiva.net,41.761302,-71.13899
-58,GBFB Member Agency,First Universalist Church - Salem Pantry,211 Bridge St.,Salem,01970,01970,last Sat. of mo. 9:30-11:30,,,http://salemuu.org/,978-744-3224,,42.523914,-70.894859
-59,GBFB Member Agency,Coyle and Cassidy High School Pantry,2 Hamilton St.,Taunton,02780,02780,Last Sat. of mo. 9-11am,,,http://www.coylecassidy.com/Pages/CoyleCassidyHS_StudentLife/Foodpantry?textPage=1,508-823-6164,mcote@coylecassidy.com,41.909107,-71.09476
-60,GBFB Member Agency,Ferry St. Ministries Lighthouse Christian Center,1367 Pleasant St.,Fall River,02723,02723,Last Sat. of mo. 9am-11am,,,http://www.gfrpartners.com/06LighthouseOutreach.html,774-644-1551,,41.690981,-71.134691
-61,GBFB Member Agency,Saint Vincent de Paul/Saint John the Baptist,17 Chestnut St.,Peabody,01960,01960,last Sun. of mo. 9am-1pm,,,,978-531-0002,,42.525385,-70.928956
-62,GBFB Member Agency,PEOPLE INC./F.A.C.E. Food Pantry,170 Pleasant St.,Fall River,02721,02721,"M, F: 10am-3:30pm, Tue, Thu: 12-5:30pm","""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,http://www.church-of-our-saviour.com/Spire/Page1.html,508-677-3825,geo@paiva.net,41.7616564,-71.1389857,
+58,GBFB Member Agency,First Universalist Church - Salem Pantry,211 Bridge St.,Salem,1970,1970,last Sat. of mo. 9:30-11:30,,,http://salemuu.org/,978-744-3224,,42.5240437,-70.8950087,
+59,GBFB Member Agency,Coyle and Cassidy High School Pantry,2 Hamilton St.,Taunton,2780,2780,Last Sat. of mo. 9-11am,,,http://www.coylecassidy.com/Pages/CoyleCassidyHS_StudentLife/Foodpantry?textPage=1,508-823-6164,mcote@coylecassidy.com,41.9091388,-71.0947389,
+60,GBFB Member Agency,Ferry St. Ministries Lighthouse Christian Center,1367 Pleasant St.,Fall River,2723,2723,Last Sat. of mo. 9am-11am,,,http://www.gfrpartners.com/06LighthouseOutreach.html,774-644-1551,,41.6910357,-71.1348248,
+61,GBFB Member Agency,Saint Vincent de Paul/Saint John the Baptist,17 Chestnut St.,Peabody,1960,1960,last Sun. of mo. 9am-1pm,,,,978-531-0002,,42.5253534,-70.9289409,
+62,GBFB Member Agency,PEOPLE INC./F.A.C.E. Food Pantry,170 Pleasant St.,Fall River,2721,2721,"M, F: 10am-3:30pm, Tue, Thu: 12-5:30pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -313,8 +313,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""15:30""",,,508-837-6902,,41.699891,-71.152286
-63,GBFB Finder,ABCD-N. End W. End Neighborhood Services,1 Michaelangelo Street,Boston,02113,02113,"M, F: 1pm-2pm","""repeats"" : ""Weekly"",
+""end"" : ""15:30""",,,508-837-6902,,41.6999045,-71.1524074,
+63,GBFB Finder,ABCD-N. End W. End Neighborhood Services,1 Michelangelo Street,Boston,2113,2113,"M, F: 1pm-2pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -325,8 +325,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""13:00""
-""end"" : ""14:00""",,,617-523-8125,,42.367131,-71.054854
-64,GBFB Member Agency,Mass. Ave. Baptist Church Meals Program,146 Hampshire St.,Cambridge,02139,02139,"M, F: 5:30-7pm","""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,,617-523-8125,,42.367225,-71.0546911,
+64,GBFB Member Agency,Mass. Ave. Baptist Church Meals Program,146 Hampshire St.,Cambridge,2139,2139,"M, F: 5:30-7pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -337,8 +337,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""17:30""
-""end"" : ""19:00""",,http://www.vinfen.org/,617-868-4853,,42.370953,-71.097786
-65,GBFB Member Agency,Grace Episcopal Church Food Pantry,133 School St.,New Bedford,02740,02740,"M, F: 9:30-10:30am","""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,http://www.vinfen.org/,617-868-4853,,42.3709512,-71.0977488,
+65,GBFB Member Agency,Grace Episcopal Church Food Pantry,133 School St.,New Bedford,2740,2740,"M, F: 9:30-10:30am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -349,8 +349,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:30""
-""end"" : ""10:30""",,http://www.gracechurchnb.org/after_school_program,508-993-0547,,41.632645,-70.92923
-66,GBFB Member Agency,United Way of Tri-County/Marlborough Community Cupboard Food Pantry,255 Main St.,Marlborough,01752,01752,"M, F: 9am-1pm, W: 9am-1pm, 5-7pm","""repeats"" : ""Weekly"",
+""end"" : ""10:30""",,http://www.gracechurchnb.org/after_school_program,508-993-0547,,41.632644,-70.929227,
+66,GBFB Member Agency,United Way of Tri-County/Marlborough Community Cupboard Food Pantry,255 Main St.,Marlborough,1752,1752,"M, F: 9am-1pm, W: 9am-1pm, 5-7pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -373,8 +373,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""13:00""",,http://www.uwotc.org/food/marlborough,508-481-4080,,42.346629,-71.551829
-67,GBFB Finder,A Place to Turn,99 Hartford Street,Natick,01760,01760,"M, T, Th: 9:30am-12:30am, W: 11am-12:30am","""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,http://www.uwotc.org/food/marlborough,508-481-4080,,42.3465973,-71.5521164,
+67,GBFB Finder,A Place to Turn,99 Hartford Street,Natick,1760,1760,"M, T, Th: 9:30am-12:30am, W: 11am-12:30am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -397,38 +397,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""09:30""
-""end"" : ""12:30""",,,508-655-8868,,42.293724,-71.058556
-68,CofBoston,East End House,105 Spring St.,Cambridge,02124,02124,"M, Thu, F: 1-4pm, Tue, W: 10am-1pm","""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Monday”]
-""startsOn"" : ""06/03/2013""
-""start"": ""13:00""
-""end"" : ""16:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Tuesday”]
-""startsOn"" : ""06/04/2013""
-""start"": ""10:00""
-""end"" : ""13:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Wednesday”]
-""startsOn"" : ""06/05/2013""
-""start"": ""10:00""
-""end"" : ""13:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Thursday”]
-""startsOn"" : ""06/06/2013""
-""start"": ""13:00""
-""end"" : ""16:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Friday”]
-""startsOn"" : ""06/07/2013""
-""start"": ""13:00""
-""end"" : ""16:00""",,http://www.eastendhouse.org/,617-876-4444,,42.369518,-71.083031
-69,GBFB Member Agency,Murray Unitarian Universalist Church Food Pantry,505 North Main St.,Attleboro,02703,02703,"M, Thu: 9:30am-11:30am","""repeats"" : ""Weekly"",
+""end"" : ""12:30""",,,508-655-8868,,42.293723,-71.386938,
+69,GBFB Member Agency,Murray Unitarian Universalist Church Food Pantry,505 North Main St.,Attleboro,2703,2703,"M, Thu: 9:30am-11:30am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -439,8 +409,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""09:30""
-""end"" : ""11:30""",,http://www.murrayuuchurch.org/food-pantry.htm,508-222-0505,murray.ch@verizon.net,42.075252,-71.287942
-70,CofBoston,PROJECT SOUP at Saint Benedict’s Church,15 Franklin Street,Somerville,02145,02145,"M, Tu, F 10:00-2pm, W: 12-4, Th: 1-4, Sat: 9-12","""repeats"" : ""Weekly"",
+""end"" : ""11:30""",,http://www.murrayuuchurch.org/food-pantry.htm,508-222-0505,murray.ch@verizon.net,41.9562254,-71.2880523,
+70,CofBoston,PROJECT SOUP at Saint Benedict’s Church,15 Franklin Street,Somerville,2145,2145,"M, Tu, F 10:00-2pm, W: 12-4, Th: 1-4, Sat: 9-12","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -475,8 +445,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,http://www.somervillehomelesscoalition.org/programs/Project%20Soup.html,617-776-7687,projectsoup@earthlink.net,42.386177,-71.083542
-71,CofBoston,Catholic Charities/El Centro del Cardenal,76 Union Park St.,Roxbury,02118,02118,"M, Tu, Thu: 10am-2pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.somervillehomelesscoalition.org/programs/Project%20Soup.html,617-776-7687,projectsoup@earthlink.net,42.386176,-71.083544,
+71,CofBoston,Catholic Charities/El Centro del Cardenal,76 Union Park St.,Roxbury,2118,2118,"M, Tu, Thu: 10am-2pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -493,8 +463,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""10:00""
-""end"" : ""14:00""",,http://www.gbfb.org/need-food/index.php,617-506-6600,,42.343745,-71.072531
-72,GBFB Member Agency,Haven From Hunger Food Pantry,71 Wallis St.,Peabody,01960,01960,"M, Tue, Thu, F: 5pm-6pm","""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,http://www.gbfb.org/need-food/index.php,617-506-6600,,42.3407835,-71.0681322,
+72,GBFB Member Agency,Haven From Hunger Food Pantry,71 Wallis St.,Peabody,1960,1960,"M, Tue, Thu, F: 5pm-6pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -517,8 +487,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""70:00""
-""end"" : ""18:00""",,http://www.havenfromhunger.org/,978-531-1530,,42.529339,-70.923241
-73,GBFB Member Agency,Quincy Community Action Emergency Food Center,1 Copeland St.,Quincy,02169,02169,"M, Tue, Thu, F: 9am-4:30pm, W: 11am-6:30pm","""repeats"" : ""Weekly"",
+""end"" : ""18:00""",,http://www.havenfromhunger.org/,978-531-1530,,42.529338,-70.923241,
+73,GBFB Member Agency,Quincy Community Action Emergency Food Center,1 Copeland St.,Quincy,2169,2169,"M, Tue, Thu, F: 9am-4:30pm, W: 11am-6:30pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -547,8 +517,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""16:30""",,http://www.qcap.org/our-programs/food-&-nutrition/emergency-food-center,617-471-0796,,42.242588,-71.015495
-74,GBFB Member Agency,Haven From Hunger Meals Program,6 Bourbon St.,Peabody,01960,01960,"M, Tue, Thu, Fri: 10am-2pm","""repeats"" : ""Weekly"",
+""end"" : ""16:30""",,http://www.qcap.org/our-programs/food-&-nutrition/emergency-food-center,617-471-0796,,42.2425885,-71.0154941,
+74,GBFB Member Agency,Haven From Hunger Meals Program,6 Bourbon St.,Peabody,1960,1960,"M, Tue, Thu, Fri: 10am-2pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -571,8 +541,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""14:00""",,http://www.sovg.us/index.php?option=com_content&view=article&id=88&Itemid=77,978-210-7413,,42.547928,-70.980141
-75,GBFB Member Agency,Open Pantry of Greater Lowell,200 Central St.,Lowell,01852,01852,"M, Tue, W, Thu: 9am-12pm","""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,http://www.sovg.us/index.php?option=com_content&view=article&id=88&Itemid=77,978-210-7413,,42.5480506,-70.9788184,
+75,GBFB Member Agency,Open Pantry of Greater Lowell,200 Central St.,Lowell,1852,1852,"M, Tue, W, Thu: 9am-12pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -595,8 +565,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,http://theopenpantry.org/,978-453-6693,,42.642573,-71.398674
-76,GBFB Finder,St. Bridget's Food Pantry,15 Wheeler Avenue,Framingham,01702,01702,"M, W, F: 11:30am-12:30am","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://theopenpantry.org/,978-453-6693,,42.6428144,-71.3084916,
+76,GBFB Finder,St. Bridget's Food Pantry,15 Wheeler Avenue,Framingham,1702,1702,"M, W, F: 11:30am-12:30am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -613,8 +583,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""11:30""
-""end"" : ""12:30""",,,805-875-5959,,42.298641,-71.430504
-77,GBFB Member Agency,Saint Bridget's Food Pantry,803 Worcester Rd. Route 9,Framingham,01702,01702,"M, W, F: 11:30am-12:30pm","""repeats"" : ""Weekly"",
+""end"" : ""12:30""",,,805-875-5959,,42.298641,-71.430502,
+77,GBFB Member Agency,Saint Bridget's Food Pantry,803 Worcester Rd. Route 9,Framingham,1702,1702,"M, W, F: 11:30am-12:30pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -631,8 +601,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""11:30""
-""end"" : ""12:30""",,http://www.stbridgetparish.org/progparish.htm,508-875-5959,kmallozzi@stbridgetparish.org,42.367054,-71.181236
-78,GBFB Member Agency,Salvation Army Beverly Pantry,50 Elliott St.,Beverly,01915,01915,"M, W, F: 2-4pm","""repeats"" : ""Weekly"",
+""end"" : ""12:30""",,http://www.stbridgetparish.org/progparish.htm,508-875-5959,kmallozzi@stbridgetparish.org,42.269357,-72.200446,
+78,GBFB Member Agency,Salvation Army Beverly Pantry,50 Elliott St.,Beverly,1915,1915,"M, W, F: 2-4pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -649,8 +619,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""14:00""
-""end"" : ""16:00""",,http://www.essexcountyhungerrelief.org/Salvation-Army-Beverly-Food-Pantry,978-922-4522,,41.898762,-71.003838
-79,GBFB Member Agency,Martha's Vineyard Center for Living Island Food Pantry,24 Church St. ,Vineyard Haven,02568,02568,"M, W, F: 2-4pm","""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,http://www.essexcountyhungerrelief.org/Salvation-Army-Beverly-Food-Pantry,978-922-4522,,42.554093,-70.880836,
+79,GBFB Member Agency,Martha's Vineyard Center for Living Island Food Pantry,24 Church St. ,Vineyard Haven,2568,2568,"M, W, F: 2-4pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -667,8 +637,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""14:00""
-""end"" : ""16:00""",,http://www.mvcenter4living.org/ourboard.html,508-939-9440,lesliec@mvcenter4living.org,42.32428,-71.058716
-80,GBFB Member Agency,Wellspring Multi-Service Pantry,812 Nantasket Ave.,Hull,02045,02045,"M, W, F: 8:30-12","""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,http://www.mvcenter4living.org/ourboard.html,508-939-9440,lesliec@mvcenter4living.org,42.32428,-71.058716,
+80,GBFB Member Agency,Wellspring Multi-Service Pantry,812 Nantasket Ave.,Hull,2045,2045,"M, W, F: 8:30-12","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -685,8 +655,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""08:30""
-""end"" : ""12:00""",,http://www.wellspringhull.org/,781-925-0951,monica@wellspringhull.org,42.302303,-70.88355
-81,GBFB Member Agency,Citizens For Citizens,264 Griffin St.,Fall River,02724,02724,"M, W, F: 9am-12","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.wellspringhull.org/,781-925-0951,monica@wellspringhull.org,42.3022708,-70.8835654,
+81,GBFB Member Agency,Citizens For Citizens,264 Griffin St.,Fall River,2724,2724,"M, W, F: 9am-12","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -703,28 +673,10 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,http://cfcinc.org/,508-679-0041,,41.688969,-71.16938
-82,GBFB Finder,UWTC/Marlborough Community Cupboard,255 Main Street - Suite 113,Marlborough,01752,01752,"M, W, F: 9am-1pm ","""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Monday”]
-""startsOn"" : ""06/03/2013""
-""start"": ""09;00""
-""end"" : ""13:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Wednesday”]
-""startsOn"" : ""06/05/2013""
-""start"": ""09:00""
-""end"" : ""13:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Friday”]
-""startsOn"" : ""06/07/2013""
-""start"": ""09:00""
-""end"" : ""13:00""",,,508-481-4080,,42.346629,-71.551829
-83,GBFB Finder,UWTC/Pearl Street Cupboard,10 Pearl Street,Framingham,01702,01702,"M, W, F: 9am-1pm, Sat: 7pm-7pm, Open 1 Sat a month from 9am-1pm",,,,508-370-4800,,42.278401,-71.420129
-84,Unaffiliated,Around the Table/St. Barnabus Church Parish House,91 Main St.,Falmouth,02540,02540,"M, W, F: Lunch",,,,508-548-4863,,41.553401,-70.618289
-85,GBFB Finder,Salvation Army/Framingham Food Pantry,35 Concord Street,Framingham,01702,01702,"M, W, Th, F: 10am-1pm, Tues: 10am-7pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://cfcinc.org/,508-679-0041,,41.6887667,-71.1695345,
+83,GBFB Finder,UWTC/Pearl Street Cupboard,10 Pearl Street,Framingham,1702,1702,"M, W, F: 9am-1pm, Sat: 7pm-7pm, Open 1 Sat a month from 9am-1pm",,,http://www.uwotc.org/food/framingham,508-370-4800,,42.2790796,-71.4200943,
+84,Unaffiliated,Around the Table/St. Barnabus Church Parish House,91 Main St.,Falmouth,2540,2540,"M, W, F: Lunch",,,,508-548-4863,,41.5533467,-70.6181607,
+85,GBFB Finder,Salvation Army/Framingham Food Pantry,35 Concord Street,Framingham,1702,1702,"M, W, Th, F: 10am-1pm, Tues: 10am-7pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -753,8 +705,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""13:00""",,,508-875-3341,,42.277515,-71.415779
-86,GBFB Member Agency,Pentecostal Assembly,215 Sawyer St.,New Bedford,02746,02746,"M, W, Thu: 9am-10:30am","""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,,508-875-3341,,42.277515,-71.415778,
+86,GBFB Member Agency,Pentecostal Assembly,215 Sawyer St.,New Bedford,2746,2746,"M, W, Thu: 9am-10:30am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -771,8 +723,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""09:00""
-""end"" : ""10:30""",,http://pentecostalassembly.org/,508-996-9865,jm@pentecostalassembly.org,41.657971,-70.925318
-87,GBFB Finder,Needham Community Council Food Pantry,570 Hillside Avenue,Needham,02494,02494,"M, W: 10:30am-4pm, evening hours: 5pm-7pm","""repeats"" : ""Weekly"",
+""end"" : ""10:30""",,http://pentecostalassembly.org/,508-996-9865,jm@pentecostalassembly.org,41.6578852,-70.9255154,
+87,GBFB Finder,Needham Community Council Food Pantry,570 Hillside Avenue,Needham,2494,2494,"M, W: 10:30am-4pm, evening hours: 5pm-7pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -795,32 +747,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""17:00""
-""end"" : ""19:00""",,,781-444-2415,,42.289581,-71.237617
-88,CofBoston,Cambridge Economic Opportunity Committee Bread & Justice Food Pantry,11 Inman St.,Cambridge,02139,02139,"M, W: 4-6pm, Tue: 12-2pm, Thu: 11-1pm","""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Monday”]
-""startsOn"" : ""06/03/2013""
-""start"": ""16:00""
-""end"" : ""18:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Tuesday”]
-""startsOn"" : ""06/04/2013""
-""start"": ""12:00""
-""end"" : ""14:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Wednesday”]
-""startsOn"" : ""06/05/2013""
-""start"": ""16:00""
-""end"" : ""18:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Thursday”]
-""startsOn"" : ""06/06/2013""
-""start"": ""11:00""
-""end"" : ""13:00""",,,617-868-2900,,42.367367,-71.105171
-89,Unaffiliated,Easthampton Community Center Food Pantry,12 Clark St.,Easthampton,01027,01027,"M, W: 9am-12, 4-7pm","""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,781-444-2415,,42.289581,-71.23762,
+89,Unaffiliated,Easthampton Community Center Food Pantry,12 Clark St.,Easthampton,1027,1027,"M, W: 9am-12, 4-7pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -843,8 +771,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""16:00""
-""end"" : ""19:00""",,,413-527-5240,,42.263767,-72.661842
-90,GBFB Member Agency,Falmouth Service Center Food Pantry,611 Gifford St.,Falmouth,02540,02540,"M: 10-6, Tue, Thu: 10-2, W: 5-7, F: 10-12","""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,413-527-5240,,42.2637659,-72.661839,
+90,GBFB Member Agency,Falmouth Service Center Food Pantry,611 Gifford St.,Falmouth,2540,2540,"M: 10-6, Tue, Thu: 10-2, W: 5-7, F: 10-12","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -873,8 +801,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,http://www.falmouthhousingcorp.org/,508-548-2794,,41.576611,-70.603706
-91,GBFB Member Agency,ABCD - Parker Hill Fenway Neighborhood Service Center,714 Parker St.,Roxbury Crossing,02120,02120,"M: 10am-2:45pm, Thu: 9am-2pm, F: 11am-2pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.falmouthhousingcorp.org/,508-548-2794,,41.57661,-70.603709,
+91,GBFB Member Agency,ABCD - Parker Hill Fenway Neighborhood Service Center,714 Parker St.,Roxbury Crossing,2120,2120,"M: 10am-2:45pm, Thu: 9am-2pm, F: 11am-2pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -891,14 +819,14 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""11:00""
-""end"" : ""14:00""",,http://parkerhillfenway.org/,617-445-6000,,42.331325,-71.097275
-92,GBFB Member Agency,"Food for the World, Inc. Community Services Agency",774 Essex St.,Lawrence,01841,01841,M: 11am-1pm,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,http://parkerhillfenway.org/,617-445-6000,,42.3311543,-71.0974166,
+92,GBFB Member Agency,"Food for the World, Inc. Community Services Agency",774 Essex St.,Lawrence,1841,1841,M: 11am-1pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
 ""start"": ""11:00""
-""end"" : ""13:05""",,http://www.foodfortheworld.org/pantry.html,978-683-9949,,42.702148,-71.174144
-93,GBFB Finder,Youth On Fire/Aids Action Committee,1555 Massachusetts Avenue,Concord,02138,02138,"M: 11am-8pm, Tue: 1pm-6pm, W, Thu, F: 11am-6pm","""repeats"" : ""Weekly"",
+""end"" : ""13:05""",,http://www.foodfortheworld.org/pantry.html,978-683-9949,,42.7021252,-71.1745004,
+93,GBFB Finder,Youth On Fire/Aids Action Committee,1555 Massachusetts Avenue,Concord,2138,2138,"M: 11am-8pm, Tue: 1pm-6pm, W, Thu, F: 11am-6pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -927,8 +855,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""11:00""
-""end"" : ""18:00""",,,617-661-2508,,42.377937,-71.119705
-94,GBFB Member Agency,Friendly Food Pantry of Randolph,55 Old St.,Randolph,02368,02368,"M: 12:30-2:30, 6-7:30pm","""repeats"" : ""Weekly"",
+""end"" : ""18:00""",,,617-661-2508,,42.402265,-71.137888,
+94,GBFB Member Agency,Friendly Food Pantry of Randolph,55 Old St.,Randolph,2368,2368,"M: 12:30-2:30, 6-7:30pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -939,14 +867,14 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
 ""start"": ""18:00""
-""end"" : ""19:30""",,,339-987-5577,,42.189409,-71.059079
-95,GBFB Member Agency,Open Table Food Pantry Maynard,"Clock Tower Place, Bldg. #8",Maynard,01754,01754,M: 12-1:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""19:30""",,,339-987-5577,,42.1903166,-71.0592077,
+95,GBFB Member Agency,Open Table Food Pantry Maynard,"Clock Tower Place, Bldg. #8",Maynard,1754,1754,M: 12-1:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
 ""start"": ""12:00""
-""end"" : ""13:30""",,http://www.opentable.org/contact-us/directions-open-table-maynard-dinner-and-pantry/,978-823-0082,,42.430851,-71.003838
-96,GBFB Member Agency,Cambridge Economic Opportunity Committee Food Pantry,11 Inman St.,Cambridge,02139,02139,"M: 4-6, T: 12am-2pm, W: 4-6, Th: 11am-1pm","""repeats"" : ""Weekly"",
+""end"" : ""13:30""",,http://www.opentable.org/contact-us/directions-open-table-maynard-dinner-and-pantry/,978-823-0082,,42.4304414,-71.4560652,
+96,GBFB Member Agency,Cambridge Economic Opportunity Committee Food Pantry,11 Inman St.,Cambridge,2139,2139,"M: 4-6, T: 12am-2pm, W: 4-6, Th: 11am-1pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -969,7 +897,7 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""11:00""
-""end"" : ""13:00""",,http://www.ceoccambridge.org/home0.aspx,617-868-2900,,42.367367,-71.105171
+""end"" : ""13:00""",,http://www.ceoccambridge.org/home0.aspx,617-868-2900,,42.367367,-71.105172,
 97,GBFB Member Agency,Among Friends,166 High St.,Newburyport,01950-3948,01950-3948,"M: 5:30-6:30, Tue, F: 11:30-1","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
@@ -987,40 +915,34 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""11:30""
-""end"" : ""13:00""",,http://www.stpauls-nbpt.org/events/among-friends,978-465-5351,,42.809921,-70.87616
-98,GBFB Member Agency,Sacred Heart Church Food Pantry,160 Seabury St.,Fall River,02720,02720,M: 5-6:30,"""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,http://www.stpauls-nbpt.org/events/among-friends,978-465-5351,,42.80992,-70.876158,
+98,GBFB Member Agency,Sacred Heart Church Food Pantry,160 Seabury St.,Fall River,2720,2720,M: 5-6:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
 ""start"": ""17:00""
-""end"" : ""18:30""",,,508-673-0852,,41.702707,-71.147084
-99,GBFB Finder,Open Table/Maynard Community Supper,12 Clock Tower Place,Maynard,01754,01754,M: 6pm-7:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""18:30""",,,508-673-0852,,41.7032275,-71.1470476,
+99,GBFB Finder,Open Table/Maynard Community Supper,12 Clock Tower Place,Maynard,1754,1754,M: 6pm-7:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
 ""start"": ""18:00""
-""end"" : ""19:30""",,,978-823-0082,,42.430894,-71.457902
-100,GBFB Finder,New Bethel Batist Church Pantry,11 Beech Street,Framingham,01703,01703,M: 6pm-8pm,"""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Monday”]
-""startsOn"" : ""06/03/2013""
-""start"": ""18:00""
-""end"" : ""20:00""",,,508-872-1222,,42.310402,-71.420998
-101,GBFB Member Agency,CCS - North Reading Food Pantry,235 North St.,North Reading,01864,01864,"M: 8-10am, 1st and 3rd M. evenings 7-8pm",,,http://www.nrfoodpantry.org/,978-276-0040,nrfoodpantry@gmail.com,42.587646,-71.118427
-102,CofBoston,Boston Rescue Mission Pantry,39 Kingston st,Boston,02111,02111,M: 9am-11am,"""repeats"" : ""Weekly"",
+""end"" : ""19:30""",,,978-823-0082,,42.4304414,-71.4560652,
+101,GBFB Member Agency,CCS - North Reading Food Pantry,235 North St.,North Reading,1864,1864,"M: 8-10am, 1st and 3rd M. evenings 7-8pm",,,http://www.nrfoodpantry.org/,978-276-0040,nrfoodpantry@gmail.com,42.587648,-71.120133,
+102,CofBoston,Boston Rescue Mission Pantry,39 Kingston st,Boston,2111,2111,M: 9am-11am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
 ""start"": ""09:00""
-""end"" : ""11:00""",,http://www.gbfb.org/need-food/index.php,617-338-9000,,42.353572,-71.118427
-103,GBFB Member Agency,AIDS Support Group of Cape Cod,428 South St.,Hyannis,02601,02601,M-F ,,,http://www.asgcc.org/,508-778-1954,,41.64872,-70.28949
-104,CofBoston,Boston Medical Center Food Pantry,818 Harrison Ave,Roxbury,02118,02118,M-F 10:00am-4pm,"""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,http://www.gbfb.org/need-food/index.php,617-338-9000,,42.3534949,-71.0593434,
+103,GBFB Member Agency,AIDS Support Group of Cape Cod,428 South St.,Hyannis,2601,2601,M-F ,,,http://www.asgcc.org/,508-778-1954,,41.648719,-70.28949,
+104,CofBoston,Boston Medical Center Food Pantry,818 Harrison Ave,Roxbury,2118,2118,M-F 10:00am-4pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
 ""start"": ""10:00""
-""end"" : ""16:00""",,http://www.gbfb.org/need-food/index.php,617-414-3834,,42.336021,-71.073689
-105,Unaffiliated,Hands of Hope Outreach Food Pantry,49 Ste. 28,W. Harwich,02671,02671,"M-F: 10-3, T,W,Thu: 1-3","""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,http://www.gbfb.org/need-food/index.php,617-414-3834,,42.3351398,-71.0744763,
+105,Unaffiliated,Hands of Hope Outreach Food Pantry,49 Ste. 28,W. Harwich,2671,2671,"M-F: 10-3, T,W,Thu: 1-3","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1049,8 +971,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""15:00""",,,508-432-1312,,41.651848,-70.287231
-106,CofBoston,ABCD/South End Neighborhood Action Prgrm,554 Columbus Avenue,Roxbury,02118,02118,M-F: 10am-1:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""15:00""",,,508-432-1312,,41.669392,-70.117723,
+106,CofBoston,ABCD/South End Neighborhood Action Prgrm,554 Columbus Avenue,Roxbury,2118,2118,M-F: 10am-1:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1079,8 +1001,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""13:30""",,http://www.gbfb.org/need-food/index.php,,,42.341152,-71.080658
-107,GBFB Member Agency,Catholic Charities South Brockton Pantry,169 Court St.,Brockton,02302,02302,"M-F: 10am-12, 1-3pm, M: 5-7pm","""repeats"" : ""Weekly"",
+""end"" : ""13:30""",,http://www.gbfb.org/need-food/index.php,,,42.3412036,-71.0807777,
+107,GBFB Member Agency,Catholic Charities South Brockton Pantry,169 Court St.,Brockton,2302,2302,"M-F: 10am-12, 1-3pm, M: 5-7pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1121,8 +1043,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,http://www.ccab.org/cc_brockton.html,508-587-0815,,42.085899,-71.014469
-108,GBFB Member Agency,"Braintree Holidays/Friends, Inc. Marge Crispin Center Food Pantry",100 Pond St. Bldg. #2,Braintree,02184,02184,"M-F: 10am-12, 1pm-3pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.ccab.org/cc_brockton.html,508-587-0815,,42.086012,-71.014008,
+108,GBFB Member Agency,"Braintree Holidays/Friends, Inc. Marge Crispin Center Food Pantry",100 Pond St. Bldg. #2,Braintree,2184,2184,"M-F: 10am-12, 1pm-3pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1181,8 +1103,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""13:00""
-""end"" : ""15:00""",,http://www.neighborhoodlink.com/The_Marge_Crispin_Center,781-848-2124,margecrispin@aol.com,42.20053,-71.011892
-109,GBFB Finder,Salvation Army/Waltham Pantry,33 Myrtle Street,Waltham,02453,02453,M-F: 10am-12am,"""repeats"" : ""Weekly"",
+""end"" : ""15:00""",,http://www.neighborhoodlink.com/The_Marge_Crispin_Center,781-848-2124,margecrispin@aol.com,42.2005042,-71.0129217,
+109,GBFB Finder,Salvation Army/Waltham Pantry,33 Myrtle Street,Waltham,2453,2453,M-F: 10am-12am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1211,8 +1133,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,,781-894-0413,,42.366151,-71.236552
-110,GBFB Member Agency,Yarmouth Food Pantry,845 Massachusetts 28,South Yarmouth,02664,02664,M-F: 10am-12pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,781-894-0413,,42.3662002,-71.2363951,
+110,GBFB Member Agency,Yarmouth Food Pantry,845 Massachusetts 28,South Yarmouth,2664,2664,M-F: 10am-12pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1241,8 +1163,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,,508-771-1135,,41.970255,-71.29128
-111,GBFB Member Agency,Charity Guild Food Pantry,501 Main St.,Brockton,02305,02305,M-F: 10am-3pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,508-771-1135,,41.652023,-70.213717,
+111,GBFB Member Agency,Charity Guild Food Pantry,501 Main St.,Brockton,2305,2305,M-F: 10am-3pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1272,8 +1194,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
 ""end"" : ""15:00""
-",,http://thecharityguild.org/foodpantry/,508-583-6680,info@thecharityguild.org,42.075252,-71.003838
-112,GBFB Member Agency,Area Planning Action Council Allston-Brighton,143 Harvard Avenue,Allston,02135,02135,M-F: 10am-3pm,"""repeats"" : ""Weekly"",
+",,http://thecharityguild.org/foodpantry/,508-583-6680,info@thecharityguild.org,42.0751736,-71.0193186,
+112,GBFB Member Agency,Area Planning Action Council Allston-Brighton,143 Harvard Avenue,Allston,2135,2135,M-F: 10am-3pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1302,8 +1224,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""13:00""",,http://www.allstonbrightonapac.org/,617-254-8748,info@allstonbrightonapac.org,42.416386,-71.137655
-113,GBFB Member Agency,Salvation Army Attleboro Food Pantry,5 Mechanic St.,Attleboro,02093,02093,M-F: 10am-3pm,"""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,http://www.allstonbrightonapac.org/,617-254-8748,info@allstonbrightonapac.org,42.3522975,-71.1319085,
+113,GBFB Member Agency,Salvation Army Attleboro Food Pantry,5 Mechanic St.,Attleboro,2093,2093,M-F: 10am-3pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1333,8 +1255,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
 ""end"" : ""15:00""
-",,,508-226-8624,,41.898762,-70.480949
-114,GBFB Member Agency,Boston Medical Center Food Pantry,One Boston Medican Center Place,Boston,02118,02118,M-F: 10am-4pm,"""repeats"" : ""Weekly"",
+",,,508-226-8624,,41.9464764,-71.2878415,
+114,GBFB Member Agency,Boston Medical Center Food Pantry,One Boston Medican Center Place,Boston,2118,2118,M-F: 10am-4pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1363,8 +1285,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""16:00""",,,617-638-8000,,42.356705,-71.058556
-115,GBFB Member Agency,Gladtidings Food Pantry,573 Norfolk St.,Dorchester,02126,02126,M-F: 10am-4pm (dropbox in church),"""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,,617-638-8000,,42.334852,-71.0737344,
+115,GBFB Member Agency,Gladtidings Food Pantry,573 Norfolk St.,Dorchester,2126,2126,M-F: 10am-4pm (dropbox in church),"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1393,8 +1315,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""16:00""",,,617-296-6784,,42.277225,-71.237617
-116,GBFB Member Agency,The Open Door Food Pantry,28 Emerson Ave.,Gloucester,01930,01930,"M-F: 10am-5pm, M, W, Thu: 6-7pm","""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,,617-296-6784,,42.277416,-71.092316,
+116,GBFB Member Agency,The Open Door Food Pantry,28 Emerson Ave.,Gloucester,1930,1930,"M-F: 10am-5pm, M, W, Thu: 6-7pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1441,8 +1363,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""17:00""",,http://www.foodpantry.org/,978-283-6776,,41.769302,-70.05603
-117,GBFB Member Agency,Beverly Bootsraps Food Pantry,371 Cabot St.,Beverly,01915,01915,"M-F: 11-12:30, Tue, W: 5-6","""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,http://www.foodpantry.org/,978-283-6776,,42.6152019,-70.675985,
+117,GBFB Member Agency,Beverly Bootsraps Food Pantry,371 Cabot St.,Beverly,1915,1915,"M-F: 11-12:30, Tue, W: 5-6","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1483,8 +1405,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""11:00""
-""end"" : ""12:30""",,http://www.beverlybootstraps.org/,978-927-1561,,42.556992,-70.878181
-118,GBFB Member Agency,North Shore Assembly of God Food Pantry,77 Kennedy Dr.,Malden,02148,02148,M-F: 11am-6pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:30""",,http://www.beverlybootstraps.org/,978-927-1561,,42.5570577,-70.878813,
+118,GBFB Member Agency,North Shore Assembly of God Food Pantry,77 Kennedy Dr.,Malden,2148,2148,M-F: 11am-6pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1513,8 +1435,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""11:00""
-""end"" : ""18:00""",,http://www.northshoreag.org/,781-321-2121,contact@northshoreag.org,42.437972,-71.027171
-119,GBFB Member Agency,"Soup Kitchen In Provincetown, Inc.",24 Shank Painter Rd.,Provincetown,02657,02657,M-F: 12:30-1:30,"""repeats"" : ""Weekly"",
+""end"" : ""18:00""",,http://www.northshoreag.org/,781-321-2121,contact@northshoreag.org,42.440092,-71.028441,
+119,GBFB Member Agency,"Soup Kitchen In Provincetown, Inc.",24 Shank Painter Rd.,Provincetown,2657,2657,M-F: 12:30-1:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1543,8 +1465,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""12:30""
-""end"" : ""13:30""",,,508-487-8331,,42.32428,-70.193269
-120,GBFB Finder,ERSCC/Faith Covenant Meal,1306 Hancock Street,Quincy,02170,02170,M-F: 12am-1pm,"""repeats"" : ""Weekly"",
+""end"" : ""13:30""",,,508-487-8331,,42.0506121,-70.1953394,
+120,GBFB Finder,ERSCC/Faith Covenant Meal,1306 Hancock Street,Quincy,2170,2170,M-F: 12am-1pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1573,8 +1495,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""12:00""
-""end"" : ""13:00""",,,617-471-7075,,42.251171,-71.002983
-121,GBFB Member Agency,Lynn Emergency Shelter,100 Willow St.,Lynn,01901,01901,"M-F: 4pm-8am, Sat, Sun: 24 hrs","""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,,617-471-7075,,42.2511719,-71.002982,
+121,GBFB Member Agency,Lynn Emergency Shelter,100 Willow St.,Lynn,1901,1901,"M-F: 4pm-8am, Sat, Sun: 24 hrs","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1615,38 +1537,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""12:00""
-""end"" : ""24:00""",,http://www.lynnemergencyshelter.org/,781-581-6600,Oneil.gray@lsahome.org,42.464912,-70.947533
-122,GBFB Finder,Mass. Ave. Baptist Church Meals,146 Hampshire Street,Cambridge,02139,02139,M-F: 5:30pm-7pm,"""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Monday”]
-""startsOn"" : ""06/03/2013""
-""start"": ""17:30""
-""end"" : ""19:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Tuesday”]
-""startsOn"" : ""06/04/2013""
-""start"": ""17:30""
-""end"" : ""19:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Wednesday”]
-""startsOn"" : ""06/05/2013""
-""start"": ""17:30""
-""end"" : ""19:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Thursday”]
-""startsOn"" : ""06/06/2013""
-""start"": ""17:30""
-""end"" : ""19:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Friday”]
-""startsOn"" : ""06/07/2013""
-""start"": ""17:30""
-""end"" : ""19:00""",,,617-868-4853,,42.370953,-71.097786
-123,GBFB Member Agency,Salvation Army New Bedford Pantry,619 Purchase St.,New Bedford,02740,02740,"M-F: 8:30-12, 1-3 ","""repeats"" : ""Weekly"",
+""end"" : ""24:00""",,http://www.lynnemergencyshelter.org/,781-581-6600,Oneil.gray@lsahome.org,42.464912,-70.94753,
+123,GBFB Member Agency,Salvation Army New Bedford Pantry,619 Purchase St.,New Bedford,2740,2740,"M-F: 8:30-12, 1-3 ","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1705,8 +1597,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""13:00""
-""end"" : ""15:00""",,,508-997-6561,,41.632103,-70.925827
-124,GBFB Member Agency,Gavin Foundation/James F. Gavin House,675 E. 4th St.,South Boston,02127,02127,M-F: 8:30-4:30,"""repeats"" : ""Weekly"",
+""end"" : ""15:00""",,,508-997-6561,,41.632104,-70.925826,
+124,GBFB Member Agency,Gavin Foundation/James F. Gavin House,675 E. 4th St.,South Boston,2127,2127,M-F: 8:30-4:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1735,8 +1627,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""08:30""
-""end"" : ""16:30""",,http://www.gavinfoundation.org/,617-268-5517,,42.334499,-71.037811
-125,GBFB Member Agency,Saint Vincent de Paul/Father Sweeny Pantry,327 Court St.,Plymouth,02360,02360,M-F: 8:30am-4pm,"""repeats"" : ""Weekly"",
+""end"" : ""16:30""",,http://www.gavinfoundation.org/,617-268-5517,,42.334499,-71.037814,
+125,GBFB Member Agency,Saint Vincent de Paul/Father Sweeny Pantry,327 Court St.,Plymouth,2360,2360,M-F: 8:30am-4pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1765,8 +1657,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""08:30""
-""end"" : ""16:30""",,,508-746-4851,,41.974547,-70.685053
-126,GBFB Finder,AFCH/Zinberg Clinic Pantry,1493 Cambridge Street,Cambridge,02139,02139,M-F: 8:30am-5pm,"""repeats"" : ""Weekly"",
+""end"" : ""16:30""",,,508-746-4851,,41.9745506,-70.685108,
+126,GBFB Finder,AFCH/Zinberg Clinic Pantry,1493 Cambridge Street,Cambridge,2139,2139,M-F: 8:30am-5pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1795,38 +1687,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""08:30""
-""end"" : ""17:00""",,,617-665-1038,,42.374244,-71.10438
-127,CofBoston,Zinberg Clinic Pantry,1493 Cambridge Street ,Cambridge,02140,02140,M-F: 8:30am-5pm,"""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Monday”]
-""startsOn"" : ""06/03/2013""
-""start"": ""08:30""
-""end"" : ""17:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Tuesday”]
-""startsOn"" : ""06/04/2013""
-""start"": ""08:30""
-""end"" : ""17:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Wednesday”]
-""startsOn"" : ""06/05/2013""
-""start"": ""08:30""
-""end"" : ""17:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Thursday”]
-""startsOn"" : ""06/06/2013""
-""start"": ""08:30""
-""end"" : ""17:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Friday”]
-""startsOn"" : ""06/07/2013""
-""start"": ""08:30""
-""end"" : ""17:00""",,,617-665-1606,,42.374244,-71.10438
-128,GBFB Member Agency,Westwood Council on Aging,60 Nahantan St.,Westwood,02090,02090,M-F: 8am-3:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,,617-665-1038,,42.3741818,-71.1031443,
+128,GBFB Member Agency,Westwood Council on Aging,60 Nahantan St.,Westwood,2090,2090,M-F: 8am-3:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1855,38 +1717,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""08:00""
-""end"" : ""15:30""",,http://www.townhall.westwood.ma.us/index.cfm/page/Council-on-Aging/pid/25594,781-329-8799,plarkin@townhall.westwood.ma.us,42.32426,-71.349389
-129,GBFB Member Agency,Zinberg Clinic Pantry,1493 Cambridge St.,Cambridge,02139,02139,M-F: 8am-5pm,"""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Monday”]
-""startsOn"" : ""06/03/2013""
-""start"": ""08:00""
-""end"" : ""17:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Tuesday”]
-""startsOn"" : ""06/04/2013""
-""start"": ""08:00""
-""end"" : ""17:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Wednesday”]
-""startsOn"" : ""06/05/2013""
-""start"": ""08:00""
-""end"" : ""17:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Thursday”]
-""startsOn"" : ""06/06/2013""
-""start"": ""08:00""
-""end"" : ""17:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Friday”]
-""startsOn"" : ""06/07/2013""
-""start"": ""08:00""
-""end"" : ""17:00""",,,617-665-1038,,42.374244,-71.10438
-130,GBFB Member Agency,Area Planning Action Council Jamaican Plain Food Pantry,295 Centre St.,Jamaica Plain,02130,02130,"M-F: 8am-7pm, Sat: 10am-2pm","""repeats"" : ""Weekly"",
+""end"" : ""15:30""",,http://www.townhall.westwood.ma.us/index.cfm/page/Council-on-Aging/pid/25594,781-329-8799,plarkin@townhall.westwood.ma.us,42.2177457,-71.2210409,
+130,GBFB Member Agency,Area Planning Action Council Jamaican Plain Food Pantry,295 Centre St.,Jamaica Plain,2130,2130,"M-F: 8am-7pm, Sat: 10am-2pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1921,8 +1753,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""14:00""",,http://www.bostonabcd.org/jamaica-plain-apac.aspx,617-522-4250,ana.sotodebechtold@bostonabcd.org,42.236131,-71.013287
-131,GBFB Member Agency,Saint Vincent de Paul/Saint Joseph's Kingston Food Pantry,270 Main St.,Kingston,02364,02364,M-F: 9:30-4:30,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,http://www.bostonabcd.org/jamaica-plain-apac.aspx,617-522-4250,ana.sotodebechtold@bostonabcd.org,42.3233384,-71.1022081,
+131,GBFB Member Agency,Saint Vincent de Paul/Saint Joseph's Kingston Food Pantry,270 Main St.,Kingston,2364,2364,M-F: 9:30-4:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1951,8 +1783,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:30""
-""end"" : ""16:30""",,http://www.stjosephkingston.com/outreach_stvincent.html,,info@stjosephkingston.com,41.994514,-70.739125
-132,GBFB Member Agency,Saint Vincent de Paul /Blessed Kateri Tekakwitha Food Pantry,126 South Meadow Rd.,Plymouth,02360,02360,M-F: 9-3,"""repeats"" : ""Weekly"",
+""end"" : ""16:30""",,http://www.stjosephkingston.com/outreach_stvincent.html,,info@stjosephkingston.com,41.994688,-70.738274,
+132,GBFB Member Agency,Saint Vincent de Paul /Blessed Kateri Tekakwitha Food Pantry,126 South Meadow Rd.,Plymouth,2360,2360,M-F: 9-3,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -1981,8 +1813,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""15:00""",,http://www.blessedkateri.com/ministries,508-747-1568,office@blessedkateri.com,41.922517,-71.068596
-133,GBFB Member Agency,South Shore Recovery Home ,10 Dysart St.,Quincy,02169,02169,M-F: 9-4,"""repeats"" : ""Weekly"",
+""end"" : ""15:00""",,http://www.blessedkateri.com/ministries,508-747-1568,office@blessedkateri.com,41.9220453,-70.7199233,
+133,GBFB Member Agency,South Shore Recovery Home ,10 Dysart St.,Quincy,2169,2169,M-F: 9-4,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2011,8 +1843,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""16:00""",,,617-773-7023,,42.246248,-70.997882
-134,GBFB Member Agency,Middlesex Human Service Agency Answer House,5 G St.,South Boston,02127,02127,M-F: 9-4,"""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,,617-773-7023,,42.2461541,-70.9978533,
+134,GBFB Member Agency,Middlesex Human Service Agency Answer House,5 G St.,South Boston,2127,2127,M-F: 9-4,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2041,8 +1873,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""16:00""",,,617-268-7124,AnswerHouse@mhsainc.org,41.898762,-71.003838
-135,CofBoston,Project Soup West Pantry,1 Davis Square,Somerville,02144,02144,M-F: 9-5,"""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,,617-268-7124,AnswerHouse@mhsainc.org,42.3360835,-71.044376,
+135,CofBoston,Project Soup West Pantry,1 Davis Square,Somerville,2144,2144,M-F: 9-5,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2071,8 +1903,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""17:00""",,http://www.somervillehomelesscoalition.org/programs/Project%20Soup.html,617-776-7687,,42.396346,-71.122536
-136,Unaffiliated,Missie's Closet,115 Enterprise Road,Hyannis,02601,02601,M-F: 9-5,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,http://www.somervillehomelesscoalition.org/programs/Project%20Soup.html,617-776-7687,,42.3963507,-71.1226734,
+136,Unaffiliated,Missie's Closet,115 Enterprise Road,Hyannis,2601,2601,M-F: 9-5,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2101,8 +1933,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""17:00""",,,"508-771-1727, ext: 146",,41.669613,-70.301971
-137,GBFB Member Agency,Nam Vets Association Cape & Islands Food Pantry,565 W. Main St.,Hyannis,02601,02601,M-F: 9-5,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,,"508-771-1727, ext: 146",,41.669611,-70.301972,
+137,GBFB Member Agency,Nam Vets Association Cape & Islands Food Pantry,565 W. Main St.,Hyannis,2601,2601,M-F: 9-5,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2131,8 +1963,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""17:00""",,,"508-778-1590, 508-280-6026",,41.651505,-71.058556
-138,CofBoston,Salvation Army/South End Food Pantry,1500 Washington St,Boston,02118,02118,M-F: 9am-11:30am,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,,"508-778-1590, 508-280-6026",,41.6514783,-70.316358,
+138,CofBoston,Salvation Army/South End Food Pantry,1500 Washington St,Boston,2118,2118,M-F: 9am-11:30am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2161,38 +1993,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""11:30""",,http://www.gbfb.org/need-food/index.php,617-236-7233,,42.339908,-71.071935
-139,GBFB Finder,Salvation Army/Waltham Meals,33 Myrtle Street,Waltham,02453,02453,M-F: 9am-12:30am,"""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Monday”]
-""startsOn"" : ""06/03/2013""
-""start"": ""09:00""
-""end"" : ""12:30""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Tuesday”]
-""startsOn"" : ""06/04/2013""
-""start"": ""09:00""
-""end"" : ""12:30""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Wednesday”]
-""startsOn"" : ""06/05/2013""
-""start"": ""09:00""
-""end"" : ""12:30""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Thursday”]
-""startsOn"" : ""06/06/2013""
-""start"": ""09:00""
-""end"" : ""12:30""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Friday”]
-""startsOn"" : ""06/07/2013""
-""start"": ""09:00""
-""end"" : ""12:30""",,,781-894-0413,,42.366151,-71.149239
-140,GBFB Member Agency,Teen Challenge/Ministry Center,1315 Main St.,Brockton,02301,02301,M-F: 9am-12pm,"""repeats"" : ""Weekly"",
+""end"" : ""11:30""",,http://www.gbfb.org/need-food/index.php,617-236-7233,,42.3398369,-71.0718664,
+140,GBFB Member Agency,Teen Challenge/Ministry Center,1315 Main St.,Brockton,2301,2301,M-F: 9am-12pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2221,8 +2023,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,http://www.tcbrockton.org/,508-586-1494,director@tcbrockton.org,42.05937,-71.014064
-141,GBFB Finder,Project Place,1145 Washington Street,Boston,02118,02118,M-F: 9am-1pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.tcbrockton.org/,508-586-1494,director@tcbrockton.org,42.0591068,-71.0139375,
+141,GBFB Finder,Project Place,1145 Washington Street,Boston,2118,2118,M-F: 9am-1pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2251,38 +2053,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""13:00""",,,617-262-3740,,42.344103,-71.065906
-142,GBFB Finder,APAC/Allston-Brighton,143 Harvard Avenue,Allston,02134,02134,M-F: 9am-1pm,"""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Monday”]
-""startsOn"" : ""06/03/2013""
-""start"": ""09:00""
-""end"" : ""13:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Tuesday”]
-""startsOn"" : ""06/04/2013""
-""start"": ""09:00""
-""end"" : ""13:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Wednesday”]
-""startsOn"" : ""06/05/2013""
-""start"": ""09:00""
-""end"" : ""13:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Thursday”]
-""startsOn"" : ""06/06/2013""
-""start"": ""09:00""
-""end"" : ""13:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Friday”]
-""startsOn"" : ""06/07/2013""
-""start"": ""09:00""
-""end"" : ""13:00""",,,617-783-1485,,42.416386,-71.137655
-143,GBFB Member Agency,Good Shepherd's Table Food Pantry,102 Green St.,Fairhaven,02719,02719,"M-F: 9am-1pm, Sun: 10am-12pm","""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,,617-262-3740,,42.3437801,-71.066156,
+143,GBFB Member Agency,Good Shepherd's Table Food Pantry,102 Green St.,Fairhaven,2719,2719,"M-F: 9am-1pm, Sun: 10am-12pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2317,8 +2089,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,,508-925-2411,,41.63568,-70.901725
-144,CofBoston,Boston Jubilee house,10 Melville Ave,Dorchester,02124,02124,M-F: 9am-2pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,508-925-2411,,41.635765,-70.901942,
+144,CofBoston,Boston Jubilee house,10 Melville Ave,Dorchester,2124,2124,M-F: 9am-2pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2347,8 +2119,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""14:00""",,,617-282-8433,,42.361376,-71.206686
-145,GBFB Member Agency,Attleboro Area Council of Churches Food 'n Friends,95 Pine St.,Attleboro,02703,02703,M-F: 9am-2pm,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,,617-282-8433,,42.294148,-71.0702699,
+145,GBFB Member Agency,Attleboro Area Council of Churches Food 'n Friends,95 Pine St.,Attleboro,2703,2703,M-F: 9am-2pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2377,8 +2149,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""14:00""",,,508-222-2933,,41.940738,-71.181236
-146,GBFB Member Agency,People Acting in Community Endeavors Emergency Food Pantry,166 William St.,New Bedford,02740,02740,M-F: 9am-4:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,,508-222-2933,,41.9406926,-71.2813539,
+146,GBFB Member Agency,People Acting in Community Endeavors Emergency Food Pantry,166 William St.,New Bedford,2740,2740,M-F: 9am-4:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2407,8 +2179,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""16:30""",,,508-999-9920,,41.634815,-70.929054
-147,CofBoston,International Institute of Boston Pantry,One Milk St,Boston,02109,02109,M-F: 9am-4pm,"""repeats"" : ""Weekly"",
+""end"" : ""16:30""",,,508-999-9920,,41.6349946,-70.9290755,
+147,CofBoston,International Institute of Boston Pantry,One Milk St,Boston,2109,2109,M-F: 9am-4pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2437,8 +2209,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""16:00""",,http://www.gbfb.org/need-food/index.php,617-695-9990,,42.356705,-71.058556
-148,CofBoston,ABCD N. End/W.End Pantry,1 Michelangelo Street,Boston,02113,02113,M-F: 9am-5pm,"""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,http://www.gbfb.org/need-food/index.php,617-695-9990,,42.3567311,-71.0583359,
+148,CofBoston,ABCD N. End/W.End Pantry,1 Michelangelo Street,Boston,2113,2113,M-F: 9am-5pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2467,8 +2239,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""17:00""",,http://www.gbfb.org/need-food/index.php,617-523-8125,,42.367131,-71.054854
-149,GBFB Finder,Common Ground Café,125 Winter Street,Haverhill,01830,01830,M-F: 9am-5pm,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,http://www.gbfb.org/need-food/index.php,617-523-8125,,42.367225,-71.0546911,
+149,GBFB Finder,Common Ground Café,125 Winter Street,Haverhill,1830,1830,M-F: 9am-5pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2497,8 +2269,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""17:00""",,,603-978-2525,,42.777725,-71.081991
-150,GBFB Member Agency,My Brother's Keeper - Food Pantry,PO Box 338,Easton,02356,02356,M-F: 9am-5pm,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,,603-978-2525,,42.7776882,-71.0821756,
+150,GBFB Member Agency,My Brother's Keeper - Food Pantry,PO Box 338,Easton,2356,2356,M-F: 9am-5pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2527,8 +2299,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""17:00""",,http://www.mybrotherskeeper.org/missions-and-programs/food/,508-238-7512,info@mybrotherskeeper.org,41.724548,-71.12365
-151,GBFB Member Agency,Saint Vincent de Paul/Whitman Food Pantry,105 Pleasant St.,East Bridgewater,02333,02333,M-F: 9am-5pm,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,http://www.mybrotherskeeper.org/missions-and-programs/food/,508-238-7512,info@mybrotherskeeper.org,42.0656067,-71.1092012,
+151,GBFB Member Agency,Saint Vincent de Paul/Whitman Food Pantry,105 Pleasant St.,East Bridgewater,2333,2333,M-F: 9am-5pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2557,8 +2329,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""17:00""",,,508-378-2874,,42.03467,-70.97618
-152,GBFB Member Agency,Ester R. Sanger Center for Compassion Quincy Crisis Center Pantry,282 Billings Rd.,Quincy,02170,02170,M-F: 9am-5pm,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,,508-378-2874,,42.0348406,-70.9759979,
+152,GBFB Member Agency,Ester R. Sanger Center for Compassion Quincy Crisis Center Pantry,282 Billings Rd.,Quincy,2170,2170,M-F: 9am-5pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2587,8 +2359,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""17:00""",,http://www.sangercenter.org/,617-847-6967,,42.276684,-71.015694
-153,GBFB Member Agency,Kit Clark Senior Services Pantry,1500 Dorchester Ave.,Dorchester,02122,02122,M-F: 9am-4pm,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,http://www.sangercenter.org/,617-847-6967,,42.2766813,-71.0157026,
+153,GBFB Member Agency,Kit Clark Senior Services Pantry,1500 Dorchester Ave.,Dorchester,2122,2122,M-F: 9am-4pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2617,20 +2389,20 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""16:00""",,,617-825-5000,,42.299636,-71.06029
-154,GBFB Finder,Maynard Food Pantry,12 Bancroft Street,Maynard,01754,01754,Mon: 10am-12am,"""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,,617-825-5000,,42.2995916,-71.0602606,
+154,GBFB Finder,Maynard Food Pantry,12 Bancroft Street,Maynard,1754,1754,Mon: 10am-12am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,,978-897-8340,,42.428448,-71.450836
-155,GBFB Finder,Open Table Food Pantry/Maynard,"146 Main Street, Bld. 8",Maynard,01754,01754,Mon: 4:30pm-7pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,978-897-8340,,42.428449,-71.450833,
+155,GBFB Finder,Open Table Food Pantry/Maynard,"146 Main Street, Bld. 8",Maynard,1754,1754,Mon: 4:30pm-7pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
 ""start"": ""16:30""
-""end"" : ""19:00""",,,978-369-2275,,42.42981,-71.456711
-156,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at Shaws, 9 West Rd.",Orleans,02653,02653,"M-Sat: 6am-11pm, Sun: 6am-10pm","""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,978-369-2275,,42.429808,-71.45671,
+156,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at Shaws, 9 West Rd.",Orleans,2653,2653,"M-Sat: 6am-11pm, Sun: 6am-10pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2671,8 +2443,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""06:00""
-""end"" : ""22:00""",,http://lcoutreach.org/food.htm,508-240-0694,,41.78099,-70.000533
-157,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at Stop & Shop, 24 Route 6a",Orleans,02653,02653,"M-Sat: 6am-Midnight, Sun: 7am-10pm","""repeats"" : ""Weekly"",
+""end"" : ""22:00""",,http://lcoutreach.org/food.htm,508-240-0694,,41.780274,-70.001914,
+157,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at Stop & Shop, 24 Route 6a",Orleans,2653,2653,"M-Sat: 6am-Midnight, Sun: 7am-10pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2713,8 +2485,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""07:00""
-""end"" : ""22:00""",,http://lcoutreach.org/food.htm,508-240-0694,,42.32428,-71.058716
-158,GBFB Finder,Women's Lunch Place,67 Newbury Street,Boston,02116,02116,M-Sat: 7am-2pm,"""repeats"" : ""Weekly"",
+""end"" : ""22:00""",,http://lcoutreach.org/food.htm,508-240-0694,,41.7943033,-69.9838032,
+158,GBFB Finder,Women's Lunch Place,67 Newbury Street,Boston,2116,2116,M-Sat: 7am-2pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2749,8 +2521,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""07:00""
-""end"" : ""14:00""",,,617-267-1722,,42.35183,-71.074362
-159,GBFB Member Agency,Food for Free,11 Inman St.,Cambridge,02139,02139,M-Sat: 9am-5pm,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,,617-267-1722,,42.3520282,-71.0740681,
+159,GBFB Member Agency,Food for Free,11 Inman St.,Cambridge,2139,2139,M-Sat: 9am-5pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2785,18 +2557,18 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:00""
-""end"" : ""17:00""",,http://www.foodforfree.org/,617-868-2900,,42.367367,-71.105171
-160,GBFB Finder,Pine Street Inn/Meals,444 Harrison Avenue,Boston,02118,02118,M-Sun: 6am-6pm,"""repeats"" : ""Daily"",
+""end"" : ""17:00""",,http://www.foodforfree.org/,617-868-2900,,42.367367,-71.105172,
+160,GBFB Finder,Pine Street Inn/Meals,444 Harrison Avenue,Boston,2118,2118,M-Sun: 6am-6pm,"""repeats"" : ""Daily"",
 ""repeatsEvery"" : ""1"",
 ""startsOn"" : ""06/01/2013""
 ""start"": ""06:00""
-""end"" : ""18:00""",,,617-892-9105,,42.342999,-71.064895
-161,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at Stop & Shop, 56 Shank Painter Rd,",Provincetown,02657,02657,M-Sun: 6am-9pm,"""repeats"" : ""Daily"",
+""end"" : ""18:00""",,,617-892-9105,,42.343039,-71.0635992,
+161,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at Stop & Shop, 56 Shank Painter Rd,",Provincetown,2657,2657,M-Sun: 6am-9pm,"""repeats"" : ""Daily"",
 ""repeatsEvery"" : ""1"",
 ""startsOn"" : ""06/01/2013""
 ""start"": ""06:00""
-""end"" : ""21:00""",,http://lcoutreach.org/food.htm,508-240-0694,,42.050583,-70.196106
-162,CofBoston,St. Francis House,39 Boylston St.,Boston,02112,02112,"M-Sun: 7:30am-9am, 11:30am-1pm","""repeats"" : ""Daily"",
+""end"" : ""21:00""",,http://lcoutreach.org/food.htm,508-240-0694,,42.0510505,-70.195506,
+162,CofBoston,St. Francis House,39 Boylston St.,Boston,2112,2112,"M-Sun: 7:30am-9am, 11:30am-1pm","""repeats"" : ""Daily"",
 ""repeatsEvery"" : ""1"",
 ""startsOn"" : ""06/01/2013""
 ""start"": ""07:30""
@@ -2805,13 +2577,13 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsEvery"" : ""1"",
 ""startsOn"" : ""06/01/2013""
 ""start"": ""11:30""
-""end"" : ""13:00""",,http://www.gbfb.org/need-food/index.php,617-542-4211,,42.352365,-71.063677
-163,GBFB Member Agency,New England Center for Homeless Veterans,17 Court St.,Boston,02108,02108,M-Sun: 9am-5pm,"""repeats"" : ""Daily"",
+""end"" : ""13:00""",,http://www.gbfb.org/need-food/index.php,617-542-4211,,42.352365,-71.063677,
+163,GBFB Member Agency,New England Center for Homeless Veterans,17 Court St.,Boston,2108,2108,M-Sun: 9am-5pm,"""repeats"" : ""Daily"",
 ""repeatsEvery"" : ""1"",
 ""startsOn"" : ""06/01/2013""
 ""start"": ""09:00""
-""end"" : ""17:00""",,http://www.nechv.org/,617-371-1800,info@nechv.org,42.358963,-71.05834
-164,GBFB Member Agency,Catholic Charities Lowell Food Pantry,70 Lawrence St.,Lowell,01852,01852,M-T: 10am-3:45pm,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,http://www.nechv.org/,617-371-1800,info@nechv.org,42.3590462,-71.0584579,
+164,GBFB Member Agency,Catholic Charities Lowell Food Pantry,70 Lawrence St.,Lowell,1852,1852,M-T: 10am-3:45pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2822,8 +2594,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""10:00""
-""end"" : ""15:45""",,http://www.ccab.org/lowell-food-pantry.html,978-454-9946,,42.640716,-71.304344
-165,GBFB Member Agency,Salvation Army Hyannis Pantry,100 Main St.,Hyannis,02601,02601,M-Thu: 10-12,"""repeats"" : ""Weekly"",
+""end"" : ""15:45""",,http://www.ccab.org/lowell-food-pantry.html,978-454-9946,,42.6406771,-71.3043861,
+165,GBFB Member Agency,Salvation Army Hyannis Pantry,100 Main St.,Hyannis,2601,2601,M-Thu: 10-12,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2846,8 +2618,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,,508-775-0364,,41.655879,-70.274977
-166,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at Cape Code 5, 2745 Main St.",Brewster,02631,02631,"M-Thu: 8:30am-4:30pm, F: 8:30-6pm, Sat: 8:30-12pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,508-775-0364,,41.6560563,-70.2745689,
+166,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at Cape Code 5, 2745 Main St.",Brewster,2631,2631,"M-Thu: 8:30am-4:30pm, F: 8:30-6pm, Sat: 8:30-12pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2882,8 +2654,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""08:30""
-""end"" : ""12:00""",,http://lcoutreach.org/food.htm,508-240-0694,,41.769302,-70.05603
-167,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at Cape Cod 5, 97 Cranberry Highway",Orleans,02653,02653,"M-Thu: 8:30am-4:30pm, F: 8:30-7, Sat: 8:30-3pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://lcoutreach.org/food.htm,508-240-0694,,41.769301,-70.056028,
+167,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at Cape Cod 5, 97 Cranberry Highway",Orleans,2653,2653,"M-Thu: 8:30am-4:30pm, F: 8:30-7, Sat: 8:30-3pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2918,8 +2690,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""08:30""
-""end"" : ""15:00""",,http://lcoutreach.org/food.htm,508-240-0694,,41.940738,-71.281366
-168,GBFB Member Agency,"Veteran's Association of Bristol County, Inc.",755 Pine St.,Fall River,02720,02720,"M-Thu: 8:30am-4:30pm, F: 8:30am-1pm","""repeats"" : ""Weekly"",
+""end"" : ""15:00""",,http://lcoutreach.org/food.htm,508-240-0694,,41.7882653,-69.9913661,
+168,GBFB Member Agency,"Veteran's Association of Bristol County, Inc.",755 Pine St.,Fall River,2720,2720,"M-Thu: 8:30am-4:30pm, F: 8:30am-1pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2948,8 +2720,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""08:30""
-""end"" : ""13:00""",,http://www.facebook.com/pages/Veterans-Association-of-Bristol-County/110538169008314,508-679-9277,,41.702694,-71.14534
-169,GBFB Member Agency,BAMSI - H.I.V. Case Management Program,10 Christy's Drive,Brockton,02301,02301,"M-Thu: 8am-5pm, F: 8am-4:30pm","""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,http://www.facebook.com/pages/Veterans-Association-of-Bristol-County/110538169008314,508-679-9277,,41.702692,-71.145339,
+169,GBFB Member Agency,BAMSI - H.I.V. Case Management Program,10 Christy's Drive,Brockton,2301,2301,"M-Thu: 8am-5pm, F: 8am-4:30pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -2978,8 +2750,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""08:00""
-""end"" : ""16:30""",,http://www.bamsi.org/services/hiv-services/case-management/,508-580-8700,,42.088018,-71.055391
-170,GBFB Member Agency,International Ministry Food Pantry,9 Cummings St.,Somerville,02145,02145,M-Thu: 9:30-12:30,"""repeats"" : ""Weekly"",
+""end"" : ""16:30""",,http://www.bamsi.org/services/hiv-services/case-management/,508-580-8700,,42.0886263,-71.055564,
+170,GBFB Member Agency,International Ministry Food Pantry,9 Cummings St.,Somerville,2145,2145,M-Thu: 9:30-12:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -3002,8 +2774,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""09:30""
-""end"" : ""12:30""",,,617-625-1692,,42.39463,-71.08419
-171,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at TD Bank, 40 Main St.",Orleans,02653,02653,"M-W: 8am-6pm, Thu-F: 8-8, Sat: 8-3, Sun: 11-4","""repeats"" : ""Weekly"",
+""end"" : ""12:30""",,,617-625-1692,,42.3946309,-71.084192,
+171,GBFB Member Agency,Lower Cape Outreach Council - Drop off box,"Drop off box at TD Bank, 40 Main St.",Orleans,2653,2653,"M-W: 8am-6pm, Thu-F: 8-8, Sat: 8-3, Sun: 11-4","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -3044,8 +2816,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""11:00""
-""end"" : ""16:00""",,http://lcoutreach.org/food.htm,508-240-0694,,41.787872,-69.990776
-172,GBFB Finder,JF&CS Family Table,1430 Main Street,Waltham,02451,02451,"S: 8:30am-2pm, M-F: 9am-5pm","""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,http://lcoutreach.org/food.htm,508-240-0694,,41.7876585,-69.9911089,
+172,GBFB Finder,JF&CS Family Table,1430 Main Street,Waltham,2451,2451,"S: 8:30am-2pm, M-F: 9am-5pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -3080,9 +2852,9 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""08:30""
-""end"" : ""14:00""",,,781-647-5327,,42.376745,-71.269965
-173,GBFB Member Agency,Milton Community Food Pantry,158 Blue Hills Parkway,Milton,02186,02186,Sat mornings,,,,617-696-0221,,42.377937,-71.119705
-174,CofBoston,Church of the Covenant,67 Newbury St,Boston,02116,02116,"Sat, Sun: 10am-12am","""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,,781-647-5327,,42.3769365,-71.2715721,
+173,GBFB Member Agency,Milton Community Food Pantry,158 Blue Hills Parkway,Milton,2186,2186,Sat mornings,,,,617-696-0221,,42.2614792,-71.0934896,
+174,CofBoston,Church of the Covenant,67 Newbury St,Boston,2116,2116,"Sat, Sun: 10am-12am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
@@ -3093,8 +2865,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,http://www.gbfb.org/need-food/index.php,617-266-7480,,42.35183,-71.074362
-175,GBFB Finder,My Brother's Table,98 Willow Street,Lynn,01901,01901,"Sat, Sun: 2:30pm-4:15pm. M-F: 11:45am-12:30pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.gbfb.org/need-food/index.php,617-266-7480,,42.3520282,-71.0740681,
+175,GBFB Finder,My Brother's Table,98 Willow Street,Lynn,1901,1901,"Sat, Sun: 2:30pm-4:15pm. M-F: 11:45am-12:30pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -3135,77 +2907,77 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""14:30""
-""end"" : ""16:15""",,,781-595-3224,,42.464789,-70.946579
+""end"" : ""16:15""",,,781-595-3224,,42.465086,-70.9472345,
 176,CofBoston,Grant Manor,1860 Washington St,South End,21178,21178,Sat. 10:30 - 12:00,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:30""
-""end"" : ""12:00""",,http://www.fairfoods.org/dollarbag.html,617-445-0077,,42.335121,-71.398674
-177,GBFB Member Agency,"Food for the World, Inc. Spanish Free Methodist Church Pantry",8 North St.,Salem,01970,01970,Sat. 10-12 (except 1st Sat of mo.),,,,978-683-9949,,42.52197,-70.898624
-178,CofBoston,St. Paul R.C. Church Dollar-A-Bag,29 Mt. Auburn St. ,Cambridge,02138,02138,Sat. 11:00-12:00,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.fairfoods.org/dollarbag.html,617-445-0077,,42.335121,-71.398674,
+177,GBFB Member Agency,"Food for the World, Inc. Spanish Free Methodist Church Pantry",8 North St.,Salem,1970,1970,Sat. 10-12 (except 1st Sat of mo.),,,,978-683-9949,,42.5218277,-70.8986744,
+178,CofBoston,St. Paul R.C. Church Dollar-A-Bag,29 Mt. Auburn St. ,Cambridge,2138,2138,Sat. 11:00-12:00,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""11:00""
-""end"" : ""12:00""",,,617-491-8400,,42.370839,-70.05603
-179,CofBoston,Codman Global Ministries,670 Washington St.,Dorchester,02124,02124,Sat. 12:30 - 2:00,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,617-491-8400,,42.3709614,-71.1157284,
+179,CofBoston,Codman Global Ministries,670 Washington St.,Dorchester,2124,2124,Sat. 12:30 - 2:00,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""12:30""
-""end"" : ""14:00""",,www.bostonpraiseradio.tv,617-282-7794,pastorbrucewall@aol.com,42.245902,-70.973861
-180,CofBoston,Simco's on the Bridge,1500 Blue Hill Ave,Mattapan,02124,02124,Sat. 3:00- 5:00,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,www.bostonpraiseradio.tv,617-282-7794,pastorbrucewall@aol.com,42.2884068,-71.071098,
+180,CofBoston,Simco's on the Bridge,1500 Blue Hill Ave,Mattapan,2124,2124,Sat. 3:00- 5:00,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""15:00""
-""end"" : ""17:00""",,http://www.fairfoods.org/dollarbag.html,617-296-3800,,42.222586,-71.118427
-181,GBFB Member Agency,St. Anne's Church Food Pantry,818 Middle St.,Fall River,02721,02721,Sat. 9:30am-12pm,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,http://www.fairfoods.org/dollarbag.html,617-296-3800,,42.273144,-71.092668,
+181,GBFB Member Agency,St. Anne's Church Food Pantry,818 Middle St.,Fall River,2721,2721,Sat. 9:30am-12pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:30""
-""end"" : ""12:00""",,,508-673-0852,,41.694088,-71.163727
-182,GBFB Finder,Belmont Church of God Food Pantry,25 Marlboro Street,Belmont,02478,02478,"Sat: 10:30am-12:30am, 1st&3rd Week of month",,,,617-484-6371,,42.376807,-71.156973
-183,GBFB Finder,Cambridgeport Baptist Church Food Pantry,459 Putnam Avenue,Cambridge,02139,02139,"Sat: 10am-12am, 1st&3rd Week of month",,,http://www.cambridgeportbaptist.org/,617-576-6779,,42.358872,-71.110728
-184,GBFB Member Agency,Attleboro Area Council of Churches - Family Café at Evangelical Covenant Church,841 N. Main St.,Attleboro,02703,02703,Sat: 10am-12pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,508-673-0852,,41.69347,-71.163164,
+182,GBFB Finder,Belmont Church of God Food Pantry,25 Marlboro Street,Belmont,2478,2478,"Sat: 10:30am-12:30am, 1st&3rd Week of month",,,,617-484-6371,,42.3769038,-71.1569531,
+183,GBFB Finder,Cambridgeport Baptist Church Food Pantry,459 Putnam Avenue,Cambridge,2139,2139,"Sat: 10am-12am, 1st&3rd Week of month",,,http://www.cambridgeportbaptist.org/,617-576-6779,,42.3589456,-71.1110015,
+184,GBFB Member Agency,Attleboro Area Council of Churches - Family Café at Evangelical Covenant Church,841 N. Main St.,Attleboro,2703,2703,Sat: 10am-12pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,http://www.attleborocovenant.org/,508-226-6221,carol@attleborocovenant.org,41.970255,-71.29128
-185,GBFB Member Agency,Allston-Brighton Food Pantry,404 Washington Ave.,Brighton,02135,02135,Sat: 10am-1pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.attleborocovenant.org/,508-226-6221,carol@attleborocovenant.org,41.9677518,-71.2911634,
+185,GBFB Member Agency,Allston-Brighton Food Pantry,404 Washington Ave.,Brighton,2135,2135,Sat: 10am-1pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""13:00""",,http://www.brightonucc.org/,617-254-4046,,42.363198,-71.100082
-186,GBFB Member Agency,Joseph's Storehouse,207 Highland Ave.,Salem,01970,01970,Sat: 10am-3pm,"""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,http://www.brightonucc.org/,617-254-4046,,42.3488941,-71.1551827,
+186,GBFB Member Agency,Joseph's Storehouse,207 Highland Ave.,Salem,1970,1970,Sat: 10am-3pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""15:00""",,http://jshfoodpantry.com/,978-594-4423,,42.505226,-70.91893
-187,GBFB Finder,Pilgrim Church Food Pantry,540 Columbia Road,Dorchester,02125,02125,Sat: 12am-1:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""15:00""",,http://jshfoodpantry.com/,978-594-4423,,42.505226,-70.918931,
+187,GBFB Finder,Pilgrim Church Food Pantry,540 Columbia Road,Dorchester,2125,2125,Sat: 12am-1:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""12:00""
-""end"" : ""13:30""",,,617-290-2950,,42.315827,-71.066468
-188,GBFB Finder,Loaves & Fishes Meals Program,35 Magazine Street,Cambridge,02139,02139,Sat: 5pm-8pm,"""repeats"" : ""Weekly"",
+""end"" : ""13:30""",,,617-290-2950,,42.3159686,-71.0664712,
+188,GBFB Finder,Loaves & Fishes Meals Program,35 Magazine Street,Cambridge,2139,2139,Sat: 5pm-8pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""17:00""
-""end"" : ""20:00""",,,617-497-7277,,42.363266,-71.149239
-189,GBFB Member Agency,Attleboro Area Council of Churches Family Café at Waters Church,15 John Dietsch Blvd.,North Attleboro,02763,02763,Sat: 6-7pm,"""repeats"" : ""Weekly"",
+""end"" : ""20:00""",,,617-497-7277,,42.3633394,-71.1064516,
+189,GBFB Member Agency,Attleboro Area Council of Churches Family Café at Waters Church,15 John Dietsch Blvd.,North Attleboro,2763,2763,Sat: 6-7pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""18:00""
-""end"" : ""19:00""",,,508-222-2933,,42.386177,-71.083542
-190,GBFB Member Agency,Norwood Ecumenical Food Pantry,150 Chapel St.,Norwood,02062,02062,"Sat: 7:30-11am, Thu: 8-9am","""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,508-222-2933,,41.972124,-71.29769,
+190,GBFB Member Agency,Norwood Ecumenical Food Pantry,150 Chapel St.,Norwood,2062,2062,"Sat: 7:30-11am, Thu: 8-9am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
@@ -3216,76 +2988,70 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""07:30""
-""end"" : ""11:00""",,http://www.gracenor.org/pantry.html,781-762-0959,,42.18251,-71.212341
-191,CofBoston,Massachusetts Avenue Baptist Church Project Manna,146 Hampshire St.,Cambridge,02139,02139,Sat: 8:00-9:30am,"""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,http://www.gracenor.org/pantry.html,781-762-0959,,42.182511,-71.212341,
+192,GBFB Member Agency,Lynn City Mission,10 Baltimore St.,Lynn,1902,1902,Sat: 8-9:30am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""08:00""
-""end"" : ""09:30""",,,617-868-4444,,42.370953,-71.097786
-192,GBFB Member Agency,Lynn City Mission,10 Baltimore St.,Lynn,01902,01902,Sat: 8-9:30am,"""repeats"" : ""Weekly"",
+""end"" : ""09:30""",,,781-775-9349,,42.463059,-70.933871,
+193,GBFB Member Agency,Mass. Ave. Baptist Church Food Pantry,146 Hampshire St.,Cambridge,2139,2139,Sat: 8am-10:30am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""08:00""
-""end"" : ""09:30""",,,781-775-9349,,42.463084,-70.934246
-193,GBFB Member Agency,Mass. Ave. Baptist Church Food Pantry,146 Hampshire St.,Cambridge,02139,02139,Sat: 8am-10:30am,"""repeats"" : ""Weekly"",
+""end"" : ""10:30""",,http://www.vinfen.org/,617-868-4853,,42.3709512,-71.0977488,
+194,GBFB Member Agency,"Steppingstone, Inc. Pleasant Street",522 North Main St.,New Bedford,2720,2720,Sat: 8am-10am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""08:00""
-""end"" : ""10:30""",,http://www.vinfen.org/,617-868-4853,,42.370953,-71.097786
-194,GBFB Member Agency,"Steppingstone, Inc. Pleasant Street",522 North Main St.,New Bedford,02720,02720,Sat: 8am-10am,"""repeats"" : ""Weekly"",
+""end"" : ""10:00""",,http://steppingstoneinc.org/,508-674-2788,,41.7057931,-70.8907953,
+195,GBFB Member Agency,"DoorWays, Inc.",North St.,Seekonk,2771,2771,Sat: 8am-10am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""08:00""
-""end"" : ""10:00""",,http://steppingstoneinc.org/,508-674-2788,,42.025909,-71.052112
-195,GBFB Member Agency,"DoorWays, Inc.",North St.,Seekonk,02771,02771,Sat: 8am-10am,"""repeats"" : ""Weekly"",
+""end"" : ""10:00""",,,508-761-8448,,41.8970421,-71.3220452,
+196,GBFB Member Agency,Sacred Heart Food Pantry Middleboro,340 Centre St.,Middleborough,2346,2346,"Sat: 8am-12, 1st & 3rd W: 9am-12, 2nd & 4th W: 5pm-8pm",,,http://sacredheartstrose.org/stvincent.html,508-947-0444,,41.8936102,-70.9140548,
+197,CofBoston,Resurrection Lutheran Church,94 Warren St,Roxbury,2119,2119,Sat: 8am-12am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""08:00""
-""end"" : ""10:00""",,,508-761-8448,,41.8969,-71.058556
-196,GBFB Member Agency,Sacred Heart Food Pantry Middleboro,340 Centre St.,Middleborough,02346,02346,"Sat: 8am-12, 1st & 3rd W: 9am-12, 2nd & 4th W: 5pm-8pm",,,http://sacredheartstrose.org/stvincent.html,508-947-0444,,41.894488,-70.92226
-197,CofBoston,Resurrection Lutheran Church,94 Warren St,Roxbury,02119,02119,Sat: 8am-12am,"""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Saturday”]
-""startsOn"" : ""06/08/2013""
-""start"": ""08:00""
-""end"" : ""12:00""",,http://www.gbfb.org/need-food/index.php,617-427-2066,,42.327248,-71.082733
-198,GBFB Member Agency,Our Neighbor's Table Pantry,145 Main St.,Amesbury,01913,01913,Sat: 9:30am-12pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.gbfb.org/need-food/index.php,617-427-2066,,42.327249,-71.082729,
+198,GBFB Member Agency,Our Neighbor's Table Pantry,145 Main St.,Amesbury,1913,1913,Sat: 9:30am-12pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:30""
-""end"" : ""12:00""",,http://www.ourneighborstable.org/,978-388-1907,,42.855225,-70.932365
-199,Unaffiliated,Walpole Food Pantry,1303 Washington St.,Walpole,02081,02081,Sat: 9am-11am,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.ourneighborstable.org/,978-388-1907,,42.8552809,-70.9322777,
+199,Unaffiliated,Walpole Food Pantry,1303 Washington St.,Walpole,2081,2081,Sat: 9am-11am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:00""
-""end"" : ""11:00""",,,508-668-7318,,42.12624,-71.246391
-200,GBFB Finder,Chelsea Community Kitchen,101 Park Street,Chelsea,02150,02150,Sat: 9am-12am,"""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,,508-668-7318,,42.126242,-71.246395,
+200,GBFB Finder,Chelsea Community Kitchen,101 Park Street,Chelsea,2150,2150,Sat: 9am-12am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,,617-800-2216,,42.389699,-71.037791
-201,CofBoston,United Emmanuel Holiness Church,65 Windsor St.,Roxbury,02119,02119,"Sat: 9am-12am, 3rd week of mo.",,,http://www.gbfb.org/need-food/index.php,617-445-6933,,42.334946,-71.083928
-202,GBFB Member Agency,St. Matthew's Church Food Pantry,33 Stanton St.,Dorchester Ctr,02124,02124,Sat: 9am-12pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,617-800-2216,,42.3897306,-71.037834,
+201,CofBoston,United Emmanuel Holiness Church,65 Windsor St.,Roxbury,2119,2119,"Sat: 9am-12am, 3rd week of mo.",,,http://www.gbfb.org/need-food/index.php,617-445-6933,,42.3350054,-71.0840231,
+202,GBFB Member Agency,St. Matthew's Church Food Pantry,33 Stanton St.,Dorchester Ctr,2124,2124,Sat: 9am-12pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,,617-436-3302,,42.459752,-70.999792
-203,GBFB Member Agency,Saint Luke's/San Lucas Food Pantry,201 Washington Ave.,Chelsea,02150,02150,Sat: 9am-12pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,617-436-3302,,42.2844087,-71.0799136,
+203,GBFB Member Agency,Saint Luke's/San Lucas Food Pantry,201 Washington Ave.,Chelsea,2150,2150,Sat: 9am-12pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,http://www.lukelucas.org/,617-884-4278,,42.399274,-71.398674
-204,GBFB Member Agency,Holy Redeemer Church Our Daily Bread Food Pantry,56 Havre St.,East Boston,02128,02128,"Sun, W: 3-4pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.lukelucas.org/,617-884-4278,,42.3993219,-71.0317135,
+204,GBFB Member Agency,Holy Redeemer Church Our Daily Bread Food Pantry,56 Havre St.,East Boston,2128,2128,"Sun, W: 3-4pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -3296,8 +3062,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""15:00""
-""end"" : ""16:00""",,,617-597-5926,,42.371164,-71.03999
-205,GBFB Finder,Anchor Baptist Church Pantry,29A Montvale Avenue,Woburn,01801,01801,"Sun, W: 6pm-7pm, Sat: 10:30am-11:30am","""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,,617-597-5926,,42.3711712,-71.0399177,
+205,GBFB Finder,Anchor Baptist Church Pantry,29A Montvale Avenue,Woburn,1801,1801,"Sun, W: 6pm-7pm, Sat: 10:30am-11:30am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -3314,16 +3080,16 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""18:00""
-""end"" : ""19:00""",,,781-932-0765,,42.47934,-71.398674
-206,GBFB Member Agency,Brockton Temple Seventh Day Adventist Food Pantry,235 Court St.,Brockton,02301,02301,"Sun: 1:30-3:30, last W. of mo. 12-1:30pm",,,,508-851-0477,,42.538264,-71.398674
-207,GBFB Member Agency,Saint Vincent de Paul/Saint Edith Stein's Food Pantry,71 East Main St.,Brockton,02301,02301,Sun: 11am-12,"""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,781-932-0765,,42.479253,-71.149704,
+206,GBFB Member Agency,Brockton Temple Seventh Day Adventist Food Pantry,235 Court St.,Brockton,2301,2301,"Sun: 1:30-3:30, last W. of mo. 12-1:30pm",,,,508-851-0477,,42.0857457,-71.0164712,
+207,GBFB Member Agency,Saint Vincent de Paul/Saint Edith Stein's Food Pantry,71 East Main St.,Brockton,2301,2301,Sun: 11am-12,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""11:00""
-""end"" : ""12:00""",,,508-586-6491,,42.098411,-71.01945
-208,,Islamic Multi Service Organization,724 Shawmut Ave.,Roxbury,02119,02119,"Sun: 2-3pm, Every 2nd Sun. of mo.",,,,617-331-0700,,42.332306,-71.08358
-209,GBFB Finder,The Table at Father Bill's & Mainspring,54 North Main Street,Brockton,02301,02301,"Sun-M, W, Thu, F, Sat: 12am-1:30pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,508-586-6491,,42.0986571,-71.0197169,
+208,,Islamic Multi Service Organization,724 Shawmut Ave.,Roxbury,2119,2119,"Sun: 2-3pm, Every 2nd Sun. of mo.",,,,617-331-0700,,42.3323062,-71.083579,
+209,GBFB Finder,The Table at Father Bill's & Mainspring,54 North Main Street,Brockton,2301,2301,"Sun-M, W, Thu, F, Sat: 12am-1:30pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Monday”]
 ""startsOn"" : ""06/03/2013""
@@ -3358,8 +3124,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""12:00""
-""end"" : ""13:30""",,,508-587-0877,,42.086773,-71.019674
-210,GBFB Finder,St. Patrick's Church-Cor Unum Meal Center,191 Salem Street,Lawrence,01843,01843,Sun-Sat: 6am-6:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""13:30""",,,508-587-0877,,42.0866333,-71.0195859,
+210,GBFB Finder,St. Patrick's Church-Cor Unum Meal Center,191 Salem Street,Lawrence,1843,1843,Sun-Sat: 6am-6:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
@@ -3370,8 +3136,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""06:00""
-""end"" : ""18:30""",,,978-688-8900,,42.697314,-71.16243
-211,GBFB Member Agency,Salvation Army Cambridge Food Pantry,402 Massachusetts Ave.,Cambridge,02139,02139,Sun-Sat: 8:30am-5:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""18:30""",,,978-688-8900,,42.6972191,-71.1627002,
+211,GBFB Member Agency,Salvation Army Cambridge Food Pantry,402 Massachusetts Ave.,Cambridge,2139,2139,Sun-Sat: 8:30am-5:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
@@ -3382,8 +3148,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""08:30""
-""end"" : ""17:30""",,,617-547-3400,,42.363198,-71.398674
-212,GBFB Finder,SMI/Lifebridge,56 Margin Street,Salem,01970,01970,Sun-Sat: 8:30am-7pm,"""repeats"" : ""Weekly"",
+""end"" : ""17:30""",,,617-547-3400,,42.3633155,-71.1002358,
+212,GBFB Finder,SMI/Lifebridge,56 Margin Street,Salem,1970,1970,Sun-Sat: 8:30am-7pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
@@ -3394,8 +3160,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""08:30""
-""end"" : ""19:00""",,,978-744-0500,,42.518456,-70.896652
-213,GBFB Finder,SVDP/St. Patrick's Food Pantry Watertown,25 Chestnut Street,Watertown,02472,02472,"T, Th: 10am-11:45am","""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,978-744-0500,,42.518457,-70.896651,
+213,GBFB Finder,SVDP/St. Patrick's Food Pantry Watertown,25 Chestnut Street,Watertown,2472,2472,"T, Th: 10am-11:45am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3406,14 +3172,14 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""10:00""
-""end"" : ""11:45""",,,617-926-7121,,42.367523,-71.398674
-214,GBFB Finder,Sacred Heart Church Food Pantry/Waltham,311 River Street,Waltham,02453,02453,Th: 4pm-5pm,"""repeats"" : ""Weekly"",
+""end"" : ""11:45""",,,617-926-7121,,42.367523,-71.189841,
+214,GBFB Finder,Sacred Heart Church Food Pantry/Waltham,311 River Street,Waltham,2453,2453,Th: 4pm-5pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""16:00""
-""end"" : ""17:00""",,,781-899-0469,,42.373279,-71.398674
-215,GBFB Member Agency,Saint Anthony Shrine Franciscan Food Center,100 Arch St.,Boston,02110,02110,"Thu, Sat: 10am-1pm","""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,,781-899-0469,,42.3733422,-71.2280535,
+215,GBFB Member Agency,Saint Anthony Shrine Franciscan Food Center,100 Arch St.,Boston,2110,2110,"Thu, Sat: 10am-1pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
@@ -3424,120 +3190,108 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""13:00""",,http://www.stanthonyshrine.org/foodcenter.asp,617-542-6440,info@stanthonyshrine.org,42.354928,-71.058446
-216,CofBoston,St. Botolph House,70 St. Botolph St.,South End,02116,02116,Thu: 1:00 - 2:00,"""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,http://www.stanthonyshrine.org/foodcenter.asp,617-542-6440,info@stanthonyshrine.org,42.3549113,-71.0584157,
+216,CofBoston,St. Botolph House,70 St. Botolph St.,South End,2116,2116,Thu: 1:00 - 2:00,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""13:00""
-""end"" : ""14:00""",,http://www.fairfoods.org/dollarbag.html,,,42.345567,-71.003838
-217,CofBoston,St Anthony Shrine/Franciscan Food Center,100 Arch St,Boston,02110,02110,"Thu: 11am-2pm, Sat: 10am-2pm","""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,http://www.fairfoods.org/dollarbag.html,,,42.3456321,-71.0797833,
+218,GBFB Member Agency,Sacred Heart Tree of Life Pantry,589 Boston St.,Lynn,1901,1901,Thu: 12-2,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""12:00""
-""end"" : ""14:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Saturday”]
-""startsOn"" : ""06/08/2013""
-""start"": ""10:00""
-""end"" : ""14:00""",,http://www.stanthonyshrine.org/foodcenter.asp,617-542-6440,,42.354928,-71.058446
-218,GBFB Member Agency,Sacred Heart Tree of Life Pantry,589 Boston St.,Lynn,01901,01901,Thu: 12-2,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,https://sites.google.com/site/sacredheart01905/Home/Tree-of-life-food-pantry,781-599-2616,,42.4639987,-70.9742903,
+219,GBFB Member Agency,East Bridgewater Food Pantry,105 Pleasant St.,East Bridgewater,2333,2333,Thu: 12-2pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""12:00""
-""end"" : ""14:00""",,https://sites.google.com/site/sacredheart01905/Home/Tree-of-life-food-pantry,781-599-2616,,42.464142,-70.480949
-219,GBFB Member Agency,East Bridgewater Food Pantry,105 Pleasant St.,East Bridgewater,02333,02333,Thu: 12-2pm,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,,508-378-2874,,42.0348406,-70.9759979,
+220,GBFB Member Agency,Haley House Food Pantry,23 Dartmouth St.,Boston,2116,2116,Thu: 12am-1pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""12:00""
-""end"" : ""14:00""",,,508-378-2874,,42.03467,-70.97618
-220,GBFB Member Agency,Haley House Food Pantry,23 Dartmouth St.,Boston,02116,02116,Thu: 12am-1pm,"""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Thursday”]
-""startsOn"" : ""06/06/2013""
-""start"": ""12:00""
-""end"" : ""13:00""",,http://www.haleyhouse.org/food_pantry,617-236-8132,,42.343727,-71.073929
-221,GBFB Member Agency,American Red Cross New Bedford Pantry,593 Kempton St.,New Bedford,02740,02740,Thu: 1-6pm,"""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,http://www.haleyhouse.org/food_pantry,617-236-8132,,42.3437471,-71.0740464,
+221,GBFB Member Agency,American Red Cross New Bedford Pantry,593 Kempton St.,New Bedford,2740,2740,Thu: 1-6pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""13:00""
-""end"" : ""18:00""",,,508-996-8286,,41.636551,-70.941566
-222,GBFB Member Agency,Tobin Brigham Family Support Program,40 Smith St.,Roxbury,02120,02120,"Thu: 1pm-3pm, 2nd & 4th week of mo.",,,,617-427-2543,,42.281156,-71.252496
-223,CofBoston,Amory St. Building,125 Amory St.,Jamaica Plain,02130,02130,Thu: 3 – 4 PM,"""repeats"" : ""Weekly"",
+""end"" : ""18:00""",,,508-996-8286,,41.636551,-70.94157,
+222,GBFB Member Agency,Tobin Brigham Family Support Program,40 Smith St.,Roxbury,2120,2120,"Thu: 1pm-3pm, 2nd & 4th week of mo.",,,,617-427-2543,,42.333023,-71.098334,
+223,CofBoston,Amory St. Building,125 Amory St.,Jamaica Plain,2130,2130,Thu: 3 – 4 PM,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""15:00""
-""end"" : ""16:00""",,http://www.fairfoods.org/dollarbag.html,,,42.319641,-71.068596
-224,CofBoston,Whittier St Apartments ,180 Ruggles St ,Roxbury,02120,02120,Thu: 3:30 - 4:30,"""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,http://www.fairfoods.org/dollarbag.html,,,42.3132744,-71.1053454,
+224,CofBoston,Whittier St Apartments ,180 Ruggles St ,Roxbury,2120,2120,Thu: 3:30 - 4:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""15:30""
-""end"" : ""16:30""",,http://www.fairfoods.org/dollarbag.html,,,42.334409,-71.398674
-225,GBFB Finder,Friends of Francis Food Pantry,441 Fellsway West,Medford,02155,02155,Thu: 3pm-4:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""16:30""",,http://www.fairfoods.org/dollarbag.html,,,42.3340047,-71.0872818,
+225,GBFB Finder,Friends of Francis Food Pantry,441 Fellsway West,Medford,2155,2155,Thu: 3pm-4:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""15:00""
-""end"" : ""16:30""",,,781-396-3400,,42.426816,-71.102396
-226,GBFB Finder,Open Table Concord Food Pantry,105 Everett St.,Concord,01742,01742,Thu: 4pm-6:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""16:30""",,,781-396-3400,,42.4267581,-71.102403,
+226,GBFB Finder,Open Table Concord Food Pantry,105 Everett St.,Concord,1742,1742,Thu: 4pm-6:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""16:00""
-""end"" : ""18:30""",,,978-369-2275,,42.454887,-71.348755
-227,CofBoston,Cleveland Middle School,11 Charles St,Dorchester,02122,02122,Thu: 5:30 - 6:30,"""repeats"" : ""Weekly"",
+""end"" : ""18:30""",,,978-369-2275,,42.4550807,-71.3490113,
+227,CofBoston,Cleveland Middle School,11 Charles St,Dorchester,2122,2122,Thu: 5:30 - 6:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""17:30""
-""end"" : ""18:30""",,http://www.fairfoods.org/dollarbag.html,617-635-8631,,42.356322,-71.069454
-228,GBFB Finder,Harvard Square Churches Meal Program,"c/o Christ Church, Zero Garden Street",Cambridge,02138,02138,Thu: 5:30pm-7pm,"""repeats"" : ""Weekly"",
+""end"" : ""18:30""",,http://www.fairfoods.org/dollarbag.html,617-635-8631,,42.3006133,-71.061281,
+228,GBFB Finder,Harvard Square Churches Meal Program,"c/o Christ Church, Zero Garden Street",Cambridge,2138,2138,Thu: 5:30pm-7pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""17:30""
-""end"" : ""19:00""",,,978-454-9119,,#N/A,#N/A
-229,GBFB Member Agency,Iglesia Christiana Torrente De Cedron Food Pantry,56 Franklin St.,Lynn,01902,01902,Thu: 5-7pm,"""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,978-454-9119,,42.3754722,-71.1204525,
+229,GBFB Member Agency,Iglesia Christiana Torrente De Cedron Food Pantry,56 Franklin St.,Lynn,1902,1902,Thu: 5-7pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""17:00""
-""end"" : ""19:00""",,,781-593-9931,,42.465527,-70.955086
-230,GBFB Finder,Project Uplift of Union Baptist Church,874 Main Street,Cambridge,02139,02139,Thu: 5pm-6pm,"""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,781-593-9931,,42.465525,-70.955085,
+230,GBFB Finder,Project Uplift of Union Baptist Church,874 Main Street,Cambridge,2139,2139,Thu: 5pm-6pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""17:00""
-""end"" : ""18:00""",,,617-864-6885,,41.970255,-71.074362
-231,GBFB Finder,Unitarian Universalist Church Pantry,147 High Street,Medford,02155,02155,"Thu: 6pm-7:30pm, 1st&3rd Week of month",,,,781-396-4549,,42.420408,-71.115376
-232,GBFB Member Agency,St. Anthony of Padua Food Pantry,1359 Achushnet Ave.,New Bedford,02746,02746,Thu: 8:30am-1:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""18:00""",,,617-864-6885,,42.363174,-71.098998,
+231,GBFB Finder,Unitarian Universalist Church Pantry,147 High Street,Medford,2155,2155,"Thu: 6pm-7:30pm, 1st&3rd Week of month",,,,781-396-4549,,42.4203459,-71.1153331,
+232,GBFB Member Agency,St. Anthony of Padua Food Pantry,1359 Achushnet Ave.,New Bedford,2746,2746,Thu: 8:30am-1:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""08:30""
-""end"" : ""13:30""",,http://saintanthonynewbedford.com/,508-993-1691,paulabriden@yahoo.com,42.304566,-71.059175
-233,CofBoston,Grant A.M.E./Self-Help,1906 Washington St,Roxbury,02118,02118,"Thu: 9:30am-4pm, 1st, 3rd week of mo.",,,http://www.gbfb.org/need-food/index.php,617-427-0670,,42.334362,-71.07914
-234,GBFB Member Agency,Bethel Tabernacle Pentecostal Church,12 Bicknell St.,Dorchester,02121,02121,Thu: 9-12 ,"""repeats"" : ""Weekly"",
+""end"" : ""13:30""",,http://saintanthonynewbedford.com/,508-993-1691,paulabriden@yahoo.com,41.660144,-70.928067,
+233,CofBoston,Grant A.M.E./Self-Help,1906 Washington St,Roxbury,2118,2118,"Thu: 9:30am-4pm, 1st, 3rd week of mo.",,,http://www.gbfb.org/need-food/index.php,617-427-0670,,42.334363,-71.07914,
+234,GBFB Member Agency,Bethel Tabernacle Pentecostal Church,12 Bicknell St.,Dorchester,2121,2121,Thu: 9-12 ,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,http://betheltab.org/,617-282-6000,,42.252367,-70.965033
-235,GBFB Member Agency,Bourne Friends Food Pantry,20 Commerce Park,Pocasset,02532,02532,"Thu: 9-12, 4th Thu of mo. 5-8pm, 3rs Sat. of mo. 9-12",,,http://www.bournecouncilonaging.org/foodpantry.html,508-759-3351,,42.448776,-71.006729
-236,CofBoston,USCC/ Warwick House St. Katherine Drexel,175 Ruggles St.,Roxbury,02120,02120,Thu: 9am-11:45am,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://betheltab.org/,617-282-6000,,42.296799,-71.082811,
+235,GBFB Member Agency,Bourne Friends Food Pantry,20 Commerce Park,Pocasset,2532,2532,"Thu: 9-12, 4th Thu of mo. 5-8pm, 3rs Sat. of mo. 9-12",,,http://www.bournecouncilonaging.org/foodpantry.html,508-759-3351,,41.699317,-70.586661,
+236,CofBoston,USCC/ Warwick House St. Katherine Drexel,175 Ruggles St.,Roxbury,2120,2120,Thu: 9am-11:45am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""09:00""
-""end"" : ""11:45""",,http://www.gbfb.org/need-food/index.php,,,42.334472,-71.398674
-237,GBFB Member Agency,First Baptist Church Hyannis Pantry,486 Main St.,Hyannisport,02601,02601,"Tue, F: 10-11:45am","""repeats"" : ""Weekly"",
+""end"" : ""11:45""",,http://www.gbfb.org/need-food/index.php,,,42.3343955,-71.0877648,
+237,GBFB Member Agency,First Baptist Church Hyannis Pantry,486 Main St.,Hyannisport,2601,2601,"Tue, F: 10-11:45am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3548,8 +3302,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""11:45""",,,508-775-1846,,41.651848,-71.164584
-238,GBFB Member Agency,Saint Vincent de Paul/St. Francis Xavier,21 Cross St.,Hyannis,02601,02601,"Tue, F: 10-12","""repeats"" : ""Weekly"",
+""end"" : ""11:45""",,,508-775-1846,,41.651846,-70.287231,
+238,GBFB Member Agency,Saint Vincent de Paul/St. Francis Xavier,21 Cross St.,Hyannis,2601,2601,"Tue, F: 10-12","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3560,8 +3314,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,http://stfrancishyannis.homestead.com/StVdeP.html,508-775-3073,,41.648346,-70.286171
-239,GBFB Member Agency,Salvation Army Brockton Food Pantry,216 Centre St.,Brockton,02303,02303,"Tue, F: 1-3pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://stfrancishyannis.homestead.com/StVdeP.html,508-775-3073,,41.648345,-70.286171,
+239,GBFB Member Agency,Salvation Army Brockton Food Pantry,216 Centre St.,Brockton,2303,2303,"Tue, F: 1-3pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3572,8 +3326,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""13:00""
-""end"" : ""15:00""",,,508-583-1896,,42.084008,-71.011544
-240,GBFB Member Agency,Roslindale Food Pantry,25 Cummins Hwy.,Roslindale,02131,02131,"Tue, Sat: 3-5pm","""repeats"" : ""Weekly"",
+""end"" : ""15:00""",,,508-583-1896,,42.083979,-71.0118701,
+240,GBFB Member Agency,Roslindale Food Pantry,25 Cummins Hwy.,Roslindale,2131,2131,"Tue, Sat: 3-5pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3584,8 +3338,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""15:00""
-""end"" : ""17:00""",,http://roscon.org/,617-323-8302,,42.285648,-71.127525
-241,GBFB Finder,Hudson Community Food Pantry,28 Houghton Street,Hudson,01749,01749,"Tue, Sat: 9am-10:30am, Thu: 7pm-8:30pm","""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,http://roscon.org/,617-323-8302,,42.285649,-71.1275239,
+241,GBFB Finder,Hudson Community Food Pantry,28 Houghton Street,Hudson,1749,1749,"Tue, Sat: 9am-10:30am, Thu: 7pm-8:30pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3602,8 +3356,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:00""
-""end"" : ""10:30""",,,978-562-2222,,42.38958,-71.565989
-242,GBFB Member Agency,The Family Pantry Damien's Place,3065 Cranberry Hwy,East Wareham,02538,02538,"Tue, Thu, Sat: 10am -12pm","""repeats"" : ""Weekly"",
+""end"" : ""10:30""",,,978-562-2222,,42.3896958,-71.5659773,
+242,GBFB Member Agency,The Family Pantry Damien's Place,3065 Cranberry Hwy,East Wareham,2538,2538,"Tue, Thu, Sat: 10am -12pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3620,8 +3374,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,,508-993-1010,,41.756535,-70.651419
-243,GBFB Member Agency,Greater Fall River Food Pantry,228 North Main St.,Fall River,02720,02720,"Tue, Thu: 10-12","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,508-993-1010,,41.7566955,-70.6521368,
+243,GBFB Member Agency,Greater Fall River Food Pantry,228 North Main St.,Fall River,2720,2720,"Tue, Thu: 10-12","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3632,8 +3386,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,,401-624-6309,,41.705193,-71.155067
-244,GBFB Member Agency,Family Pantry Corporation,133 Queen Anne Rd.,Harwich,02645,02645,"Tue, Thu: 10-12, 1:30-3:30, Sat: 10-12","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,401-624-6309,,41.70509,-71.155261,
+244,GBFB Member Agency,Family Pantry Corporation,133 Queen Anne Rd.,Harwich,2645,2645,"Tue, Thu: 10-12, 1:30-3:30, Sat: 10-12","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3662,8 +3416,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,,508-432-6519,,41.697151,-70.102989
-245,GBFB Member Agency,Saint Vincent de Paul/Saint Patrick's Food Pantry,80 Mt. Auburn St.,Watertown,02472,02472,"Tue, Thu: 10am-11:45am","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,508-432-6519,,41.697151,-70.102992,
+245,GBFB Member Agency,Saint Vincent de Paul/Saint Patrick's Food Pantry,80 Mt. Auburn St.,Watertown,2472,2472,"Tue, Thu: 10am-11:45am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3674,8 +3428,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""10:00""
-""end"" : ""11:45""",,http://www.ci.watertown.ma.us/index.aspx?NID=322,617-972-6429,,42.367054,-71.181236
-246,GBFB Member Agency,Saint Paul's Episcopal Church Brookline Emergency Food Pantry,15 Saint Paul St.,Brookline,02446,02446,"Tue, Thu: 10am-2pm, Sat: 2-4pm","""repeats"" : ""Weekly"",
+""end"" : ""11:45""",,http://www.ci.watertown.ma.us/index.aspx?NID=322,617-972-6429,,42.367053,-71.181239,
+246,GBFB Member Agency,Saint Paul's Episcopal Church Brookline Emergency Food Pantry,15 Saint Paul St.,Brookline,2446,2446,"Tue, Thu: 10am-2pm, Sat: 2-4pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3692,8 +3446,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""14:00""
-""end"" : ""16:00""",,http://www.stpaulsbrookline.org/ministries/mission-a-outreach/brookline-emergency-food-pantry.html,617-566-4953,,41.970986,-71.298908
-247,GBFB Finder,PEC/Brookline Emergency Food Pantry,"St. Paul's Church, 15 St. Paul Street",Brookline,02446,02446,"Tue, Thu: 10am-2pm, Sat: 2pm-4pm","""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,http://www.stpaulsbrookline.org/ministries/mission-a-outreach/brookline-emergency-food-pantry.html,617-566-4953,,42.3378321,-71.118421,
+247,GBFB Finder,PEC/Brookline Emergency Food Pantry,"St. Paul's Church, 15 St. Paul Street",Brookline,2446,2446,"Tue, Thu: 10am-2pm, Sat: 2pm-4pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3710,8 +3464,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""14:00""
-""end"" : ""16:00""",,,617-566-4953,,42.337718,-71.118427
-248,GBFB Finder,Salvation Army/Salem Meals,93 North St.,Salem,01970,01970,"Tue, Thu: 12am-12:30am","""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,,617-566-4953,,42.3371292,-71.1184981,
+248,GBFB Finder,Salvation Army/Salem Meals,93 North St.,Salem,1970,1970,"Tue, Thu: 12am-12:30am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3722,8 +3476,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""12:00""
-""end"" : ""12:30""",,,978-744-5181,,42.525726,-70.88355
-249,GBFB Finder,Sudbury Community Food Pantry,160 Concord Road,Sudbury,01776,01776,"Tue, Thu: 12am-2:30pm","""repeats"" : ""Weekly"",
+""end"" : ""12:30""",,,978-744-5181,,42.525726,-70.900571,
+249,GBFB Finder,Sudbury Community Food Pantry,160 Concord Road,Sudbury,1776,1776,"Tue, Thu: 12am-2:30pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3734,8 +3488,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""12:00""
-""end"" : ""14:30""",,,978-443-7725,,42.373325,-71.4151
-250,GBFB Member Agency,Nantucket Interfaith Council Nantucket Emergency Food Pantry,10 Washington St.,Nantucket,02554,02554,"Tue, Thu: 4-6pm","""repeats"" : ""Weekly"",
+""end"" : ""14:30""",,,978-443-7725,,42.373325,-71.415099,
+250,GBFB Member Agency,Nantucket Interfaith Council Nantucket Emergency Food Pantry,10 Washington St.,Nantucket,2554,2554,"Tue, Thu: 4-6pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3746,8 +3500,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""16:00""
-""end"" : ""18:00""",,http://nantucketinterfaithcouncil.org/nantucket-food-pantry/about-the-food-pantry/,"508-228-7438, 508-221-8702",,41.282879,-70.097198
-251,Unaffiliated,Webster-Dudley Food Share United Church of Christ,4 Church St.,Webster,01570,01570,"Tue, Thu: 8:30am-11:30am","""repeats"" : ""Weekly"",
+""end"" : ""18:00""",,http://nantucketinterfaithcouncil.org/nantucket-food-pantry/about-the-food-pantry/,"508-228-7438, 508-221-8702",,41.282881,-70.097199,
+251,Unaffiliated,Webster-Dudley Food Share United Church of Christ,4 Church St.,Webster,1570,1570,"Tue, Thu: 8:30am-11:30am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3758,8 +3512,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""08:30""
-""end"" : ""11:30""",,,508-943-9171,,42.049442,-71.881361
-252,GBFB Member Agency,Salvation Army Gentle Arms,290 Bedford St.,Fall River,02720,02720,"Tue, Thu: 9:30-11:30","""repeats"" : ""Weekly"",
+""end"" : ""11:30""",,,508-943-9171,,42.0495724,-71.8813343,
+252,GBFB Member Agency,Salvation Army Gentle Arms,290 Bedford St.,Fall River,2720,2720,"Tue, Thu: 9:30-11:30","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3770,20 +3524,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""09:30""
-""end"" : ""11:30""",,,508-646-2760,,41.701088,-71.149605
-253,GBFB Member Agency,Salvation Army Fall River Pantry,290 Bedford St.,Fall River,02722,02722,"Tue, Thu: 9:30-11:30","""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Tuesday”]
-""startsOn"" : ""06/04/2013""
-""start"": ""09:30""
-""end"" : ""11:30""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Thursday”]
-""startsOn"" : ""06/06/2013""
-""start"": ""09:30""
-""end"" : ""11:30""",,,508-679-7900,,41.701088,-71.601961
-254,GBFB Finder,Woburn Council of Social Concern,2 Merrimac Street,Woburn,01801,01801,"Tue, Thu: 9:45am-3pm, W: 6pm-7pm","""repeats"" : ""Weekly"",
+""end"" : ""11:30""",,,508-646-2760,,41.701392,-71.1499709,
+254,GBFB Finder,Woburn Council of Social Concern,2 Merrimac Street,Woburn,1801,1801,"Tue, Thu: 9:45am-3pm, W: 6pm-7pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3800,22 +3542,10 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""09:45""
-""end"" : ""15:00""",,,781-935-6495,,42.509476,-71.1586
-255,GBFB Member Agency,Weymouth Council for the Hungry,1189 Commercial St.,Weymouth,02189,02189,"Tue, Thu: 9am-11:30am, Last Thu. Of mo. 4-6pm",,,http://www.weymouthfoodpantry.org/,781-331-7682,info@WeymouthFoodPantry.org,42.21857,-70.927223
-256,GBFB Member Agency,Foxboro Discretionary Food Pantry,35 Neponset Ave.,Foxboro,02035,02035,"Tue, Thu: 9am-11am, 2nd & 4th W: 5-6:30pm",,,,508-543-5235,,42.069685,-71.24822
-257,GBFB Member Agency,United Way of Tri-County Pearl Street Cupboard,10 Pearl St.,Framingham,01702,01702,"Tue, Thu: 9am-12pm","""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Tuesday”]
-""startsOn"" : ""06/04/2013""
-""start"": ""09:00""
-""end"" : ""12:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Thursday”]
-""startsOn"" : ""06/06/2013""
-""start"": ""09:00""
-""end"" : ""12:00""",,http://www.uwotc.org/food/framingham,508-879-2063,,42.278401,-71.420129
-258,GBFB Member Agency,Wakefield Interfaith Food Pantry,467 Main St.,Wakefield,01880,01880,"Tue, Thu: 9am-1pm, Thu: 6-8pm","""repeats"" : ""Weekly"",
+""end"" : ""15:00""",,,781-935-6495,,42.5094769,-71.158597,
+255,GBFB Member Agency,Weymouth Council for the Hungry,1189 Commercial St.,Weymouth,2189,2189,"Tue, Thu: 9am-11:30am, Last Thu. Of mo. 4-6pm",,,http://www.weymouthfoodpantry.org/,781-331-7682,info@WeymouthFoodPantry.org,42.21857,-70.927584,
+256,GBFB Member Agency,Foxboro Discretionary Food Pantry,35 Neponset Ave.,Foxboro,2035,2035,"Tue, Thu: 9am-11am, 2nd & 4th W: 5-6:30pm",,,,508-543-5235,,42.0704537,-71.2486858,
+258,GBFB Member Agency,Wakefield Interfaith Food Pantry,467 Main St.,Wakefield,1880,1880,"Tue, Thu: 9am-1pm, Thu: 6-8pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3832,8 +3562,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""18:00""
-""end"" : ""20:00""",,http://www.wifoodpantry.org/,781-245-2510,info@wifoodpantry.org,42.501476,-71.069423
-259,GBFB Member Agency,"Hebron Food Pantry, Inc.","11 Sanford St., PO Box 92",Attleboro,02703,02703,"Tue, Thu: 9am-5pm","""repeats"" : ""Weekly"",
+""end"" : ""20:00""",,http://www.wifoodpantry.org/,781-245-2510,info@wifoodpantry.org,42.501315,-71.0697333,
+259,GBFB Member Agency,"Hebron Food Pantry, Inc.","11 Sanford St., PO Box 92",Attleboro,2703,2703,"Tue, Thu: 9am-5pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3844,8 +3574,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""09:00""
-""end"" : ""18:00""",,http://www.hebronfoodpantry.org/,508-223-4257,dirhvoc@hotmail.com,41.945928,-71.284063
-260,CofBoston,South Boston Community Health Center,409 West Broadway,South Boston,02127,02127,"Tue, W: 10am-2pm","""repeats"" : ""Weekly"",
+""end"" : ""18:00""",,http://www.hebronfoodpantry.org/,508-223-4257,dirhvoc@hotmail.com,41.9456659,-71.2852394,
+260,CofBoston,South Boston Community Health Center,409 West Broadway,South Boston,2127,2127,"Tue, W: 10am-2pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3856,33 +3586,33 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""10:00""
-""end"" : ""14:00""",,http://www.gbfb.org/need-food/index.php,617-269-7500,,42.349086,-71.155186
-261,GBFB Finder,Church of the Advent/Tuesday Supper,30 Brimmer Street,Boston,02108,02108,Tue:  4:30pm-7:15pm,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,http://www.gbfb.org/need-food/index.php,617-269-7500,,42.3369659,-71.0480085,
+261,GBFB Finder,Church of the Advent/Tuesday Supper,30 Brimmer Street,Boston,2108,2108,Tue:  4:30pm-7:15pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""16:30""
-""end"" : ""19:15""",,,617-523-2377,,42.35775,-71.071587
-262,CofBoston,West Broadway Task Force,115 Orton Marotta Way,South Boston,02127,02127,Tue: 1:00 - 2:00,"""repeats"" : ""Weekly"",
+""end"" : ""19:15""",,,617-523-2377,,42.35775,-71.0715869,
+262,CofBoston,West Broadway Task Force,115 Orton Marotta Way,South Boston,2127,2127,Tue: 1:00 - 2:00,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""13:00""
-""end"" : ""14:00""",,http://www.fairfoods.org/dollarbag.html,617-464-1910,,42.337448,-71.054141
-263,GBFB Member Agency,Union United Methodist Church Food Pantry,485 Columbus Ave.,Roxbury,02118,02118,Tue: 10am-12:45am,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,http://www.fairfoods.org/dollarbag.html,617-464-1910,,42.3376361,-71.0543259,
+263,GBFB Member Agency,Union United Methodist Church Food Pantry,485 Columbus Ave.,Roxbury,2118,2118,Tue: 10am-12:45am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""10:00""
-""end"" : ""12:45""",,http://www.gbfb.org/need-food/index.php,617-287-1020,,41.595501,-70.480949
-264,GBFB Finder,SVDP/St. Raphael's Food Pantry,38 Boston Avenue,Medford,02155,02155,Tue: 10am-12am,"""repeats"" : ""Weekly"",
+""end"" : ""12:45""",,http://www.gbfb.org/need-food/index.php,617-287-1020,,42.3430901,-71.0789006,
+264,GBFB Finder,SVDP/St. Raphael's Food Pantry,38 Boston Avenue,Medford,2155,2155,Tue: 10am-12am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,,781-488-5444,,42.42038,-71.13547
-265,GBFB Member Agency,Scituate Church Pantry,344 Country Way,Scituate ,02066,02066,"Tue: 11am-12:45pm, last Tue of mo. 6:30-8pm",,,,781-545-5827,,42.198327,-70.758525
-266,Unaffiliated,St. Vincent de Paul/St. Joan of Arc,63 Canal Road,Orleans,02653,02653,"Tue, Thu: 12-6pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,781-488-5444,,42.4200372,-71.1349547,
+265,GBFB Member Agency,Scituate Church Pantry,344 Country Way,Scituate ,2066,2066,"Tue: 11am-12:45pm, last Tue of mo. 6:30-8pm",,,,781-545-5827,,42.1982808,-70.7585428,
+266,Unaffiliated,St. Vincent de Paul/St. Joan of Arc,63 Canal Road,Orleans,2653,2653,"Tue, Thu: 12-6pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3893,32 +3623,32 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""12:00""
-""end"" : ""18:00""",,,508-255-1094,,41.79372,-69.987129
-267,CofBoston,Haitian American Cultural Council,One Jackson Place ,Cambridge,02140,02140,Tue: 12:00-5:00 ,"""repeats"" : ""Weekly"",
+""end"" : ""18:00""",,,508-255-1094,,41.793719,-69.987131,
+267,CofBoston,Haitian American Cultural Council,One Jackson Place ,Cambridge,2140,2140,Tue: 12:00-5:00 ,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""12:00""
-""end"" : ""17:00""",,,617-628-5485,,42.356705,-71.200462
-268,GBFB Finder,Mt. Moriah Soup Kitchen,24 Pleasant Street,Brockton,02401,02401,Tue: 12am-1pm,"""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,,617-628-5485,,42.3936249,-71.1351534,
+268,GBFB Finder,Mt. Moriah Soup Kitchen,24 Pleasant Street,Brockton,2401,2401,Tue: 12am-1pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""12:00""
-""end"" : ""13:00""",,,508-588-0833,,42.32428,-71.058716
-269,CofBoston,Blackstone Park,50 W. Brookline St.,Boston,02118,02118,Tue: 2:30 - 3:30,"""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,,508-588-0833,,42.085504,-71.0204778,
+269,CofBoston,Blackstone Park,50 W. Brookline St.,Boston,2118,2118,Tue: 2:30 - 3:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""14:30""
-""end"" : ""15:30""",,http://www.fairfoods.org/dollarbag.html,,,42.340087,-71.073125
-270,GBFB Member Agency,The Paulist Center Wednesday Night Supper Club,5 Park St.,Boston,02108,02108,Tue: 2-3:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""15:30""",,http://www.fairfoods.org/dollarbag.html,,,42.340084,-71.0729228,
+270,GBFB Member Agency,The Paulist Center Wednesday Night Supper Club,5 Park St.,Boston,2108,2108,Tue: 2-3:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""14:00""
-""end"" : ""15:30""",,http://www.paulistboston.com/release_details.asp?id=40,617-742-4460,fiveparkst@aol.com,41.898762,-71.003838
-271,GBFB Finder,Cambridge Senior Center Food Pantry,806 Massachusetts Avenue,Cambridge,02139,02139,"Tue: 2pm-4pm, Thu: 12am-2pm","""repeats"" : ""Weekly"",
+""end"" : ""15:30""",,http://www.paulistboston.com/release_details.asp?id=40,617-742-4460,fiveparkst@aol.com,42.3572789,-71.0627097,
+271,GBFB Finder,Cambridge Senior Center Food Pantry,806 Massachusetts Avenue,Cambridge,2139,2139,"Tue: 2pm-4pm, Thu: 12am-2pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3929,14 +3659,14 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""12:00""
-""end"" : ""14:00""",,,617-349-6216,,42.366826,-71.106161
-272,GBFB Member Agency,First Baptist Church Pantry of Hope,561 Main St.,Melrose,02176,02176,Tue: 3:30-5:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,,617-349-6216,,42.3668272,-71.1062771,
+272,GBFB Member Agency,First Baptist Church Pantry of Hope,561 Main St.,Melrose,2176,2176,Tue: 3:30-5:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""15:30""
-""end"" : ""17:30""",,http://www.firstbaptistmelrose.org/ministries/outreach-ministries,781-665-4470,,42.456391,-71.064446
-273,GBFB Member Agency,All Saint's Food Pantry,120 Bellevue Ave.,Haverhill,01832,01832,"Tue: 3-5pm, Sat: 10-12","""repeats"" : ""Weekly"",
+""end"" : ""17:30""",,http://www.firstbaptistmelrose.org/ministries/outreach-ministries,781-665-4470,,42.4566727,-71.063614,
+273,GBFB Member Agency,All Saint's Food Pantry,120 Bellevue Ave.,Haverhill,1832,1832,"Tue: 3-5pm, Sat: 10-12","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3947,14 +3677,14 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,http://www.essexcountyhungerrelief.org/All-Saints-Food-Pantry,978-372-7721,,42.777642,-71.092443
-274,GBFB Finder,AACC/Food 'n Friends V,52 North Main Street,Mansfield,02048,02048,Tue: 4:30pm-5:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.essexcountyhungerrelief.org/All-Saints-Food-Pantry,978-372-7721,,42.7785789,-71.0932519,
+274,GBFB Finder,AACC/Food 'n Friends V,52 North Main Street,Mansfield,2048,2048,Tue: 4:30pm-5:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""16:30""
-""end"" : ""17:30""",,,508-222-2933,,42.025909,-71.217323
-275,GBFB Member Agency,Saint James Episcopal Helping Hands Food Pantry,1991 Massachusetts Ave.,Cambridge,02140,02140,"Tue: 4-6pm, Thu: 11am-1pm, Sat: 10am-12pm","""repeats"" : ""Weekly"",
+""end"" : ""17:30""",,,508-222-2933,,42.025908,-71.217322,
+275,GBFB Member Agency,Saint James Episcopal Helping Hands Food Pantry,1991 Massachusetts Ave.,Cambridge,2140,2140,"Tue: 4-6pm, Thu: 11am-1pm, Sat: 10am-12pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3971,8 +3701,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,http://www.stjames-cambridge.org/helping-hand-food-pantry/,617-547-4070,,42.39072,-71.120918
-276,GBFB Finder,St. James Episcopal/Helping Hand Pantry,362 Rindge Avenue,Cambridge,02140,02140,"Tue: 4pm-6pm, Thu: 11am-1pm, Sat: 10am-12am","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.stjames-cambridge.org/helping-hand-food-pantry/,617-547-4070,,42.39072,-71.120918,
+276,GBFB Finder,St. James Episcopal/Helping Hand Pantry,362 Rindge Avenue,Cambridge,2140,2140,"Tue: 4pm-6pm, Thu: 11am-1pm, Sat: 10am-12am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -3989,8 +3719,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,,617-876-4381,,42.393843,-71.13849
-277,GBFB Finder,Centre Street Food Pantry,11 Homer Street,Newton,02459,02459,"Tue: 4pm-7pm, Sat: 11am-2pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,617-876-4381,,42.3938819,-71.1385919,
+277,GBFB Finder,Centre Street Food Pantry,11 Homer Street,Newton,2459,2459,"Tue: 4pm-7pm, Sat: 11am-2pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -4001,20 +3731,20 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""11:00""
-""end"" : ""14:00""",,,617-340-9554,,42.334454,-71.193875
-278,CofBoston,Blue Hill Boys & Girls Club,15 Talbot Ave.,Dorchester,02124,02124,Tue: 5:00 - 6:00,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,,617-340-9554,,42.3344198,-71.1941005,
+278,CofBoston,Blue Hill Boys & Girls Club,15 Talbot Ave.,Dorchester,2124,2124,Tue: 5:00 - 6:00,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""17:00""
-""end"" : ""18:00""",,http://www.fairfoods.org/dollarbag.html,617-474-1050,,42.404821,-71.118427
-279,GBFB Finder,Tuesday Meal Program,3 Church Street,Cambridge,02138,02138,Tue: 5:30pm-7pm,"""repeats"" : ""Weekly"",
+""end"" : ""18:00""",,http://www.fairfoods.org/dollarbag.html,617-474-1050,,42.2945695,-71.0868554,
+279,GBFB Finder,Tuesday Meal Program,3 Church Street,Cambridge,2138,2138,Tue: 5:30pm-7pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""17:30""
-""end"" : ""19:00""",,,617-876-7772,,42.374455,-71.149239
-280,GBFB Member Agency,Adventist Community Services Food Pantry,11 Gerry St.,Stoneham,02180,02180,"Tue: 5-6:30, Thu: 7-8:30","""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,617-876-7772,,42.3744474,-71.1195551,
+280,GBFB Member Agency,Adventist Community Services Food Pantry,11 Gerry St.,Stoneham,2180,2180,"Tue: 5-6:30, Thu: 7-8:30","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -4025,14 +3755,14 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""19:00""
-""end"" : ""20:30""",,,781-438-1374,,42.350775,-71.066861
-281,GBFB Member Agency,Faith Lutheran Church Faith Kitchen,311 Broadway,Cambridge,02139,02139,Tue: 6:30-8pm,"""repeats"" : ""Weekly"",
+""end"" : ""20:30""",,,781-438-1374,,42.475222,-71.099828,
+281,GBFB Member Agency,Faith Lutheran Church Faith Kitchen,311 Broadway,Cambridge,2139,2139,Tue: 6:30-8pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""18:30""
-""end"" : ""20:00""",,http://www.faithkitchen.org/,617-354-0414,,42.36935,-71.149239
-282,GBFB Finder,Loaves & Fishes Pantry,234 Barnum Road,Devens,01433,01433,"Tue: 6pm-8pm, W, Thu: 9:45am-12:30am, Sat: 8:45am-11am","""repeats"" : ""Weekly"",
+""end"" : ""20:00""",,http://www.faithkitchen.org/,617-354-0414,,42.369352,-71.100291,
+282,GBFB Finder,Loaves & Fishes Pantry,234 Barnum Road,Devens,1433,1433,"Tue: 6pm-8pm, W, Thu: 9:45am-12:30am, Sat: 8:45am-11am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -4055,21 +3785,21 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""08:45""
-""end"" : ""11:00""",,,978-772-4627,,42.538264,-71.601961
-283,CofBoston,The Harvest on Vine,49 Vine St,Charlestown,02129,02129,"Tue: 7pm-8:30pm, Sat: 10am-11am 2nd Sat. of mo.",,,http://www.gbfb.org/need-food/index.php,617-990-7314,,42.457908,-71.068118
-284,GBFB Member Agency,First United Methodist Church of Stoughton/Ilse Marks Stoughton Food Pantry,121 Seaver St.,Stoughton,02072,02072,Tue: 8:30-10:30am,"""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,,978-772-4627,,42.5500853,-71.5778455,
+283,CofBoston,The Harvest on Vine,49 Vine St,Charlestown,2129,2129,"Tue: 7pm-8:30pm, Sat: 10am-11am 2nd Sat. of mo.",,,http://www.gbfb.org/need-food/index.php,617-990-7314,,42.377255,-71.056862,
+284,GBFB Member Agency,First United Methodist Church of Stoughton/Ilse Marks Stoughton Food Pantry,121 Seaver St.,Stoughton,2072,2072,Tue: 8:30-10:30am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""08:30""
-""end"" : ""10:30""",,,781-341-1994,,42.125374,-71.097031
-285,GBFB Member Agency,Saint Mary's Food Pantry,14 Cushing Ave.,Dorchester,02125,02125,Tue: 9:30-11:30am,"""repeats"" : ""Weekly"",
+""end"" : ""10:30""",,,781-341-1994,,42.125376,-71.097032,
+285,GBFB Member Agency,Saint Mary's Food Pantry,14 Cushing Ave.,Dorchester,2125,2125,Tue: 9:30-11:30am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""09:30""
-""end"" : ""11:30""",,http://stmarysdorchester.org/food-pantry/,617-282-3181,,42.381172,-71.174393
-286,GBFB Member Agency,Marshfiend Food Pantry,PO Box 1097,Marshfield,02050,02050,"Tue: 9:30-12, W: 6:30pm-8:30pm, F: 9:30am-12","""repeats"" : ""Weekly"",
+""end"" : ""11:30""",,http://stmarysdorchester.org/food-pantry/,617-282-3181,,42.3161062,-71.0644056,
+286,GBFB Member Agency,Marshfiend Food Pantry,PO Box 1097,Marshfield,2050,2050,"Tue: 9:30-12, W: 6:30pm-8:30pm, F: 9:30am-12","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -4086,8 +3816,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:30""
-""end"" : ""12:00""",,http://marshfieldfoodpantry.org/,781-837-0359,,0,-71.200462
-287,GBFB Member Agency,Braintree Community Food Pantry,594 Washington St.,Braintree,02184,02184,"Tue: 9-11am, W: 6:30-8pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://marshfieldfoodpantry.org/,781-837-0359,,42.0917453,-70.7055871,
+287,GBFB Member Agency,Braintree Community Food Pantry,594 Washington St.,Braintree,2184,2184,"Tue: 9-11am, W: 6:30-8pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -4098,20 +3828,20 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""18:30""
-""end"" : ""20:00""",,http://www.braintreefoodpantry.org/,781-277-1609,PantryDirector@comcast.net,42.212479,-71.004158
-288,Unaffiliated,Cavalry Baptist Church Pantry/Kitchen,25 Lincoln Rd,Hyannis,02601,02601,Tue: 9-12,"""repeats"" : ""Weekly"",
+""end"" : ""20:00""",,http://www.braintreefoodpantry.org/,781-277-1609,PantryDirector@comcast.net,42.2125308,-71.0043972,
+288,Unaffiliated,Cavalry Baptist Church Pantry/Kitchen,25 Lincoln Rd,Hyannis,2601,2601,Tue: 9-12,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,,508-775-7018,,41.651951,-70.315582
-289,GBFB Member Agency,Neponset Health Center Food Pantry,398 Neponset Ave.,Dorchester,02122,02122,Tue: 9am-11am,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,,508-775-7018,,41.6519509,-70.315583,
+289,GBFB Member Agency,Neponset Health Center Food Pantry,398 Neponset Ave.,Dorchester,2122,2122,Tue: 9am-11am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
 ""start"": ""09:00""
-""end"" : ""11:00""",,,617-282-3200,,42.286451,-71.043979
-290,GBFB Member Agency,East-End House,105 Spring St.,Cambridge,02141,02141,"Tue: 9am-2pm, Fri: 9am-12am","""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,,617-282-3200,,42.2864462,-71.0439458,
+290,GBFB Member Agency,East-End House,105 Spring St.,Cambridge,2141,2141,"Tue: 9am-2pm, Fri: 9am-12am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -4122,8 +3852,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,http://www.eastendhouse.org/,617-876-4444,,42.369518,-71.083031
-291,GBFB Member Agency,Rosie's Place Food Pantry,889 Harrison Ave.,Boston,02118,02118,Tue-F: 8:30am-11:30am,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.eastendhouse.org/,617-876-4444,,42.369518,-71.083028,
+291,GBFB Member Agency,Rosie's Place Food Pantry,889 Harrison Ave.,Boston,2118,2118,Tue-F: 8:30am-11:30am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -4146,8 +3876,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""08:30""
-""end"" : ""11:30""",,http://www.rosiesplace.org/,617-442-9322,,41.970255,-71.058556
-292,GBFB Member Agency,Franklin Food Pantry,43 W Central St.,Franklin,02038,02038,Tue-F: 9am-1pm,"""repeats"" : ""Weekly"",
+""end"" : ""11:30""",,http://www.rosiesplace.org/,617-442-9322,,42.33395,-71.076726,
+292,GBFB Member Agency,Franklin Food Pantry,43 W Central St.,Franklin,2038,2038,Tue-F: 9am-1pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -4170,8 +3900,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""09:00""
-""end"" : ""13:00""",,http://www.franklinfoodpantry.org/,508-528-3115,,42.082884,-71.39918
-293,CofBoston,American Red Cross/Boston Pantry,1033 Massachusetts Ave,Boston,02118,02118,"W, Sat: 9am-12am","""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,http://www.franklinfoodpantry.org/,508-528-3115,,42.0831828,-71.3985077,
+293,CofBoston,American Red Cross/Boston Pantry,1033 Massachusetts Ave,Boston,2118,2118,"W, Sat: 9am-12am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -4182,20 +3912,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,http://www.gbfb.org/need-food/index.php,617-236-2043,,42.327126,-71.067635
-294,GBFB Member Agency,American Red Cross Boston Pantry,1033 Massachusetts Aven.,Boston,02118,02118,"W, Sat: 9am-12am","""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Wednesday”]
-""startsOn"" : ""06/05/2013""
-""start"": ""09:00""
-""end"" : ""12:00""
-""repeats"" : ""Weekly"",
-""repeatsEvery"" : ""7"",
-""repeatsOn"" :  [ ""Saturday”]
-""startsOn"" : ""06/08/2013""
-""start"": ""09:00""
-""end"" : ""12:00""",,,617-236-2043,,42.327126,-71.067635
-295,GBFB Finder,Natick Service Council Food Pantry,2 Webster Street,Natick,01760,01760,"W, Th: 5pm-8pm. Sat: 10am-1pm","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.gbfb.org/need-food/index.php,617-236-2043,,42.327127,-71.067638,
+295,GBFB Finder,Natick Service Council Food Pantry,2 Webster Street,Natick,1760,1760,"W, Th: 5pm-8pm. Sat: 10am-1pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -4212,8 +3930,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""13:00""",,,508-665-1791,,42.279701,-71.34694
-296,GBFB Member Agency,Catholic Social Services New Bedford,238 Bonney St.,New Bedford,02744,02744,"W, Thu: 10-12","""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,,508-665-1791,,42.2796869,-71.3470757,
+296,GBFB Member Agency,Catholic Social Services New Bedford,238 Bonney St.,New Bedford,2744,2744,"W, Thu: 10-12","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -4224,8 +3942,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,http://www.cssdioc.org/contact/new_bedford.html,508-997-7337,,41.619476,-71.601961
-297,GBFB Member Agency,The Shepherd's Pantry,PO Box 760,Fairhaven,02719,02719,"Tue, W, Sat: 9-11am","""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.cssdioc.org/contact/new_bedford.html,508-997-7337,,41.619478,-70.927451,
+297,GBFB Member Agency,The Shepherd's Pantry,PO Box 760,Fairhaven,2719,2719,"Tue, W, Sat: 9-11am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -4242,43 +3960,43 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:00""
-""end"" : ""11:00""",,http://www.shepherdspantry.org/,508-763-9289,,41.724548,-71.200462
-298,GBFB Member Agency,"Immigrant's Assistance Center, Inc.",58 Crapo St.,New Bedford,02740,02740,W. 10-2,"""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,http://www.shepherdspantry.org/,508-763-9289,,41.6376043,-70.9036487,
+298,GBFB Member Agency,"Immigrant's Assistance Center, Inc.",58 Crapo St.,New Bedford,2740,2740,W. 10-2,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""12:00""
-""end"" : ""14:00""",,http://www.immigrantsassistancecenter.com/contact.aspx,508-996-8113,,41.621432,-70.927278
-299,GBFB Finder,Newton Food Pantry,1608 Beacon Street,Waban,02468,02468,W: 1:30pm-3:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,http://www.immigrantsassistancecenter.com/contact.aspx,508-996-8113,,41.6213478,-70.9273137,
+299,GBFB Finder,Newton Food Pantry,1608 Beacon Street,Waban,2468,2468,W: 1:30pm-3:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""13:30""
-""end"" : ""15:30""",,,617-527-2394,,42.327094,-71.229893
-300,Unaffiliated,Mashpee Good Neighbor Food Pantry/First Pentecostal Curch of Jesus Christ,258 Main St. Rte. 130,Mashpee,02649,02649,"W: 10-12, 2nd W of mo.: 5-7",,,,508-477-7710,,41.648136,-70.469124
-301,GBFB Member Agency,USCC Christ the King,3 Job's Fishing Rd.,Mashpee,02649,02649,"W: 10-12, last W. of mo. 5-7pm",,,http://www.christthekingparish.com/,508-477-7700,,41.617732,-70.49489
-302,GBFB Member Agency,"Sandwich Food Pantry, Inc.",331 Cotuit Rd.,Sandwich,02563,02563,"W: 10-12, last W. of mo. 6-7:30pm",,,http://sandwichfoodpantry.org/,508-888-3816,,41.709072,-70.488258
-303,GBFB Member Agency,ABC - People's Baptist Church Food Pantry,134 Camden St.,Roxbury,02118,02118,"W: 10am-12am, 3rd week of mo.",,,,617-427-0424,,42.722552,-71.176167
-304,GBFB Member Agency,Malden Haitian Church of the Nazarene Food Pantry,12 Thatcher St.,Malden,02148,02148,W: 10am-1pm,"""repeats"" : ""Weekly"",
+""end"" : ""15:30""",,,617-527-2394,,42.3270652,-71.2299958,
+300,Unaffiliated,Mashpee Good Neighbor Food Pantry/First Pentecostal Curch of Jesus Christ,258 Main St. Rte. 130,Mashpee,2649,2649,"W: 10-12, 2nd W of mo.: 5-7",,,,508-477-7710,,41.647872,-70.4819674,
+301,GBFB Member Agency,USCC Christ the King,3 Job's Fishing Rd.,Mashpee,2649,2649,"W: 10-12, last W. of mo. 5-7pm",,,http://www.christthekingparish.com/,508-477-7700,,41.6174676,-70.4948319,
+302,GBFB Member Agency,"Sandwich Food Pantry, Inc.",331 Cotuit Rd.,Sandwich,2563,2563,"W: 10-12, last W. of mo. 6-7:30pm",,,http://sandwichfoodpantry.org/,508-888-3816,,41.7089457,-70.4889958,
+303,GBFB Member Agency,ABC - People's Baptist Church Food Pantry,134 Camden St.,Roxbury,2118,2118,"W: 10am-12am, 3rd week of mo.",,,,617-427-0424,,42.3382342,-71.0817505,
+304,GBFB Member Agency,Malden Haitian Church of the Nazarene Food Pantry,12 Thatcher St.,Malden,2148,2148,W: 10am-1pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""10:00""
-""end"" : ""13:00""",,,,,42.348277,-71.114858
-305,GBFB Finder,Acton Community Supper and Food Pantry,"235 Summer Road, Building 1, Lower Level",Boxborough,01719,01719,W: 10am-7pm,"""repeats"" : ""Weekly"",
+""end"" : ""13:00""",,,,,42.4203166,-71.0782565,
+305,GBFB Finder,Acton Community Supper and Food Pantry,"235 Summer Road, Building 1, Lower Level",Boxborough,1719,1719,W: 10am-7pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""10:00""
-""end"" : ""19:00""",,,978-635-9295,,42.472557,-71.493393
-306,GBFB Member Agency,Joyful Ladle,26 White St.,Haverhill,01830,01830,W: 11:30-1:30,"""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,978-635-9295,,42.4834197,-71.5167139,
+306,GBFB Member Agency,Joyful Ladle,26 White St.,Haverhill,1830,1830,W: 11:30-1:30,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""11:30""
-""end"" : ""13:30""",,http://www.trinityhaverhill.org/parishlife/thejoyfulladle.html,978-272-4244,,42.778394,-71.081626
-307,GBFB Finder,SVDP/Food Supplement Program of Lincoln,142 Lincold Road,Lincoln,01773,01773,"W: 11:30am-1pm, last week of month",,,,781-899-2611,,42.169783,-71.359795
-308,CofBoston,St. Paul A.M.E. Church Food Pantry,85 Bishop Allen Drive ,Cambridge,02139,02139,W: 12:00-2:00 p.m.; Sat. 10:00 a.m.-12:00 p.m.,"""repeats"" : ""Weekly"",
+""end"" : ""13:30""",,http://www.trinityhaverhill.org/parishlife/thejoyfulladle.html,978-272-4244,,42.7789524,-71.0815214,
+307,GBFB Finder,SVDP/Food Supplement Program of Lincoln,142 Lincold Road,Lincoln,1773,1773,"W: 11:30am-1pm, last week of month",,,,781-899-2611,,42.4144027,-71.3249976,
+308,CofBoston,St. Paul A.M.E. Church Food Pantry,85 Bishop Allen Drive ,Cambridge,2139,2139,W: 12:00-2:00 p.m., Sat. 10:00 a.m.-12:00 p.m.,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -4289,20 +4007,20 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""10:00""
-""end"" : ""12:00""",,http://www.st-paul-ame.org/,617-661-1110,admin101@st-paul-ame.org,41.970255,-70.88355
-309,GBFB Finder,Philadelphie Seventh Day Adventist Church Food Pantry,575 Main Street,Malden,02148,02148,W: 12am-2pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.st-paul-ame.org/,617-661-1110,admin101@st-paul-ame.org,42.3655427,-71.1017909
+309,GBFB Finder,Philadelphie Seventh Day Adventist Church Food Pantry,575 Main Street,Malden,2148,2148,W: 12am-2pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""12:00""
-""end"" : ""14:00""",,,617-895-7382,,42.429333,-71.003838
-310,GBFB Member Agency,Antioch Missionary Baptist Church Pantry,1082 Blue Hill Ave.,Dorchester,02124,02124,W: 1-5pm,"""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,,617-895-7382,,42.429333,-71.066914,
+310,GBFB Member Agency,Antioch Missionary Baptist Church Pantry,1082 Blue Hill Ave.,Dorchester,2124,2124,W: 1-5pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""13:00""
-""end"" : ""17:00""",,,617-288-6559,,42.310402,-71.092125
-311,GBFB Member Agency,Medway Village Food Pantry,170 Village St.,Medway,02050,02050,"W: 3:45-4:45, Tue-Thu: 10:30am-3pm","""repeats"" : ""Weekly"",
+""end"" : ""17:00""",,,617-288-6559,,42.2873525,-71.0903275,
+311,GBFB Member Agency,Medway Village Food Pantry,170 Village St.,Medway,2050,2050,"W: 3:45-4:45, Tue-Thu: 10:30am-3pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Tuesday”]
 ""startsOn"" : ""06/04/2013""
@@ -4319,8 +4037,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""10:30""
-""end"" : ""15:00""",,http://medwayvillagechurch.com/ministries/food-pantry/,508-533-6401,,42.14072,-71.398674
-312,GBFB Member Agency,Dedham Food Pantry,600 Washington St.,Dedham,02026,02026,"W: 3-4:30pm, Sat: 8-11am","""repeats"" : ""Weekly"",
+""end"" : ""15:00""",,http://medwayvillagechurch.com/ministries/food-pantry/,508-533-6401,,42.1407219,-71.398677,
+312,GBFB Member Agency,Dedham Food Pantry,600 Washington St.,Dedham,2026,2026,"W: 3-4:30pm, Sat: 8-11am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -4331,9 +4049,9 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""08:00""
-""end"" : ""11:00""",,http://dedhamfoodpantry.org/,781-320-9442,lindsayb@uwinc.com,42.241328,-71.003838
-313,GBFB Finder,Burlington Food Pantry,10 St. Marks Road,Burlington ,01803,01803,"W: 3pm-6pm, 2nd&4th Week of Month",,,,781-270-6625,,42.502899,-71.206772
-314,GBFB Finder,Bread of Life Meals Program,511 Main Street,Malden,02148,02148,"W: 4-6pm, F: 2-4pm","""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,http://dedhamfoodpantry.org/,781-320-9442,lindsayb@uwinc.com,42.2416067,-71.1785863,
+313,GBFB Finder,Burlington Food Pantry,10 St. Marks Road,Burlington ,1803,1803,"W: 3pm-6pm, 2nd&4th Week of Month",,,,781-270-6625,,42.5028999,-71.206771,
+314,GBFB Finder,Bread of Life Meals Program,511 Main Street,Malden,2148,2148,"W: 4-6pm, F: 2-4pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -4344,8 +4062,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""14:00""
-""end"" : ""16:00""",,,781-397-0404,,42.075252,-71.003838
-315,GBFB Member Agency,Bread of Life Food Pantry,54 Eastern Ave.,Malden,02148,02148,"W: 4-6pm, F: 2-4pm","""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,,781-397-0404,,42.4281895,-71.0670829,
+315,GBFB Member Agency,Bread of Life Food Pantry,54 Eastern Ave.,Malden,2148,2148,"W: 4-6pm, F: 2-4pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -4356,8 +4074,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Friday”]
 ""startsOn"" : ""06/07/2013""
 ""start"": ""14:00""
-""end"" : ""16:00""",,http://www.thebreadoflifeonline.org/,781-397-0404,,42.423958,-71.065918
-316,CofBoston,The Elizabeth Peabody House,275-277 Broadway,Somerville,02145,02145,"W: 5:30-7:30, Thu: 7-7","""repeats"" : ""Weekly"",
+""end"" : ""16:00""",,http://www.thebreadoflifeonline.org/,781-397-0404,,42.4282657,-71.0670182,
+316,CofBoston,The Elizabeth Peabody House,275-277 Broadway,Somerville,2145,2145,"W: 5:30-7:30, Thu: 7-7","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -4368,8 +4086,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Thursday”]
 ""startsOn"" : ""06/06/2013""
 ""start"": ""07:00""
-""end"" : ""19:00""",,,617-623-5510,,41.769302,-70.05603
-317,GBFB Member Agency,Margaret Fuller House Food Pantry,71 Cherry St.,Cambridge,02139,02139,"W: 5:30-7:30, Thu: 9am-1pm, F: 9am-12am, Sat: 9am-12am","""repeats"" : ""Weekly"",
+""end"" : ""19:00""",,,617-623-5510,,42.3917219,-71.0913717,
+317,GBFB Member Agency,Margaret Fuller House Food Pantry,71 Cherry St.,Cambridge,2139,2139,"W: 5:30-7:30, Thu: 9am-1pm, F: 9am-12am, Sat: 9am-12am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -4392,26 +4110,26 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,http://www.margaretfullerhouse.org/,617-547-4680,,42.364697,-71.09729
-318,GBFB Member Agency,First Congregational Church Pantry,230 Beach St.,Revere,02151,02151,W: 7-8:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""12:00""",,http://www.margaretfullerhouse.org/,617-547-4680,,42.3646127,-71.0974375,
+318,GBFB Member Agency,First Congregational Church Pantry,230 Beach St.,Revere,2151,2151,W: 7-8:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""19:00""
-""end"" : ""20:30""",,http://www.firstcongrevere.org/foodpantry,781-284-4158,ngranitsas@firstcongrevere.org,42.40926,-71.008568
-319,GBFB Finder,Celebration International Church Food Pantry,6 Loker Street,Wayland,01778,01778,W: 7pm-8:30pm,"""repeats"" : ""Weekly"",
+""end"" : ""20:30""",,http://www.firstcongrevere.org/foodpantry,781-284-4158,ngranitsas@firstcongrevere.org,42.40926,-71.00857,
+319,GBFB Finder,Celebration International Church Food Pantry,6 Loker Street,Wayland,1778,1778,W: 7pm-8:30pm,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""19:00""
-""end"" : ""20:30""",,,508-653-6864,,42.32426,-71.349389
-320,GBFB Member Agency,Dorchester House Food Pantry,1353 Dorchester Ave.,Dorchester,02122,02122,W: 8-10am,"""repeats"" : ""Weekly"",
+""end"" : ""20:30""",,,508-653-6864,,42.3237412,-71.3495561,
+320,GBFB Member Agency,Dorchester House Food Pantry,1353 Dorchester Ave.,Dorchester,2122,2122,W: 8-10am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""08:00""
-""end"" : ""10:00""",,http://www.dorchesterhouse.org/public-health/parenting-programs/food-pantry/,617-822-8219,Beatrice.Burton@codman.org,42.304566,-71.059175
-321,GBFB Member Agency,New Bethel Baptist Church Pantry ,11 Beech St.,Framingham,01703,01703,"W: 8-9pm, Sun: 12:30-2pm","""repeats"" : ""Weekly"",
+""end"" : ""10:00""",,http://www.dorchesterhouse.org/public-health/parenting-programs/food-pantry/,617-822-8219,Beatrice.Burton@codman.org,42.3044998,-71.0592598,
+321,GBFB Member Agency,New Bethel Baptist Church Pantry ,11 Beech St.,Framingham,1703,1703,"W: 8-9pm, Sun: 12:30-2pm","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -4422,8 +4140,8 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Sunday”]
 ""startsOn"" : ""06/09/2013""
 ""start"": ""12:30""
-""end"" : ""14:00""",,,508-872-1222,,42.310402,-71.420998
-322,GBFB Member Agency,Acord Food Pantry,69 Willow St.,South Hamilton,01982,01982,"W: 9:30-11:30, Thu: 6:30-8pm, Sat: 9-11:30am","""repeats"" : ""Weekly"",
+""end"" : ""14:00""",,,508-872-1222,,42.282643,-71.421,
+322,GBFB Member Agency,Acord Food Pantry,69 Willow St.,South Hamilton,1982,1982,"W: 9:30-11:30, Thu: 6:30-8pm, Sat: 9-11:30am","""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
@@ -4440,22 +4158,22 @@ OID,Source,Site Name,Address,City,Zip,ZipTxt,Hours of Operation,HoursJSON,Google
 ""repeatsOn"" :  [ ""Saturday”]
 ""startsOn"" : ""06/08/2013""
 ""start"": ""09:00""
-""end"" : ""11:30""",,,978-468-7424,,42.611008,-70.876434
-323,GBFB Finder,MHSA/Bristol Lodge Pantry,545 Moody Street,Waltham,02451,02451,W: 9am-11am,"""repeats"" : ""Weekly"",
+""end"" : ""11:30""",,,978-468-7424,,42.6109694,-70.8766144,
+323,GBFB Finder,MHSA/Bristol Lodge Pantry,545 Moody Street,Waltham,2451,2451,W: 9am-11am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""09:00""
-""end"" : ""11:00""",,,781-899-2099,,42.366876,-71.237839
-324,GBFB Member Agency,"Food for the World, Inc. Free Methodist Church Pantry",447 Essex St. Suite 104,Lawrence,01841,01841,W: 9am-11am,"""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,,781-899-2099,,42.3668668,-71.2378248,
+324,GBFB Member Agency,"Food for the World, Inc. Free Methodist Church Pantry",447 Essex St. Suite 104,Lawrence,1841,1841,W: 9am-11am,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""09:00""
-""end"" : ""11:00""",,http://www.foodfortheworld.org/pantry.html,978-683-9949,,42.706455,-71.164584
-325,GBFB Member Agency,Rockland Emergency Food Pantry,12 Church St.,Rockland,02370,02370,W: 9am-12,"""repeats"" : ""Weekly"",
+""end"" : ""11:00""",,http://www.foodfortheworld.org/pantry.html,978-683-9949,,42.7064011,-71.1645479,
+325,GBFB Member Agency,Rockland Emergency Food Pantry,12 Church St.,Rockland,2370,2370,W: 9am-12,"""repeats"" : ""Weekly"",
 ""repeatsEvery"" : ""7"",
 ""repeatsOn"" :  [ ""Wednesday”]
 ""startsOn"" : ""06/05/2013""
 ""start"": ""09:00""
-""end"" : ""12:00""",,,781-878-1078,,42.130178,-70.914737
+""end"" : ""12:00""",,,781-878-1078,,42.1301492,-70.9147948,
