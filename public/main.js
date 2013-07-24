@@ -41,12 +41,12 @@ $(document).ready(function() {
       'click #detailClose': 'close'
     },
     render: function() {
-      this.$el.animate({right: '1em', opacity: 1}, 100)
+      this.$el.show().animate({right: '1em', opacity: 1}, 100)
         .html(this.template({pantry: this.model}));
       return this;
     },
     close: function() {
-      this.$el.animate({right: '-23em', opacity: 0}, 50);
+      this.$el.animate({right: '-23em', opacity: 0}, 50).hide();
     }
   });
 
@@ -211,4 +211,18 @@ $(document).ready(function() {
       selected: '../img/bread_selected.png'
     }
   };
+
+  $('#showList').on('click', function(event) {
+    event.preventDefault();
+    $('#infoPanel').hide();
+    $('#pantryList').show();
+    $('#mapContainer').hide();
+  });
+
+  $('#showMap').on('click', function(event) {
+    event.preventDefault();
+    $('#infoPanel').hide();
+    $('#pantryList').hide();
+    $('#mapContainer').show();
+  });
 });
