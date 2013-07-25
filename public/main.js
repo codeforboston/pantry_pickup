@@ -94,7 +94,7 @@ $(document).ready(function() {
 
 
   // Helper functions
-  findRadius = function(bounds) {
+  var findRadius = function(bounds) {
     var meters_per_degree = 40075000 / 360;
     var ne = bounds.getNorthEast();
     var sw = bounds.getSouthWest();
@@ -107,14 +107,14 @@ $(document).ready(function() {
     );
   }
 
-  searchAgain = function(GMap) {
+  var searchAgain = function(GMap) {
     var center = GMap.getCenter();
     PantryPickup.view.collection.search(
       {'latitude':center.lat(), 'longitude':center.lng()}
     );
   }
 
-  function pantryDetailsById(selectedPantryId) {
+  var pantryDetailsById = function(selectedPantryId) {
     var pantries = PantryPickup.view.collection.models;
     for (var i = 0; i < pantries.length; i++)
       if (pantries[i].attributes._id == selectedPantryId) {
@@ -122,8 +122,7 @@ $(document).ready(function() {
       }
   }
 
-  function pantryDetails(pantry) {
-    // load details pane
+  var pantryDetails = function(pantry) {// load details pane
     PantryPickup.selectedPantryId = pantry.attributes._id;
     // center pantry on map
     var lat = pantry.get("loc").coordinates[1];
@@ -148,8 +147,7 @@ $(document).ready(function() {
     PantryPickup.selectedPantry = pantry;
   }
 
-  //Adding a Pantry
-  function addPantryToMap (pantry) {
+  var addPantryToMap = function(pantry) {//Adding a Pantry
     var state = "MA" //assuming all data is in Mass.
     var fullAddress = pantry.get("address") + ", " + pantry.get("city") + " " + state + " " + pantry.get("zipcode");
     var lat = pantry.get("loc").coordinates[1];
