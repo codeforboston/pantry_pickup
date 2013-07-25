@@ -69,16 +69,19 @@ $(document).ready(function() {
     },
     render: function() {
       var $el = this.$el;
+      var foundInfoPanel = false;
       this.collection.each(function(pantry) {
         $el.append(
           new PantryPickup.PantryListingView({model: pantry}).render().el
         );
         addPantryToMap(pantry);
 
-        if (
+        if (// display infoPanel for last selected pantry
+          ! foundInfoPanel &&
           PantryPickup.selectedPantryId &&
           pantry.attributes._id == PantryPickup.selectedPantryId
         ) {
+          foundInfoPanel = true;
           pantryDetailsById(PantryPickup.selectedPantryId);
           delete PantryPickup.selectedPantryId;
         }
