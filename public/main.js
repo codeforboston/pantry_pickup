@@ -12,14 +12,9 @@ $(document).ready(function() {
     },
     parse: function(response) {
       // if collection contains center of locations, trigger a re-center event
-      if (response.loc) {
-        this.trigger('recenter', response.loc);
-      }
-      if (response.pantries) {
-        return response.pantries;
-      } else {
-        return response;
-      }
+      if (response.loc) this.trigger('recenter', response.loc);
+      if (response.pantries) return response.pantries;
+      else return response;
     }
   });
 
@@ -77,9 +72,7 @@ $(document).ready(function() {
   });
 
   PantryPickup.PantriesView = Backbone.View.extend({
-    events: {
-      'submit form.search': 'search'
-    },
+    events: {'submit #searchForm': 'search'},
     initialize: function() {
       this.listingsView = new PantryPickup
         .PantryListingsView({collection: this.collection, el: '#pantryList'});
@@ -88,9 +81,7 @@ $(document).ready(function() {
       });
       this.collection.on('reset', this.resetMap);
     },
-    render: function() {
-      this.listingsView.render();
-    },
+    render: function() {this.listingsView.render();},
     resetMap: function() {
       delete PantryPickup.selectedPantry;
       if (PantryPickup.detailView) {
@@ -108,7 +99,7 @@ $(document).ready(function() {
   });
 
   PantryPickup.view = new PantryPickup.PantriesView(
-    {collection: new PantryPickup.PantryCollection(), el: '#content'}
+    {collection: new PantryPickup.PantryCollection(), el: 'body'}
   );
 
   PantryPickup.defaults = {
@@ -135,10 +126,9 @@ $(document).ready(function() {
     );
   }
 
-  searchAgain = function(e) {
-    var center = e.getCenter();
-    PantryPickup.search(
-      'Pantries in this area of the map',
+  searchAgain = function(GMap) {
+    var center = GMap.getCenter();
+    PantryPickup.view.collection.search(
       {'latitude':center.lat(), 'longitude':center.lng()}
     );
   }
@@ -155,23 +145,19 @@ $(document).ready(function() {
     zoom_changed: searchAgain
   });
 
-  PantryPickup.search = function(message, coords) {
-    $('#searchIndicatorBar').text(message);
-    PantryPickup.view.collection.search(coords);
-  }
-
-
-  //Geolocation
   GMaps.geolocate({
     success: function(position) {
-      var coords = {latitude: position.coords.latitude, longitude: position.coords.longitude};
-      PantryPickup.search('Viewing based on your current location.', coords);
+      PantryPickup.coords = {'latitude': position.coords.latitude, 'longitude': position.coords.longitude};
     },
     error: function(error) {
-      PantryPickup.search(error.message, PantryPickup.defaults.coords);
+      PantryPickup.coords = PantryPickup.defaults.coords;
     },
     not_supported: function() {
-      PantryPickup.search('Your browser does not support geolocation.', PantryPickup.defaults.coords);
+      PantryPickup.coords = PantryPickup.defaults.coords;
+    },
+    always: function() {
+      PantryPickup.view.collection.search(PantryPickup.coords);
+      delete PantryPickup.coords;
     }
   });
 
