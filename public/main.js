@@ -86,6 +86,7 @@ $(document).ready(function() {
           delete PantryPickup.selectedPantryId;
         }
       });
+      $el.scrollTop(0);
       return this;
     },
     events: {'submit #searchForm': 'search'},
