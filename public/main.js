@@ -3,6 +3,7 @@ window.PantryPickup = {};
 
 $(document).ready(function() {
 
+  // Backbone Collections
   PantryPickup.PantryCollection = Backbone.Collection.extend({
     url: '/search',
     search: function(coords) {
@@ -19,6 +20,8 @@ $(document).ready(function() {
     }
   });
 
+
+  // Backbone Views
   PantryPickup.PantryListingView = Backbone.View.extend({
     className: 'pantryListItem',
     id: function() {return this.model.attributes._id;},
@@ -89,21 +92,8 @@ $(document).ready(function() {
     }
   });
 
-  PantryPickup.view = new PantryPickup.PantriesView(
-    {collection: new PantryPickup.PantryCollection(), el: '#pantryList'}
-  );
 
-  PantryPickup.defaults = {
-    coords: {
-      latitude: 42.3583,
-      longitude: -71.0603
-    },
-    icons: {
-      unselected: '../img/bread_unselected.png',
-      selected: '../img/bread_selected.png'
-    }
-  };
-
+  // Helper functions
   findRadius = function(bounds) {
     var meters_per_degree = 40075000 / 360;
     var ne = bounds.getNorthEast();
@@ -123,34 +113,6 @@ $(document).ready(function() {
       {'latitude':center.lat(), 'longitude':center.lng()}
     );
   }
-
-  PantryPickup.map = new GMaps({
-    div: '#mapView',
-    mapTypeControl: false,
-    panControl: false,
-    streetViewControl: false,
-    zoomControlOptions: {'style':'SMALL'},
-    lat: PantryPickup.defaults.coords.latitude,
-    lng: PantryPickup.defaults.coords.longitude,
-    dragend: searchAgain,
-    zoom_changed: searchAgain
-  });
-
-  GMaps.geolocate({
-    success: function(position) {
-      PantryPickup.coords = {'latitude': position.coords.latitude, 'longitude': position.coords.longitude};
-    },
-    error: function(error) {
-      PantryPickup.coords = PantryPickup.defaults.coords;
-    },
-    not_supported: function() {
-      PantryPickup.coords = PantryPickup.defaults.coords;
-    },
-    always: function() {
-      PantryPickup.view.collection.search(PantryPickup.coords);
-      delete PantryPickup.coords;
-    }
-  });
 
   function pantryDetailsById(selectedPantryId) {
     var pantries = PantryPickup.view.collection.models;
@@ -202,4 +164,49 @@ $(document).ready(function() {
       click: function() {pantryDetails(pantry);}
     });
   }
+
+
+  // OnLoad
+  PantryPickup.map = new GMaps({
+    div: '#mapView',
+    mapTypeControl: false,
+    panControl: false,
+    streetViewControl: false,
+    zoomControlOptions: {'style':'SMALL'},
+    lat: PantryPickup.defaults.coords.latitude,
+    lng: PantryPickup.defaults.coords.longitude,
+    dragend: searchAgain,
+    zoom_changed: searchAgain
+  });
+
+  GMaps.geolocate({
+    success: function(position) {
+      PantryPickup.coords = {'latitude': position.coords.latitude, 'longitude': position.coords.longitude};
+    },
+    error: function(error) {
+      PantryPickup.coords = PantryPickup.defaults.coords;
+    },
+    not_supported: function() {
+      PantryPickup.coords = PantryPickup.defaults.coords;
+    },
+    always: function() {
+      PantryPickup.view.collection.search(PantryPickup.coords);
+      delete PantryPickup.coords;
+    }
+  });
+
+  PantryPickup.view = new PantryPickup.PantriesView(
+    {collection: new PantryPickup.PantryCollection(), el: '#pantryList'}
+  );
+
+  PantryPickup.defaults = {
+    coords: {
+      latitude: 42.3583,
+      longitude: -71.0603
+    },
+    icons: {
+      unselected: '../img/bread_unselected.png',
+      selected: '../img/bread_selected.png'
+    }
+  };
 });
