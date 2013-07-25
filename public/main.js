@@ -46,10 +46,22 @@ $(document).ready(function() {
     }
   });
 
-  PantryPickup.PantryListingsView = Backbone.View.extend({
+  PantryPickup.PantriesView = Backbone.View.extend({
     initialize: function() {
       this.collection
         .on('sync', function() { this.$el.empty(); this.render(); }, this);
+      this.collection.on('recenter', function(center) {
+          PantryPickup.map.setCenter(center.latitude, center.longitude);
+        });
+      this.collection.on('reset', this.resetMap);
+    },
+    resetMap: function() {
+      delete PantryPickup.selectedPantry;
+      if (PantryPickup.detailView) {
+        PantryPickup.detailView.$el.empty();
+        PantryPickup.detailView.close();
+      }
+      PantryPickup.map.removeMarkers();
     },
     render: function() {
       var $el = this.$el;
@@ -68,38 +80,16 @@ $(document).ready(function() {
         }
       });
       return this;
-    }
-  });
-
-  PantryPickup.PantriesView = Backbone.View.extend({
+    },
     events: {'submit #searchForm': 'search'},
-    initialize: function() {
-      this.listingsView = new PantryPickup
-        .PantryListingsView({collection: this.collection, el: '#pantryList'});
-      this.collection.on('recenter', function(center) {
-        PantryPickup.map.setCenter(center.latitude, center.longitude);
-      });
-      this.collection.on('reset', this.resetMap);
-    },
-    render: function() {this.listingsView.render();},
-    resetMap: function() {
-      delete PantryPickup.selectedPantry;
-      if (PantryPickup.detailView) {
-        PantryPickup.detailView.$el.empty();
-        PantryPickup.detailView.close();
-      }
-      PantryPickup.map.removeMarkers();
-    },
     search: function(e) {
       e.preventDefault();
-      var $form = $(e.target);
-      var term = $form.find('[name=term]').val();
-      this.collection.search({term: term});
+      searchAgain({term: $('#searchInput').val()});
     }
   });
 
   PantryPickup.view = new PantryPickup.PantriesView(
-    {collection: new PantryPickup.PantryCollection(), el: 'body'}
+    {collection: new PantryPickup.PantryCollection(), el: '#pantryList'}
   );
 
   PantryPickup.defaults = {
