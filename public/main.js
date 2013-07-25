@@ -92,7 +92,7 @@ $(document).ready(function() {
     events: {'submit #searchForm': 'search'},
     search: function(e) {
       e.preventDefault();
-      searchAgain({term: $('#searchInput').val()});
+      searchByMap({term: $('#searchInput').val()});
     }
   });
 
@@ -111,7 +111,7 @@ $(document).ready(function() {
     );
   }
 
-  var searchAgain = function(GMap) {
+  var searchByMap = function(GMap) {
     var center = GMap.getCenter();
     PantryPickup.view.collection.search(
       {'latitude':center.lat(), 'longitude':center.lng()}
@@ -137,7 +137,7 @@ $(document).ready(function() {
       Math.abs(currentCenter.lng() - lng) > .000001
     ) {
       PantryPickup.map.setCenter(lat, lng);
-      return searchAgain(PantryPickup.map);
+      return searchByMap(PantryPickup.map);
     }
 
     PantryPickup.detailView = new PantryPickup
@@ -177,8 +177,8 @@ $(document).ready(function() {
     zoomControlOptions: {'style':'SMALL'},
     lat: PantryPickup.defaults.coords.latitude,
     lng: PantryPickup.defaults.coords.longitude,
-    dragend: searchAgain,
-    zoom_changed: searchAgain
+    dragend: searchByMap,
+    zoom_changed: searchByMap
   });
 
   GMaps.geolocate({
