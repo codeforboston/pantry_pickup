@@ -98,10 +98,10 @@ $(document).ready(function() {
 
 
   // Helper functions
-  var findRadius = function(bounds) {
+  var findRadius = function(mapBounds) {
     var meters_per_degree = 40075000 / 360;
-    var ne = bounds.getNorthEast();
-    var sw = bounds.getSouthWest();
+    var ne = mapBounds.getNorthEast();
+    var sw = mapBounds.getSouthWest();
     var widest_lat = Math.min(Math.abs(ne.lat()), Math.abs(sw.lat()));
     var lat_diff = Math.abs(ne.lat() - sw.lat());
     var lng_diff = Math.abs(ne.lng() - sw.lng());
