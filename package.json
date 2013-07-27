@@ -11,12 +11,12 @@
     "mongoose": "3.6.x",
     "geocoder": "0.1.x",
     "winston": "~0.7.1",
-    "backbone": "1.0.0"
+    "config": "~0.4.27",
+    "yaml": "~0.2.3"
   },
   "devDependencies": {
     "mocha": "~1.9.0",
     "should": "~1.2.2",
     "supertest": "~0.6.0"
   }
-
 }
