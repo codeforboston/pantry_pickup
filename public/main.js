@@ -1,5 +1,16 @@
 'use strict';
-window.PantryPickup = {};
+window.PantryPickup = {
+  defaults: {
+    coords: {
+      latitude: 42.3583,
+      longitude: -71.0603
+    },
+    icons: {
+      unselected: '../img/bread_unselected.png',
+      selected: '../img/bread_selected.png'
+    }
+  }
+};
 
 $(document).ready(function() {
 
@@ -200,17 +211,6 @@ $(document).ready(function() {
   PantryPickup.view = new PantryPickup.PantriesView(
     {collection: new PantryPickup.PantryCollection(), el: '#pantryList'}
   );
-
-  PantryPickup.defaults = {
-    coords: {
-      latitude: 42.3583,
-      longitude: -71.0603
-    },
-    icons: {
-      unselected: '../img/bread_unselected.png',
-      selected: '../img/bread_selected.png'
-    }
-  };
 
   $('#showList').on('click', function(event) {
     event.preventDefault();
