@@ -1,0 +1,5 @@
+auth:
+  twitter:
+    consumerKey: 'gYWmsA634Vk1Fu3t1stQ'
+    consumerSecret: 'fB19u5cn2sdta8REzTpLsTKdhWKVFJie7ItJe5yikk'
+    callbackURL: 'http://127.0.0.1:3000/auth/twitter/callback'
