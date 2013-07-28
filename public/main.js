@@ -61,22 +61,10 @@ $(document).ready(function() {
     }
   });
 
-  PantryPickup.PantriesView = Backbone.View.extend({
+  PantryPickup.PantryListingsView = Backbone.View.extend({
     initialize: function() {
       this.collection
         .on('sync', function() { this.$el.empty(); this.render(); }, this);
-      this.collection.on('recenter', function(center) {
-          PantryPickup.map.setCenter(center.latitude, center.longitude);
-        });
-      this.collection.on('reset', this.resetMap);
-    },
-    resetMap: function() {
-      delete PantryPickup.selectedPantry;
-      if (PantryPickup.detailView) {
-        PantryPickup.detailView.$el.empty();
-        PantryPickup.detailView.close();
-      }
-      PantryPickup.map.removeMarkers();
     },
     render: function() {
       var $el = this.$el;
@@ -99,14 +87,45 @@ $(document).ready(function() {
       });
       $el.scrollTop(0);
       return this;
-    },
-    events: {'submit #searchForm': 'search'},
-    search: function(e) {
-      e.preventDefault();
-      searchByMap({term: $('#searchInput').val()});
     }
   });
 
+  PantryPickup.PantriesView = Backbone.View.extend({
+    events: {
+      'submit #search form': 'search'
+    },
+    initialize: function() {
+      this.listingsView = new PantryPickup
+        .PantryListingsView({collection: this.collection, el: '#pantryList'});
+      this.collection.on('recenter', function(center) {
+        PantryPickup.map.setCenter(center.latitude, center.longitude);
+      });
+      this.collection.on('reset', this.resetMap);
+    },
+    render: function() {
+      this.listingsView.render();
+      return this;
+    },
+    resetMap: function() {
+      delete PantryPickup.selectedPantry;
+      if (PantryPickup.detailView) {
+        PantryPickup.detailView.$el.empty();
+        PantryPickup.detailView.close();
+      }
+      PantryPickup.map.removeMarkers();
+    },
+    search: function(e) {
+      e.preventDefault();
+      var $form = $(e.target);
+      var term = $form.find('[name=term]').val();
+      this.collection.search({term: term});
+      // searchByMap({term: term});
+    }
+  });
+
+  PantryPickup.view = new PantryPickup.PantriesView(
+    {collection: new PantryPickup.PantryCollection(), el: 'body'}
+  );
 
   // Helper functions
   var findRadius = function(mapBounds) {
@@ -207,10 +226,6 @@ $(document).ready(function() {
       delete PantryPickup.coords;
     }
   });
-
-  PantryPickup.view = new PantryPickup.PantriesView(
-    {collection: new PantryPickup.PantryCollection(), el: '#pantryList'}
-  );
 
   $('#showList').on('click', function(event) {
     event.preventDefault();
