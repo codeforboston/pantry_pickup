@@ -1,104 +1,99 @@
 extends layout
 
 block content
-  div#content
-    div#mainHeader
-      div#title
-        span Pantry
-        img.logo(src='img/logo_icon_alpha.png')
-        span Pickup
-    div#social
-      <!-- AddThis Button BEGIN -->
-      div.addthis_toolbox.addthis_default_style
-        a.addthis_button_facebook_like(fb:like:layout='button_count')
-        a.addthis_button_tweet
-        a.addthis_button_pinterest_pinit
-        a.addthis_counter.addthis_pill_style
-      script.
-        var addthis_config = {"data_track_addressbar":true};
-      script(src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51ab8b8269a4fc9b')
-      <!-- AddThis Button END -->
+  div#header
+    span.site-title Pantry
+    img#site-logo(src='img/logo_icon_alpha.png')
+    span.site-title Pickup
 
-    div#leftContainer
-      div#searchIndicatorBar
-        span
-      div#filterWidget
-        div#searchBar
-          form.search(action='/search', method='GET')
-            input#searchInput(type='text', name='term',
-              placeholder='Address/City/Zip')
-            input#searchSubmit(type='submit', value='Locate')
-        div#filterBar
-      div#pantryList
+  div#search
+    div#searchBar
+      form#searchForm(action='/search', method='GET')
+        input#searchInput(type='text', name='term',
+          placeholder='Address/City/Zip')
+        input#searchSubmit(type='submit', value='Locate')
+    div#filterBar
 
-    div#mapContainer
-      div#mapView
+  div#mobileViewToggle.pointer
+    div#showList.mobileViewToggleOption List
+    div#showMap.mobileViewToggleOption Map
 
-    div#infoPanel
-      div#locationInfo
-      div#orgNeeds
-        //To do in v2
+  div#pantryList
 
-    script(type="text/template", class="template", id="pantryListingTmpl")
-      h2
-        a.name <%- pantry.get('site_name') %>
-      div.address
-        div.address1 <%- pantry.get('address') %>
-        div.address2 <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
+  div#mapContainer
+    div#mapView
 
-    script#pantryDetailsTmpl.template(type="text/template")
-      div.right
-        a#detailClose X
-      h2#siteName <%- pantry.get('site_name') %>
+  div#infoPanel
+    div#locationInfo
+    div#orgNeeds
+      //To do in v2
 
-      | <% if (pantry.get('website') != '') { %>
-      a(href="<%- pantry.get('website') %>", target="_blank") Visit Website
-      | <% } %>
+  script(type="text/template", class="template", id="pantryListingTmpl")
+    h2
+      a.name <%- pantry.get('site_name') %>
+    div.address
+      div.address1 <%- pantry.get('address') %>
+      div.address2 <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
 
-      address
-        div <%- pantry.get('address') %>
-        div <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
-      div.phone <%- pantry.get('phone') %>
+  script#pantryDetailsTmpl.template(type="text/template")
+    div.right
+      span#detailClose.pointer X
+    h2#siteName <%- pantry.get('site_name') %>
 
-      | <% if (pantry.get('hours').length > 0) { %>
-      div.hours
-        h3 Hours:
-        ul
-          | <% _(pantry.get('hours')).each(function(hours) { %>
-          li.
-            <% if (hours.repeatsOn) { %><%- hours.repeatsOn %>: <% } %>
-            <%- hours.start %> to <%- hours.end %>
-          | <% }); %>
-      | <% } %>
+    | <% if (pantry.get('website') != '') { %>
+    a(href="<%- pantry.get('website') %>", target="_blank") Visit Website
+    | <% } %>
 
-      p
-        div
-          strong Food donations accepted:
-          |  <%- pantry.get('food_donations_accepted') ? 'Yes' : 'No' %>
-        div
-          strong <%- pantry.get('volunteers_should_contact') ? 'Currently' : 'Not currently' %>
-          |  looking for volunteers.
+    address
+      div <%- pantry.get('address') %>
+      div <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
+    div.phone <%- pantry.get('phone') %>
 
-      | <% if (pantry.get('food_needs').length) { %>
-      h3#foodNeeds Food needs:
+    | <% if (pantry.get('hours').length > 0) { %>
+    div.hours
+      h3 Hours:
       ul
-        | <% _(pantry.get('food_needs')).each(function(need) { %>
-        li <%- need %>
+        | <% _(pantry.get('hours')).each(function(hours) { %>
+        li.
+          <% if (hours.repeatsOn) { %><%- hours.repeatsOn %>: <% } %>
+          <%- hours.start %> to <%- hours.end %>
         | <% }); %>
-      | <% } else { %>
-      h3 Food needs: none, currently.
-      | <% } %>
+    | <% } %>
 
-      | <% if (pantry.get('cannot_accept').length) { %>
-      h3#cannotAccept Cannot accept:
-      ul
-        | <% _(pantry.get('cannot_accept')).each(function(bad) { %>
-        li <%- bad %>
-        | <% }); %>
-      | <% } %>
+    p
+      div
+        strong Food donations accepted:
+        |  <%- pantry.get('food_donations_accepted') ? 'Yes' : 'No' %>
+      div
+        strong <%- pantry.get('volunteers_should_contact') ? 'Currently' : 'Not currently' %>
+        |  looking for volunteers.
 
-      p
-        em Source: <%- pantry.get('source') %>
+    | <% if (pantry.get('food_needs').length) { %>
+    h3#foodNeeds Food needs:
+    ul
+      | <% _(pantry.get('food_needs')).each(function(need) { %>
+      li <%- need %>
+      | <% }); %>
+    | <% } else { %>
+    h3 Food needs: none, currently.
+    | <% } %>
 
+    | <% if (pantry.get('cannot_accept').length) { %>
+    h3#cannotAccept Cannot accept:
+    ul
+      | <% _(pantry.get('cannot_accept')).each(function(bad) { %>
+      li <%- bad %>
+      | <% }); %>
+    | <% } %>
+
+  div#social
+    <!-- AddThis Button BEGIN -->
+    div.addthis_toolbox.addthis_default_style
+      a.addthis_button_facebook_like(fb:like:layout='button_count')
+      a.addthis_button_tweet
+      a.addthis_button_pinterest_pinit
+      a.addthis_counter.addthis_pill_style
     script.
-      window.pantries = !{JSON.stringify(pantries)}
+      var addthis_config = {"data_track_addressbar":true};
+    script(src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51ab8b8269a4fc9b')
+    <!-- AddThis Button END -->
