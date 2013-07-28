@@ -14,8 +14,12 @@ window.PantryPickup = {
 
 $(document).ready(function() {
 
-  // Backbone Collections
+  // Backbone Models
+  PantryPickup.Pantry = Backbone.Model.extend({
+    idAttribute: '_id'
+  });
   PantryPickup.PantryCollection = Backbone.Collection.extend({
+    model: PantryPickup.Pantry,
     url: '/search',
     search: function(coords) {
       var bounds = PantryPickup.map.getBounds();
@@ -35,7 +39,6 @@ $(document).ready(function() {
   // Backbone Views
   PantryPickup.PantryListingView = Backbone.View.extend({
     className: 'pantryListItem',
-    id: function() {return this.model.attributes._id;},
     template: _.template( $('#pantryListingTmpl').html() ),
     events: {'click': 'showDetails'},
     showDetails: function() {pantryDetails(this.model);},
@@ -68,24 +71,17 @@ $(document).ready(function() {
     },
     render: function() {
       var $el = this.$el;
-      var foundInfoPanel = false;
       this.collection.each(function(pantry) {
         $el.append(
           new PantryPickup.PantryListingView({model: pantry}).render().el
         );
         addPantryToMap(pantry);
-
-        if (// display infoPanel for last selected pantry
-          ! foundInfoPanel &&
-          PantryPickup.selectedPantryId &&
-          pantry.attributes._id == PantryPickup.selectedPantryId
-        ) {
-          foundInfoPanel = true;
-          pantryDetailsById(PantryPickup.selectedPantryId);
-          delete PantryPickup.selectedPantryId;
-        }
       });
-      $el.scrollTop(0);
+      if (PantryPickup.selectedPantryId) {
+        pantryDetails(this.collection.get(PantryPickup.selectedPantryId));
+        delete PantryPickup.selectedPantryId;
+      }
+      this.$el.scrollTop(0);
       return this;
     }
   });
@@ -160,16 +156,8 @@ $(document).ready(function() {
     );
   }
 
-  var pantryDetailsById = function(selectedPantryId) {
-    var pantries = PantryPickup.view.collection.models;
-    for (var i = 0; i < pantries.length; i++)
-      if (pantries[i].attributes._id == selectedPantryId) {
-        return pantryDetails(pantries[i]);
-      }
-  }
-
   var pantryDetails = function(pantry) {// load details pane
-    PantryPickup.selectedPantryId = pantry.attributes._id;
+    PantryPickup.selectedPantryId = pantry.id;
     // center pantry on map
     var lat = pantry.get("loc").coordinates[1];
     var lng = pantry.get("loc").coordinates[0];
@@ -182,6 +170,7 @@ $(document).ready(function() {
       return searchByMap(PantryPickup.map);
     }
 
+    // FIXME detail view shouldn't be created in an arbitrary scope, it should be managed in the same view that created it
     PantryPickup.detailView = new PantryPickup
       .PantryDetailView({model: pantry});
     PantryPickup.detailView.render();
