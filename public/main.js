@@ -92,7 +92,9 @@ $(document).ready(function() {
 
   PantryPickup.PantriesView = Backbone.View.extend({
     events: {
-      'submit #search form': 'search'
+      'submit #search form': 'search',
+      'click #showList': 'showList',
+      'click #showMap': 'showMap'
     },
     initialize: function() {
       this.listingsView = new PantryPickup
@@ -113,6 +115,16 @@ $(document).ready(function() {
         PantryPickup.detailView.close();
       }
       PantryPickup.map.removeMarkers();
+    },
+    showList: function(e) {
+      e.preventDefault();
+      $('#infoPanel, #mapContainer').hide();
+      $('#pantryList').show();
+    },
+    showMap: function(e) {
+      e.preventDefault();
+      $('#infoPanel, #pantryList').hide();
+      $('#mapContainer').show();
     },
     search: function(e) {
       e.preventDefault();
@@ -225,19 +237,5 @@ $(document).ready(function() {
       PantryPickup.view.collection.search(PantryPickup.coords);
       delete PantryPickup.coords;
     }
-  });
-
-  $('#showList').on('click', function(event) {
-    event.preventDefault();
-    $('#infoPanel').hide();
-    $('#pantryList').show();
-    $('#mapContainer').hide();
-  });
-
-  $('#showMap').on('click', function(event) {
-    event.preventDefault();
-    $('#infoPanel').hide();
-    $('#pantryList').hide();
-    $('#mapContainer').show();
   });
 });
