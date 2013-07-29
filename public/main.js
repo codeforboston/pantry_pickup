@@ -77,10 +77,6 @@ $(document).ready(function() {
         );
         addPantryToMap(pantry);
       });
-      if (PantryPickup.selectedPantryId) {
-        pantryDetails(this.collection.get(PantryPickup.selectedPantryId));
-        delete PantryPickup.selectedPantryId;
-      }
       this.$el.scrollTop(0);
       return this;
     }
@@ -127,7 +123,6 @@ $(document).ready(function() {
       var $form = $(e.target);
       var term = $form.find('[name=term]').val();
       this.collection.search({term: term});
-      // searchByMap({term: term});
     }
   });
 
@@ -157,18 +152,10 @@ $(document).ready(function() {
   }
 
   var pantryDetails = function(pantry) {// load details pane
-    PantryPickup.selectedPantryId = pantry.id;
     // center pantry on map
     var lat = pantry.get("loc").coordinates[1];
     var lng = pantry.get("loc").coordinates[0];
-    var currentCenter = PantryPickup.map.getCenter();
-    if (
-      Math.abs(currentCenter.lat() - lat) > .000001 ||
-      Math.abs(currentCenter.lng() - lng) > .000001
-    ) {
-      PantryPickup.map.setCenter(lat, lng);
-      return searchByMap(PantryPickup.map);
-    }
+    PantryPickup.map.setCenter(lat, lng);
 
     // FIXME detail view shouldn't be created in an arbitrary scope, it should be managed in the same view that created it
     PantryPickup.detailView = new PantryPickup
@@ -207,9 +194,22 @@ $(document).ready(function() {
     streetViewControl: false,
     zoomControlOptions: {'style':'SMALL'},
     lat: PantryPickup.defaults.coords.latitude,
-    lng: PantryPickup.defaults.coords.longitude,
-    dragend: searchByMap,
-    zoom_changed: searchByMap
+    lng: PantryPickup.defaults.coords.longitude
+  });
+
+  PantryPickup.map.addControl({
+    position: 'top_left',
+    content: 'Search this area',
+    style: {
+      background: 'white',
+      padding: '3pt',
+      margin: '5pt'
+    },
+    events: {
+      click: function() {
+        searchByMap(PantryPickup.map);
+      }
+    }
   });
 
   GMaps.geolocate({
