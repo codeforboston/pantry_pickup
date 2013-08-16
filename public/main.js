@@ -16,10 +16,23 @@ $(document).ready(function() {
 
   // Backbone Models
   PantryPickup.Pantry = Backbone.Model.extend({
-    idAttribute: '_id'
+    idAttribute: '_id',
+    initialize: function () {
+      this.set({isSelected: false});
+    },
   });
   PantryPickup.PantryCollection = Backbone.Collection.extend({
     model: PantryPickup.Pantry,
+    initialize: function() {
+      this.on('change:isSelected', this.onSelectedChange, this);
+    },
+    onSelectedChange: function(model) {
+      this.each(function(model) {
+        if (model.get('isSelected') === true && !model.hasChanged('isSelected')) {
+          model.set({isSelected: false});
+        }
+      });
+    },
     url: '/search',
     search: function(coords) {
       var bounds = PantryPickup.map.getBounds();
@@ -40,8 +53,21 @@ $(document).ready(function() {
   PantryPickup.PantryListingView = Backbone.View.extend({
     className: 'pantryListItem',
     template: _.template( $('#pantryListingTmpl').html() ),
-    events: {'click': 'showDetails'},
-    showDetails: function() {pantryDetails(this.model);},
+    initialize: function() {
+      this.model.on('change:isSelected', this.onSelectedChanged, this);
+    },
+    onSelectedChanged: function() {
+      if (this.model.get('isSelected') === true) {
+        this.$el.addClass('selected');
+      } else {
+        this.$el.removeClass('selected');
+      }
+    },
+    events: {'click': 'selectPantry'},
+    selectPantry: function() {
+      this.model.set({isSelected: true});
+      pantryDetails(this.model);
+    },
     render: function() {
       this.$el.append(this.template({pantry: this.model}));
       return this;
