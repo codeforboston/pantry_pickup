@@ -46,7 +46,7 @@ $(document).ready(function() {
     initialize: function() {
       this.listenTo(this.model.collection, 'pantry:selected', function(model) {
         if (model === this.model) {
-          this.$el.addClass('selected');
+          this.$el.addClass('selected').scrollIntoView();
         } else {
           this.$el.removeClass('selected');
         }
