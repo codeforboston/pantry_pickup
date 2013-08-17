@@ -16,23 +16,10 @@ $(document).ready(function() {
 
   // Backbone Models
   PantryPickup.Pantry = Backbone.Model.extend({
-    idAttribute: '_id',
-    initialize: function () {
-      this.set({isSelected: false});
-    },
+    idAttribute: '_id'
   });
   PantryPickup.PantryCollection = Backbone.Collection.extend({
     model: PantryPickup.Pantry,
-    initialize: function() {
-      this.on('change:isSelected', this.onSelectedChange, this);
-    },
-    onSelectedChange: function(model) {
-      this.each(function(model) {
-        if (model.get('isSelected') === true && !model.hasChanged('isSelected')) {
-          model.set({isSelected: false});
-        }
-      });
-    },
     url: '/search',
     search: function(coords) {
       var bounds = PantryPickup.map.getBounds();
@@ -53,20 +40,20 @@ $(document).ready(function() {
   PantryPickup.PantryListingView = Backbone.View.extend({
     className: 'pantryListItem',
     template: _.template( $('#pantryListingTmpl').html() ),
+    events: {
+      'click': 'selectPantry'
+    },
     initialize: function() {
-      this.model.on('change:isSelected', this.onSelectedChanged, this);
+      this.listenTo(this.model.collection, 'pantry:selected', function(model) {
+        if (model === this.model) {
+          this.$el.addClass('selected');
+        } else {
+          this.$el.removeClass('selected');
+        }
+      });
     },
-    onSelectedChanged: function() {
-      if (this.model.get('isSelected') === true) {
-        this.$el.addClass('selected');
-      } else {
-        this.$el.removeClass('selected');
-      }
-    },
-    events: {'click': 'selectPantry'},
     selectPantry: function() {
-      this.model.set({isSelected: true});
-      pantryDetails(this.model);
+      selectPantry(this.model);
     },
     render: function() {
       this.$el.append(this.template({pantry: this.model}));
@@ -92,8 +79,10 @@ $(document).ready(function() {
 
   PantryPickup.PantryListingsView = Backbone.View.extend({
     initialize: function() {
-      this.collection
-        .on('sync', function() { this.$el.empty(); this.render(); }, this);
+      this.listenTo(this.collection, 'sync', function() {
+        this.$el.empty();
+        this.render();
+      });
     },
     render: function() {
       var $el = this.$el;
@@ -177,22 +166,23 @@ $(document).ready(function() {
     );
   }
 
-  var pantryDetails = function(pantry) {// load details pane
+  var selectPantry = function(pantry) {
     // center pantry on map
     var lat = pantry.get("loc").coordinates[1];
     var lng = pantry.get("loc").coordinates[0];
     PantryPickup.map.setCenter(lat, lng);
 
     // FIXME detail view shouldn't be created in an arbitrary scope, it should be managed in the same view that created it
-    PantryPickup.detailView = new PantryPickup
-      .PantryDetailView({model: pantry});
+    PantryPickup.detailView = new PantryPickup.PantryDetailView({model: pantry});
     PantryPickup.detailView.render();
 
     // change icon
     pantry.marker.setIcon(PantryPickup.defaults.icons.selected);
-    if (PantryPickup.selectedPantry) PantryPickup.selectedPantry
-      .marker.setIcon(PantryPickup.defaults.icons.unselected);
+    if (PantryPickup.selectedPantry && PantryPickup.selectedPantry !== pantry)
+      PantryPickup.selectedPantry.marker.setIcon(PantryPickup.defaults.icons.unselected);
     PantryPickup.selectedPantry = pantry;
+    // fire 'selected' event
+    pantry.trigger('pantry:selected', pantry);
   }
 
   var addPantryToMap = function(pantry) {//Adding a Pantry
@@ -207,7 +197,9 @@ $(document).ready(function() {
       lat: lat,
       lng: lng,
       //add a click action which opens the infobox
-      click: function() {pantryDetails(pantry);}
+      click: function() {
+        selectPantry(pantry);
+      }
     });
   }
 
