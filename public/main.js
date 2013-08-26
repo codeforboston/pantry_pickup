@@ -16,7 +16,9 @@ $(document).ready(function() {
 
   // Backbone Models
   PantryPickup.Pantry = Backbone.Model.extend({
-    idAttribute: '_id'
+    idAttribute: '_id',
+    latitude:   function() { return this.get('loc').coordinates[1]; },
+    longitude:  function() { return this.get('loc').coordinates[0]; }
   });
   PantryPickup.PantryCollection = Backbone.Collection.extend({
     model: PantryPickup.Pantry,
@@ -168,9 +170,7 @@ $(document).ready(function() {
 
   var selectPantry = function(pantry) {
     // center pantry on map
-    var lat = pantry.get("loc").coordinates[1];
-    var lng = pantry.get("loc").coordinates[0];
-    PantryPickup.map.setCenter(lat, lng);
+    PantryPickup.map.setCenter(pantry.latitude(), pantry.longitude());
 
     // FIXME detail view shouldn't be created in an arbitrary scope, it should be managed in the same view that created it
     PantryPickup.detailView = new PantryPickup.PantryDetailView({model: pantry});
@@ -185,17 +185,12 @@ $(document).ready(function() {
     pantry.trigger('pantry:selected', pantry);
   }
 
-  var addPantryToMap = function(pantry) {//Adding a Pantry
-    var state = "MA" //assuming all data is in Mass.
-    var fullAddress = pantry.get("address") + ", " + pantry.get("city") + " " + state + " " + pantry.get("zipcode");
-    var lat = pantry.get("loc").coordinates[1];
-    var lng = pantry.get("loc").coordinates[0];
-
+  var addPantryToMap = function(pantry) {
     pantry.marker = PantryPickup.map.addMarker({
       icon: PantryPickup.defaults.icons.unselected,
       title: pantry.get("site_name"),
-      lat: lat,
-      lng: lng,
+      lat: pantry.latitude(),
+      lng: pantry.longitude(),
       //add a click action which opens the infobox
       click: function() {
         selectPantry(pantry);
