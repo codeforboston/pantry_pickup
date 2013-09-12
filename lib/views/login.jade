@@ -1,0 +1,13 @@
+div
+  if message
+    div= message
+  form(action='/login',method='post')
+    div
+      fieldset
+       label(for='username') Username:
+       input(name='username',type='text',value='',placeholder='username')
+       label(for='password') Password:
+       input(name='password',type='password',value='',placeholder='password')
+       div
+         input(type='submit',value='Login')
+
