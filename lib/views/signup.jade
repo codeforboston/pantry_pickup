@@ -1,0 +1,10 @@
+if message
+  div= message
+form(id="signup", method="POST", action="/signup")
+  label(for='username') Username
+  input#email(type='text', name='username')
+  label(for='email') Email
+  input#email(type='text', name='email')
+  label(for='password') Password
+  input#password(type='password', name='password')
+  input(type="submit", value="SignUp")
