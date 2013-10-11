@@ -242,5 +242,4 @@
       delete PantryPickup.coords;
     }
   });
-});
-
+})();
