@@ -1,18 +1,20 @@
-'use strict';
-window.PantryPickup = {
-  defaults: {
-    coords: {
-      latitude: 42.3583,
-      longitude: -71.0603
-    },
-    icons: {
-      unselected: '../img/bread_unselected.png',
-      selected: '../img/bread_selected.png'
-    }
-  }
-};
+(function(){
+  'use strict';
 
-$(document).ready(function() {
+  window.PantryPickup = {
+    defaults: {
+      coords: {
+        latitude: 42.3583,
+        longitude: -71.0603
+      },
+      icons: {
+        unselected: '../img/bread_unselected.png',
+        selected: '../img/bread_selected.png'
+      }
+    }
+  };
+
+
 
   // Backbone Models
   PantryPickup.Pantry = Backbone.Model.extend({
@@ -240,4 +242,4 @@ $(document).ready(function() {
       delete PantryPickup.coords;
     }
   });
-});
+})();
