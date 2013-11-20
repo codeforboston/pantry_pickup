@@ -41,7 +41,7 @@ block content
     h2#siteName <%- pantry.get('site_name') %>
 
     | <% if (pantry.get('website') != '') { %>
-    a(href="<%- pantry.get('website') %>", target="_blank") Visit Website
+    a(href!="<%= pantry.get('website') %>", target="_blank") Visit Website
     | <% } %>
 
     address
