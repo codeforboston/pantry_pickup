@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 
 # Takes in a CSV file which contains the following fields:
 # Address, City, Zip, lat, lng
