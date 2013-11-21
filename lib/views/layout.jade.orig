@@ -1,0 +1,24 @@
+doctype 5
+html
+<<<<<<< HEAD:lib/views/layout.jade
+  head
+    title Pantry Pickup
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+=======
+	head
+		title= "Pantry Pickup"
+		link(rel='stylesheet', href='/stylesheets/normalize.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel="stylesheet", href='http://fonts.googleapis.com/css?family=Quando')
+		script(src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js")
+		script(src="main.js")
+		script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtTuNj9M-0cC6sPsqsBcnnQ-wTlB1tSsc&sensor=true")
+		script(src="gmaps.js")
+	body
+		block headerbar
+		block leftcontainer
+		block mapview
+		block infopanel
+>>>>>>> First pass at a UI framework, also including gmaps.js:views/layout.jade

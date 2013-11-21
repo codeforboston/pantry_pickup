@@ -10,9 +10,9 @@ block content
     div#searchBar
       form#searchForm(action='/search', method='GET')
         input#searchInput(type='text', name='term',
-          placeholder='Address/City/Zip')
+          placeholder='Enter a location to find nearby food pantries')
         input#searchSubmit(type='submit', value='Locate')
-    div#filterBar
+      a#aboutButton(data-toggle='modal', data-target='#aboutModal') About
 
   div#mobileViewToggle.pointer
     div#showList.mobileViewToggleOption List
@@ -27,6 +27,31 @@ block content
     div#locationInfo
     div#orgNeeds
       //To do in v2
+  
+  div#aboutModal.modal.fade
+    div.modal-dialog
+      div.modal-content
+        div.modal-body
+          h2 Support your local food pantry with Pantry Pickup
+          p Thank you for supporting Pantry Pickup. The goal of the application 1) increasing individual donations to food pantries and 2) allowing food pantries to request or "register" for food needs specific to their communities. 
+
+          h3 A little history
+          p All of us have an extra box of pasta or too many cans of soup in our pantry. Food pantries, particularly those in urban areas, could do a lot of good with our extra food. The problem is that we don’t always know where to bring our donations, nor do we know exactly what sorts of donations would be most beneficial to the pantries. Pantry Pick-Up is a way to combine requests from local food pantries with geographical data to best determine the closest food pantry and their specific needs.
+
+          p Pantry Pick-Up kicked off at the <a href="http://www.rhok.org" target="_blank">Random Hacks of Kindness</a> Hackathon in Boston as part of the <a href="hackforchange" target="_blank">National Day of Civic Hacking</a> in June 2013. A team of developers, designers, coders, and researchers took the initial, hand-compiled dataset of 500+ food pantries in Eastern Massachusetts, cleaned the data, and created a geographical database that allowed users to use their current location to find the food pantry nearest to them - along with contact information and hours of operation - by utilizing GPS or direct address lookup.
+
+          p For next steps, we're conducting a user research effort with pantry operators to help us understand how we can best support their food inventory needs.
+
+          h4 Please send feedback, ideas, and bug reports to <a href="mailto:hello@pantrypickup.org">hello@pantrypickup.org</a>
+
+          h3 About Code for Boston 
+          p Code for Boston is a volunteer group of civic-minded developers, designers, urban planners, citizen activists, data geeks and more. Part of the <a href="http://brigade.codeforamerica.org">Code for America Brigade</a> program, we work with Boston-area city governments and local communities to build open-source civic apps, open public data sources, and generally help to leverage technology for use in the public sphere.
+
+          p Feel free to stop by one of our <a href="http://www.meetup.com/Code-for-Boston" target='_blank'>Weekly Hack Nights</a>, <a href='http://www.github.com/codeforboston' target='_blank'>check us out on Github</a>, or simply <a href="mailto:boston-admin@codeforamerica.org"> drop us a line!</a>
+
+        div.modal-footer
+
+          button.btn.btn-primary(type="button", data-dismiss="modal", aria-hidden="true") Close
 
   script(type="text/template", class="template", id="pantryListingTmpl")
     h2
@@ -85,15 +110,3 @@ block content
       li <%- bad %>
       | <% }); %>
     | <% } %>
-
-  div#social
-    <!-- AddThis Button BEGIN -->
-    div.addthis_toolbox.addthis_default_style
-      a.addthis_button_facebook_like(fb:like:layout='button_count')
-      a.addthis_button_tweet
-      a.addthis_button_pinterest_pinit
-      a.addthis_counter.addthis_pill_style
-    script.
-      var addthis_config = {"data_track_addressbar":true};
-    script(src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51ab8b8269a4fc9b')
-    <!-- AddThis Button END -->

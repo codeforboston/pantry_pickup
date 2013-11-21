@@ -1,15 +1,36 @@
 body {font-family:"Lato", Helvetica, Arial, sans-serif;}
 body, input {font-size:11pt;}
 #infoPanel {width:22em;}
-#header,#search,#pantryList,#social {width:24em;}
+/*Bootstrap resets*/
+a {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+#pantryList a, a:hover{
+	text-decoration: none;
+	color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+#infoPanel a {
+	color: #069;
+}
+#infoPanel a:hover{
+	text-decoration: underline;
+}
+.modal-dialog{
+	width:66%;
+}
+/*Main styles*/
+#header,#search,#pantryList,#social {width:24em; box-shadow: 3px 0px 5px rgba(0,0,0,.15); z-index:1;}
 
 #header {position:fixed; top:0; left:0; height:4em;
-	font-family:"Quando", Georgia, serif;
+	font-family:"Quando", Georgia, serif; border-bottom:3px solid #570d13; z-index: 2;
 }
-#header,#mobileViewToggle {
-	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#911520), to(#570d13));
-	background:-moz-linear-gradient(top,  #911520,  #570d13);
-	background-color:#570d13;
+#header {
+/*	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#911520), to(#570d13));
+	background:-moz-linear-gradient(top,  #911520,  #570d13);*/
+	background-color:#911520;
 	color:#fdf5a8; text-shadow:2px 2px 0px rgba(0,0,0,.5);
 	text-align:center; vertical-align:center;
 }
@@ -19,15 +40,36 @@ body, input {font-size:11pt;}
 }
 
 #search,#pantryList,#social {left:0;}
-#search {position:fixed; top:4em; height:2em;
-	background:background:rgb(242,242,242);
-	text-shadow:0px 2px 0px rgba(255,255,255,.9);
+#search {position:fixed; top:0; left:24em; height:4em; padding: .5em 0; width:100%;
+	background-color:#911520; border-bottom:3px solid #570d13; z-index:5;
 }
-#searchInput {width:18em; margin:1pt;}
-#searchSubmit {width:5em;}
+#searchInput {width:30%; height:2.5em; margin-top:.2em; border-radius:3px; padding: 3px 8px; outline:none; border:1px solid #570d13; margin-right:.75em; font-weight:200;}
+#searchInput:focus{box-shadow: 3px 3px 8px rgba(0,0,0,.25); border:1px solid #000;}
+#searchSubmit {width:5em; padding: 4px 2px 6px 2px; background-color: #570d13; color:#FFF; font-weight:400; border-radius:3px; outline:none; border:none; cursor: pointer;}
+#searchSubmit:hover{
+	background-color: #432020;
+}
+#aboutButton{
+	position:fixed;
+	display:block;
+	right:15px;
+	top:10px;
+	padding:7px 8px 9px 8px;
+	border-radius:3px;
+	color:#fdf5a8;
+	font-weight: 400;
+	font-size:18px;
+	/*text-transform: uppercase;*/
+}
+#aboutButton:hover{
+	text-decoration: none;
+	cursor:pointer;
+	background-color:rgba(0,0,0,.15);
+}
 
-#pantryList {position:fixed; top:6em; bottom:3em; overflow-y:auto;
-	font-weight:300;}
+#pantryList {position:fixed; top:4em; bottom:0; overflow-y:auto; border-right: 1px solid #666;
+	font-weight:300; background-color: #fffefb; background: -webkit-linear-gradient(top, #fffefb, #fffef4); background: -moz-linear-gradient(top, #fffefb, #fffef4); background: -ms-linear-gradient(top, #fffefb, #fffef4);
+}
 
 .pantryListItem {border-top:1px solid #ffffff;
 	border-bottom:1px solid #dedede;
@@ -37,15 +79,15 @@ body, input {font-size:11pt;}
 .pantryListItem:hover,.pantryListItem.selected {background-color:rgb(242,242,242);}
 .pantryListItem h2 {font-size:18px; font-weight:normal;}
 
-#mapContainer {position:fixed; top:0; right:0; bottom:0; left:24em;}
+#mapContainer {position:fixed; top:4em; right:0; bottom:0; left:24em; z-index:0;}
 
 #social {position:fixed; bottom:0; height:2em;}
 
-#infoPanel {display:none; position:fixed; top:1em; right:-22em; bottom:1em;
-	padding:1em; overflow-y:auto; z-index:10; border-radius:10px;
-	background-color:#F0F0F0; border:1px solid #999;
-	box-shadow:-5px 0 10px rgba(0,0,0,.2);
-	text-shadow:0px 2px 0px rgba(255,255,255,.9);
+#infoPanel {display:none; position:fixed; top:5em; right:-22em; /*bottom:1em;*/
+	padding:1em; overflow-y:auto; z-index:10; border-radius:3px;
+	background-color:#fcfcfc; border:1px solid #999;
+	box-shadow:-3px 3px 5px rgba(0,0,0,.2);
+	font-family: "Lato";
 	box-sizing:border-box;
 }
 
@@ -55,14 +97,22 @@ body, input {font-size:11pt;}
 .pointer {cursor:pointer;}
 
 
-#mobileViewToggle {display:none;
-	position:fixed; top:6em; left:0; width:100%; height:2em;}
-.mobileViewToggleOption {width:50%; padding:0; margin-top:3pt; float:left;}
+#mobileViewToggle {display:none; text-align:center; vertical-align:center; color: #FFF;
+	position:fixed; top:8em; left:0; width:100%; height:2.5em; background-color:#a13841 }
+.mobileViewToggleOption {width:50%; padding:8px 0; float:left; display:inline-block;}
+.mobileViewToggleOption:hover {background-color: #8c3039;}
+#showList {border-right:2px solid #570d13;}
+/*Put in current location button*/
 
-@media mobile, handheld, all and (max-width:70em),
+@media mobile, handheld, all and (max-width:50em),
 all and (view-mode:minimized){
-	#forkGitHub,#pantryList {display:none;}
-	#mapContainer,#pantryList,#infoPanel {top:8em; left:0; bottom:2em;}
+	#pantryList {display:none;}
+	#search{top:4em; left:0; width:100%; text-align: center}
+	#searchInput{width:66%;}
+	#searchSubmit{width:20%;}
+	#aboutButton{background-color:rgba(0,0,0,.15); font-size:14px;}
+	#mapContainer{display:block;}
+	#mapContainer,#pantryList,#infoPanel {top:10.5em; left:0;}
 	#mobileViewToggle {display:block;}
 	#infoPanel,#header,#search,#pantryList,#social {width:100%;}
 	#infoPanel {border-radius:0; box-shadow:none;}
