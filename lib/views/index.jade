@@ -105,28 +105,4 @@ block content
         | <% }); %>
     | <% } %>
 
-    p
-      div
-        strong Food donations accepted:
-        |  <%- pantry.get('food_donations_accepted') ? 'Yes' : 'No' %>
-      div
-        strong <%- pantry.get('volunteers_should_contact') ? 'Currently' : 'Not currently' %>
-        |  looking for volunteers.
 
-    | <% if (pantry.get('food_needs').length) { %>
-    h3#foodNeeds Food needs:
-    ul
-      | <% _(pantry.get('food_needs')).each(function(need) { %>
-      li <%- need %>
-      | <% }); %>
-    | <% } else { %>
-    h3 Food needs: none, currently.
-    | <% } %>
-
-    | <% if (pantry.get('cannot_accept').length) { %>
-    h3#cannotAccept Cannot accept:
-    ul
-      | <% _(pantry.get('cannot_accept')).each(function(bad) { %>
-      li <%- bad %>
-      | <% }); %>
-    | <% } %>
