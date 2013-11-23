@@ -103,7 +103,7 @@
 
   PantryPickup.PantriesView = Backbone.View.extend({
     events: {
-      'submit #search form': 'search',
+      'submit #searchBar form': 'search',
       'click #showList': 'showList',
       'click #showMap': 'showMap'
     },

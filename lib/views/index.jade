@@ -66,10 +66,11 @@ block content
           h4 
             b Search for pantries
         div.modal-body
-          form#searchForm(action='/search', method='GET')
-            input#searchInput(type='text', name='term',
-              placeholder='Enter address')
-            input#searchSubmit(type='submit', value='Locate')
+          div#searchBar
+            form#searchForm(action='/search', method='GET')
+              input#searchInput(type='text', name='term',
+                placeholder='Enter address')
+              input#searchSubmit(type='submit', value='Locate')
 
 
   script(type="text/template", class="template", id="pantryListingTmpl")
