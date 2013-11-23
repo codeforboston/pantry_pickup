@@ -1,0 +1,21 @@
+{"pantry": {
+	"name": "Trinity Baptist Church Food Pantry",
+	"contactInfo": {
+		"address1": "1367 Main St.",
+		"address2": "",
+		"city": "Brockton",
+		"state": "MA",
+		"zip": "02301",
+		"phone": "508-588-4668",
+		"email": "",
+		"website": ""
+	},
+	"timesAvailable":{
+		"monday": {
+			"open": "9:30",
+			"closed": "21:00",
+			"weeks": "odd" //values can be "every", "even", "odd", "first", "second", "third", "fourth"
+		}
+	},
+	"dataSource": "GBFB Member Agency"
+}}

@@ -6,14 +6,19 @@ block content
     img#site-logo(src='img/logo_icon_alpha.png')
     span.site-title Pickup
 
+  button.btn.btn-link#searchButton(data-toggle='modal', data-target='#searchModal')
+        span.glyphicon.glyphicon-search
+
   div#search
     div#searchBar
       form#searchForm(action='/search', method='GET')
         input#searchInput(type='text', name='term',
-          placeholder='Address/City/Zip')
+          placeholder='Enter address to find nearby food pantries')
         input#searchSubmit(type='submit', value='Locate')
-    div#filterBar
 
+  button.btn.btn-link#aboutButton(data-toggle='modal', data-target='#aboutModal')
+    span.glyphicon.glyphicon-info-sign 
+    span#btnText About
   div#mobileViewToggle.pointer
     div#showList.mobileViewToggleOption List
     div#showMap.mobileViewToggleOption Map
@@ -27,6 +32,46 @@ block content
     div#locationInfo
     div#orgNeeds
       //To do in v2
+  
+  div#aboutModal.modal.fade
+    div.modal-dialog
+      div.modal-content
+        div.modal-header
+          button.close(type='button', data-dismiss='modal', aria-hidden='true')&times;
+          h3 
+            b Support your local food pantry with Pantry Pickup
+        div.modal-body
+          p Hunger hurts. It hurts our communities, our neighbors, our children. In eastern Massachusetts, 1 in 9 individuals are food insecure, <a href="http://gbfb.org/our-mission/hunger.php" target="_blank">according to the Greater Boston Food Bank</a>, and among children, it's 1 in 4.  At Code for Boston, we think these are unacceptably high numbers - but we also know that even if a person wants to help, it can be hard to know where to start.  So, we built Pantry Pickup.
+
+          p The Pantry Pickup application has two goals: 1) helping citizens find and make donations to food pantries in their neighborhoods and 2) allowing food pantries to request or "register" for food needs specific to the communities they serve.  Originally built during the <a href="http://www.rhok.org" target="_blank">Random Hacks of Kindness</a> Hackathon in Boston as part of the <a href="http://www.hackforchange.org" target="_blank">National Day of Civic Hacking</a> in June 2013, Pantry Pickup uses a hand-researched database of 500+ food pantries in eastern Massachusetts to provide location and availability data to prospective food donors.  For next steps, we're conducting a user research effort with pantry operators to help us understand how we can best support their food inventory needs.
+  
+          h4 
+            b Please send feedback, ideas, and bug reports to <a href="mailto:hello@pantrypickup.org">hello@pantrypickup.org</a>
+          hr
+          h4
+            b About Code for Boston 
+          p Code for Boston is a volunteer group of civic-minded developers, designers, urban planners, citizen activists, data geeks and more. Part of the <a href="http://brigade.codeforamerica.org">Code for America Brigade</a> program, we work with Boston-area city governments and local communities to build open-source civic apps, open public data sources, and generally help to leverage technology for use in the public sphere.
+
+          p Feel free to stop by one of our <a href="http://www.meetup.com/Code-for-Boston" target='_blank'>Weekly Hack Nights</a>, <a href='http://www.github.com/codeforboston' target='_blank'>check us out on Github</a>, or simply <a href="mailto:boston-admin@codeforamerica.org"> drop us a line!</a>
+
+        div.modal-footer
+          <script type='text/javascript'>(function(){document.write("<img style='height:2.5em; float:left;' src='http://bostonbuilt.org/icon.php?q=built_in_boston_color_fancy.png&u=" + window.location.host + "' />");})();</script>
+          button.btn.btn-default(type="button", data-dismiss="modal", aria-hidden="true") Close
+  
+  div#searchModal.modal.fade
+    div.modal-dialog
+      div.modal-content
+        div.modal-header
+          button.close(type='button', data-dismiss='modal', aria-hidden='true')&times;
+          h4 
+            b Search for pantries
+        div.modal-body
+          div#searchBar
+            form#searchForm(action='/search', method='GET')
+              input#searchInput(type='text', name='term',
+                placeholder='Enter address')
+              input#searchSubmit(type='submit', value='Locate')
+
 
   script(type="text/template", class="template", id="pantryListingTmpl")
     h2
@@ -37,7 +82,7 @@ block content
 
   script#pantryDetailsTmpl.template(type="text/template")
     div.right
-      span#detailClose.pointer X
+      span#detailClose.glyphicon.glyphicon-remove-circle.pointer
     h2#siteName <%- pantry.get('site_name') %>
 
     | <% if (pantry.get('website') != '') { %>
@@ -85,18 +130,3 @@ block content
       li <%- bad %>
       | <% }); %>
     | <% } %>
-
-    div#contact Incorrect or Missing Information? <br>
-      a(href!="mailto:hello@pantrypickup.org") contact us
-
-  div#social
-    <!-- AddThis Button BEGIN -->
-    div.addthis_toolbox.addthis_default_style
-      a.addthis_button_facebook_like(fb:like:layout='button_count')
-      a.addthis_button_tweet
-      a.addthis_button_pinterest_pinit
-      a.addthis_counter.addthis_pill_style
-    script.
-      var addthis_config = {"data_track_addressbar":true};
-    script(src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51ab8b8269a4fc9b')
-    <!-- AddThis Button END -->

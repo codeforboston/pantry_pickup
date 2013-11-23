@@ -103,7 +103,7 @@
 
   PantryPickup.PantriesView = Backbone.View.extend({
     events: {
-      'submit #search form': 'search',
+      'submit #searchBar form': 'search',
       'click #showList': 'showList',
       'click #showMap': 'showMap'
     },
@@ -114,6 +114,12 @@
         PantryPickup.map.setCenter(center.latitude, center.longitude);
       });
       this.collection.on('reset', this.resetMap);
+      $(window).resize(function() {
+        if ($('#mobileViewToggle').css("display") == "none" ){
+          $('#pantryList').show();
+          $('#mapContainer').show()
+        };
+      });
     },
     render: function() {
       this.listingsView.render();
@@ -129,13 +135,13 @@
     },
     showList: function(e) {
       e.preventDefault();
-      $('#infoPanel, #mapContainer').hide();
       $('#pantryList').show();
+      $('#mapContainer, #infoPanel').hide();
     },
     showMap: function(e) {
       e.preventDefault();
-      $('#infoPanel, #pantryList').hide();
-      $('#mapContainer').show();
+        $('#pantryList, #infoPanel').hide();
+        $('#mapContainer').show();
     },
     search: function(e) {
       e.preventDefault();
@@ -214,11 +220,13 @@
 
   PantryPickup.map.addControl({
     position: 'top_left',
-    content: 'Search this area',
+    content: 'Redo search in this area',
     style: {
       background: 'white',
       padding: '3pt',
-      margin: '5pt'
+      margin: '5pt',
+      borderRadius: '2pt',
+      border: '1px solid #666',
     },
     events: {
       click: function() {

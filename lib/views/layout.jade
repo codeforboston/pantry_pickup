@@ -1,17 +1,19 @@
 doctype 5
 head
   title Pantry Pickup
+  link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
   link(rel='stylesheet', href='/stylesheets/style.css')
   link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700|Quando')
-  link(rel='stylesheet', href='/stylesheets/gh-fork-ribbon.css')
+  //- link(rel='stylesheet', href='/stylesheets/gh-fork-ribbon.css')
   //if IE
     link(rel='stylesheet', href='/stylesheets/gh-fork-ribbon.ie.css')
   link(href='/favicon.ico', rel='icon', type='image/x-icon')
   link(href='/favicon.ico', rel='shortcut icon', type='image/x-icon')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
 body
-  .github-fork-ribbon-wrapper.right
-    .github-fork-ribbon
-      a(href='https://github.com/codeforboston/pantry_pickup') Fork me on GitHub
+  //- .github-fork-ribbon-wrapper.right
+  //-   .github-fork-ribbon
+  //-     a(href='https://github.com/codeforboston/pantry_pickup') Fork me on GitHub
   block content
   script(src='//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js')
   script(src='underscore-min.js')
@@ -19,4 +21,5 @@ body
   script(src='jquery.scrollIntoView.min.js')
   script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBtTuNj9M-0cC6sPsqsBcnnQ-wTlB1tSsc&sensor=true')
   script(src='gmaps.js')
+  script(src='bootstrap.min.js')
   script(src='main.js')
