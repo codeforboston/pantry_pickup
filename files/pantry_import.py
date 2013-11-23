@@ -165,20 +165,20 @@ def import_pantry(filename = FILENAME, db = CON[DB_NAME][COLLECTION]):
                     pass
 
                 # random filler data
-                food = ['apples','oranges','bread','cheese','moldy cheese','crusty bread','rice','beans',
-                            'cow tounge',"chicken feet","snapper","cod","pasta","soup","raw chicken",
-                            "meatloaf","ricotta","pesto","tomato sauce","potatoes","lettuce","carrots",
-                            "blueberries","blackberries","onions","sunflower seeds"]
-                policies = ["no open food","no pre-packaged food","no GMO!","Gluten-free","Atkins diet only",
-                                "paleo-diet only","no peanuts","no soy","only pre-digested"]
+                #food = ['apples','oranges','bread','cheese','moldy cheese','crusty bread','rice','beans',
+                #            'cow tounge',"chicken feet","snapper","cod","pasta","soup","raw chicken",
+                #            "meatloaf","ricotta","pesto","tomato sauce","potatoes","lettuce","carrots",
+                #            "blueberries","blackberries","onions","sunflower seeds"]
+                #policies = ["no open food","no pre-packaged food","no GMO!","Gluten-free","Atkins diet only",
+                #                "paleo-diet only","no peanuts","no soy","only pre-digested"]
 
-                boolean = ["yes", "no"]
+                #boolean = ["yes", "no"]
                 obj['timestamp'] = time.time()
-                obj['food_donations_accepted'] = True if random.choice(boolean) =='yes' else False
-                obj['food_needs'] = random.sample(food,4)
-                obj['cannot_accept'] = random.sample(food, 2)
-                obj['volunteers_should_contact'] = True if random.choice(boolean) =='yes' else False
-                obj['policies'] = random.sample(policies,2)
+                #obj['food_donations_accepted'] = True if random.choice(boolean) =='yes' else False
+                #obj['food_needs'] = random.sample(food,4)
+                #obj['cannot_accept'] = random.sample(food, 2)
+                #obj['volunteers_should_contact'] = True if random.choice(boolean) =='yes' else False
+                #obj['policies'] = random.sample(policies,2)
 
                 # Write result to Mongo
                 db.insert(obj, safe = True)
