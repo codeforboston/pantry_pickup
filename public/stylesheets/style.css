@@ -72,17 +72,27 @@ h1, h2, h3, h4, h5, h6 {
 #aboutButton #btnText{
 	margin-left:5px;
 }
-#pantryList {position:fixed; top:4em; bottom:0; overflow-y:auto; border-right: 1px solid #666;
-	font-weight:300; background-color: #fffefb; background: -webkit-linear-gradient(top, #fffefb, #fffef4); background: -moz-linear-gradient(top, #fffefb, #fffef4); background: -ms-linear-gradient(top, #fffefb, #fffef4);
+#pantryList {
+  position:fixed; top:4em; bottom:0; overflow-y:auto; border-right: 1px solid #666;
+	font-weight:300; background-color: #fcfcfc;
+  /*background: -webkit-linear-gradient(top, #fcfcfc, #fffef4);
+  background: -moz-linear-gradient(top, #fcfcfc, #fffef4);
+  background: -ms-linear-gradient(top, #fcfcfc, #fffef4);*/
 }
 
-.pantryListItem {border-top:1px solid #ffffff;
+.pantryListItem {
+  border-top:1px solid #ffffff;
 	border-bottom:1px solid #dedede;
 	padding:0 1em 1em; cursor:pointer;
+  border-left:5px solid #fcfcfc;
 }
 .pantryListItem.selected {border-left: 5px solid maroon;}
 .pantryListItem:hover,.pantryListItem.selected {background-color:rgb(242,242,242);}
 .pantryListItem h2 {font-size:18px; font-weight:normal;}
+
+.noPantries {
+  padding:1em;
+}
 
 #mapContainer {position:fixed; top:4em; right:0; bottom:0; left:24em; z-index:0;}
 
