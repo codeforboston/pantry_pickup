@@ -80,6 +80,13 @@ block content
       <a href="mailto:hello@pantrypickup.org?Subject=Bring Pantry Pickup to my city">contact us</a> and we will do our best to help out. If you are a
       developer, please feel free to check out the source on <a href="https://github.com/codeforboston/pantry_pickup/">Github</a>.
 
+  script#multiplePantriesTmpl.template(type="text/template")
+    ul
+      | <% pantries.each(function(pantry) { %>
+      li
+        a.pantry(href="#", data-cid!="<%- pantry.cid %>") <%- pantry.get('site_name') %>
+      | <% }) %>
+
   script#pantryListingTmpl.template(type="text/template")
     h2
       a.name <%- pantry.get('site_name') %>
