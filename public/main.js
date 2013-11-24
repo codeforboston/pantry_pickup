@@ -219,14 +219,15 @@
   });
 
   PantryPickup.map.addControl({
+    id: 'redoSearchBtn',
     position: 'top_left',
     content: 'Redo search in this area',
     style: {
-      background: 'white',
       padding: '3pt',
       margin: '5pt',
       borderRadius: '2pt',
       border: '1px solid #666',
+      zIndex: '5',
     },
     events: {
       click: function() {
