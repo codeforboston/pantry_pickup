@@ -90,12 +90,16 @@
     },
     render: function() {
       var $el = this.$el;
-      this.collection.each(function(pantry) {
-        $el.append(
-          new PantryPickup.PantryListingView({model: pantry}).render().el
-        );
-        addPantryToMap(pantry);
-      });
+      if (this.collection.length) {
+        this.collection.each(function(pantry) {
+          $el.append(
+            new PantryPickup.PantryListingView({model: pantry}).render().el
+          );
+          addPantryToMap(pantry);
+        });
+    } else {
+      $el.append("<div class=\"noPantries\">No Pantries Found<br>Pantry Pickup is currently only available in the Boston Metro Area</div>");
+      }
       this.$el.scrollTop(0);
       return this;
     }

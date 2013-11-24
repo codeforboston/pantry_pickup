@@ -90,6 +90,10 @@ h1, h2, h3, h4, h5, h6 {
 .pantryListItem:hover,.pantryListItem.selected {background-color:rgb(242,242,242);}
 .pantryListItem h2 {font-size:18px; font-weight:normal;}
 
+.noPantries {
+  padding:1em;
+}
+
 #mapContainer {position:fixed; top:4em; right:0; bottom:0; left:24em; z-index:0;}
 
 #social {position:fixed; bottom:0; height:2em;}
