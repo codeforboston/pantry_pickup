@@ -82,6 +82,9 @@
   });
 
   PantryPickup.PantryListingsView = Backbone.View.extend({
+    events: {
+      'click .zoom-boston': 'zoomInOnBoston'
+    },
     initialize: function() {
       this.listenTo(this.collection, 'sync', function() {
         this.$el.empty();
@@ -90,18 +93,23 @@
     },
     render: function() {
       var $el = this.$el;
-      if (this.collection.length) {
+      if (this.collection.isEmpty()) {
+        $el.append($('#noPantriesTmpl').text());
+      } else {
         this.collection.each(function(pantry) {
           $el.append(
             new PantryPickup.PantryListingView({model: pantry}).render().el
           );
           addPantryToMap(pantry);
         });
-    } else {
-      $el.append("<div class=\"noPantries\">No Pantries Found<br>Pantry Pickup is currently only available in the Boston Metro Area</div>");
       }
       this.$el.scrollTop(0);
       return this;
+    },
+    zoomInOnBoston: function(e) {
+      e.preventDefault();
+      PantryPickup.map.setCenter(PantryPickup.defaults.coords.latitude, PantryPickup.defaults.coords.longitude);
+      searchByMap(PantryPickup.map);
     }
   });
 

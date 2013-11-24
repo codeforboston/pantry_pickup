@@ -5,7 +5,7 @@ body, input {font-size:11pt;}
 a {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 }
-#pantryList a, a:hover{
+.pantryListItem a, a:hover{
 	text-decoration: none;
 	color: #333;
 }

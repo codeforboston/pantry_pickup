@@ -17,7 +17,7 @@ block content
         input#searchSubmit(type='submit', value='Locate')
 
   button.btn.btn-link#aboutButton(data-toggle='modal', data-target='#aboutModal')
-    span.glyphicon.glyphicon-info-sign 
+    span.glyphicon.glyphicon-info-sign
     span#btnText About
   div#mobileViewToggle.pointer
     div#showList.mobileViewToggleOption List
@@ -32,24 +32,24 @@ block content
     div#locationInfo
     div#orgNeeds
       //To do in v2
-  
+
   div#aboutModal.modal.fade
     div.modal-dialog
       div.modal-content
         div.modal-header
           button.close(type='button', data-dismiss='modal', aria-hidden='true')&times;
-          h3 
+          h3
             b Support your local food pantry with Pantry Pickup
         div.modal-body
           p Hunger hurts. It hurts our communities, our neighbors, our children. In eastern Massachusetts, 1 in 9 individuals are food insecure, <a href="http://gbfb.org/our-mission/hunger.php" target="_blank">according to the Greater Boston Food Bank</a>, and among children, it's 1 in 4.  At Code for Boston, we think these are unacceptably high numbers - but we also know that even if a person wants to help, it can be hard to know where to start.  So, we built Pantry Pickup.
 
           p The Pantry Pickup application has two goals: 1) helping citizens find and make donations to food pantries in their neighborhoods and 2) allowing food pantries to request or "register" for food needs specific to the communities they serve.  Originally built during the <a href="http://www.rhok.org" target="_blank">Random Hacks of Kindness</a> Hackathon in Boston as part of the <a href="http://www.hackforchange.org" target="_blank">National Day of Civic Hacking</a> in June 2013, Pantry Pickup uses a hand-researched database of 500+ food pantries in eastern Massachusetts to provide location and availability data to prospective food donors.  For next steps, we're conducting a user research effort with pantry operators to help us understand how we can best support their food inventory needs.
-  
-          h4 
+
+          h4
             b Please send feedback, ideas, and bug reports to <a href="mailto:hello@pantrypickup.org">hello@pantrypickup.org</a>
           hr
           h4
-            b About Code for Boston 
+            b About Code for Boston
           p Code for Boston is a volunteer group of civic-minded developers, designers, urban planners, citizen activists, data geeks and more. Part of the <a href="http://brigade.codeforamerica.org">Code for America Brigade</a> program, we work with Boston-area city governments and local communities to build open-source civic apps, open public data sources, and generally help to leverage technology for use in the public sphere.
 
           p Feel free to stop by one of our <a href="http://www.meetup.com/Code-for-Boston" target='_blank'>Weekly Hack Nights</a>, <a href='http://www.github.com/codeforboston' target='_blank'>check us out on Github</a>, or simply <a href="mailto:boston-admin@codeforamerica.org"> drop us a line!</a>
@@ -57,13 +57,13 @@ block content
         div.modal-footer
           <script type='text/javascript'>(function(){document.write("<img style='height:2.5em; float:left;' src='http://bostonbuilt.org/icon.php?q=built_in_boston_color_fancy.png&u=" + window.location.host + "' />");})();</script>
           button.btn.btn-default(type="button", data-dismiss="modal", aria-hidden="true") Close
-  
+
   div#searchModal.modal.fade
     div.modal-dialog
       div.modal-content
         div.modal-header
           button.close(type='button', data-dismiss='modal', aria-hidden='true')&times;
-          h4 
+          h4
             b Search for pantries
         div.modal-body
           div#searchBar
@@ -72,8 +72,15 @@ block content
                 placeholder='Enter address')
               input#searchSubmit(type='submit', value='Locate')
 
+  script#noPantriesTmpl.template(type="text/template")
+    div.noPantries.
+      No pantries were found near this location. Pantry Pickup has been designed
+      so far to support the <a href="#" class="zoom-boston">Boston Metro area</a>. We'd love to bring Pantry Pickup to
+      you! If you are interested in getting Pantry Pickup for your city, please
+      <a href="mailto:hello@pantrypickup.org?Subject=Bring Pantry Pickup to my city">contact us</a> and we will do our best to help out. If you are a
+      developer, please feel free to check out the source on <a href="https://github.com/codeforboston/pantry_pickup/">Github</a>.
 
-  script(type="text/template", class="template", id="pantryListingTmpl")
+  script#pantryListingTmpl.template(type="text/template")
     h2
       a.name <%- pantry.get('site_name') %>
     div.address
