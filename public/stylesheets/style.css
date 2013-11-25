@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #social {position:fixed; bottom:0; height:2em;}
 
-#infoPanel {display:none; position:fixed; top:5em; right:-22em; bottom:1em;
+#infoPanel {display:block; position:fixed; top:5em; right:1em; bottom:1em;
 	padding:1em; overflow-y:auto; z-index:10; border-radius:3px;
 	background-color:#fffefa; border:1px solid #999;
 	box-shadow:-3px 3px 5px rgba(0,0,0,.2);
@@ -107,11 +107,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mapView {position:absolute; top:0; left:0; bottom:0; right:0;}
-#siteName {margin-top:0;}
+#siteName, #locationInfo h2 {margin-top:0;}
+#locationInfo p {font-size: 16px; font-weight:200;}
+#locationInfo li{margin: auto auto 8px -20px;}
 .right {float:right; margin:0 0 1em 1em;}
 .pointer {cursor:pointer;}
-#detailClose{color:#404040;font-size: 24px;}
-#detailClose:hover{color:#911520;}
+.detailClose{color:#404040;font-size: 24px;}
+.detailClose:hover{color:#911520;}
 
 
 #mobileViewToggle {display:none; text-align:center; vertical-align:center; color: #FFF;
@@ -138,7 +140,7 @@ all and (view-mode:minimized){
 	#mapContainer,#pantryList {top:5.5em; left:0;}
 	#mobileViewToggle {display:block;}
 	#infoPanel,#header,#search,#pantryList,#social {width:100%;}
-	#infoPanel {border-radius:0; box-shadow:none; top:3em; left:0; bottom:0;}
+	#infoPanel {display: none; border-radius:0; box-shadow:none; top:3em; left:0; bottom:0;}
 	.modal-dialog{width:96%;}
 	#header{height:3em;}
 	.site-title {font-size:16pt; margin-top:4pt;}
