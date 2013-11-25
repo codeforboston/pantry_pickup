@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-color:#911520; border-bottom:3px solid #570d13; z-index:5;
 }
 #searchInput {width:30%; height:2.5em; margin-top:.2em; border-radius:3px; padding: 3px 8px; outline:none; border:1px solid #570d13; margin-right:.75em; font-weight:200;}
-#searchInput:focus{box-shadow: 3px 3px 8px rgba(0,0,0,.25); border:1px solid #000;}
+#searchInput:focus{box-shadow: none; border-color: #333; box-shadow:inset 1px 1px 10px rgba(25,15,0,.20)}
 #searchSubmit {width:5em; padding: 4px 2px 6px 2px; background-color: #570d13; color:#FFF; font-weight:400; border-radius:3px; outline:none; border:none; cursor: pointer;}
 #searchSubmit:hover{
 	background-color: #432020;
@@ -74,8 +74,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #pantryList {
   position:fixed; top:4em; bottom:0; overflow-y:auto; border-right: 1px solid #666;
-	font-weight:300; background-color: #fcfcfc;
-  /*background: -webkit-linear-gradient(top, #fcfcfc, #fffef4);
+	font-weight:300; background-color: #fffefa;
+/*  background: -webkit-linear-gradient(top, #fcfcfc, #fffef4);
   background: -moz-linear-gradient(top, #fcfcfc, #fffef4);
   background: -ms-linear-gradient(top, #fcfcfc, #fffef4);*/
 }
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #infoPanel {display:none; position:fixed; top:5em; right:-22em; bottom:1em;
 	padding:1em; overflow-y:auto; z-index:10; border-radius:3px;
-	background-color:#fcfcfc; border:1px solid #999;
+	background-color:#fffefa; border:1px solid #999;
 	box-shadow:-3px 3px 5px rgba(0,0,0,.2);
 	font-family: "Lato";
 	box-sizing:border-box;
@@ -119,6 +119,10 @@ h1, h2, h3, h4, h5, h6 {
 .mobileViewToggleOption {width:50%; padding:8px 0; float:left; display:inline-block;}
 .mobileViewToggleOption:hover {background-color: #8c3039;}
 #showList {border-right:2px solid #570d13;}
+
+#redoButton {background-color: #fdfdfd; padding: 3pt; margin: 5pt; border-radius: 2pt; border: 1px solid #b0b0b0;}
+#redoButton:hover{background-color: #f7f7f7; }
+
 /*Put in current location button*/
 
 @media mobile, handheld, all and (max-width:50em),
