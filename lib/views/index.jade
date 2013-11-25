@@ -30,6 +30,15 @@ block content
 
   div#infoPanel
     div#locationInfo
+      div.right
+        span.detailClose.glyphicon.glyphicon-remove-circle.pointer
+      h2 Feed your neighbors.
+      p Pantry Pickup helps you find nearby food pantries so you can make donations that positively impact your local community.
+      p You can get started by:
+      ul
+        li Entering your zip code in the search field to view pantries in your location
+        li Selecting a pantry in the map or list to view its address, contact info, and open hours
+    
     div#orgNeeds
       //To do in v2
 
@@ -97,7 +106,7 @@ block content
 
   script#pantryDetailsTmpl.template(type="text/template")
     div.right
-      span#detailClose.glyphicon.glyphicon-remove-circle.pointer
+      span.detailClose.glyphicon.glyphicon-remove-circle.pointer
     h2#siteName <%- pantry.get('site_name') %>
 
     | <% if (pantry.get('website') != '') { %>
