@@ -73,12 +73,20 @@ block content
               input#searchSubmit(type='submit', value='Locate')
 
   script#noPantriesTmpl.template(type="text/template")
-    div.noPantries.
-      No pantries were found near this location. Pantry Pickup has been designed
-      so far to support the <a href="#" class="zoom-boston">Boston Metro area</a>. We'd love to bring Pantry Pickup to
-      you! If you are interested in getting Pantry Pickup for your city, please
-      <a href="mailto:hello@pantrypickup.org?Subject=Bring Pantry Pickup to my city">contact us</a> and we will do our best to help out. If you are a
-      developer, please feel free to check out the source on <a href="https://github.com/codeforboston/pantry_pickup/">Github</a>.
+    div.noPantries
+      h3 No pantries found.
+      p Unfortunately, we don't know of any food pantries near this location.
+      hr
+      p Currently, Pantry Pickup is only supported in the <a href="#" class="zoom-boston">Boston Metro region</a>. However, we would love to bring it to your area!
+      p If you are interested in getting Pantry Pickup for your city, please <b><a href="mailto:hello@pantrypickup.org?Subject=Bring Pantry Pickup to my city">contact us</a></b> and we will do our best to help out. If you are a developer, please feel free to check out the source on <a href="https://github.com/codeforboston/pantry_pickup/">Github</a>.
+
+  script#multiplePantriesTmpl.template(type="text/template")
+    p Multiple pantries at this location:
+    ul
+      | <% pantries.each(function(pantry) { %>
+      li
+        a.pantry(href="#", data-cid!="<%- pantry.cid %>") <%- pantry.get('site_name') %>
+      | <% }) %>
 
   script#pantryListingTmpl.template(type="text/template")
     h2
