@@ -102,8 +102,10 @@ block content
     div.phone <%- pantry.get('phone') %>
 
     | <% if (pantry.get('hours').length > 0) { %>
+    hr
     div.hours
-      h3 Hours:
+      h4
+        b Hours
       ul
         | <% _(pantry.get('hours')).each(function(hours) { %>
         li.
@@ -113,6 +115,7 @@ block content
     | <% } %>
 
     p
+      hr
       div#contact Incorrect or Missing Information? <br>
         a(href!="mailto:hello@pantrypickup.org") contact us
 
