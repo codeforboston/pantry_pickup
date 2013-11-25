@@ -89,7 +89,7 @@
     el: '#infoPanel',
     template: _.template( $('#pantryDetailsTmpl').html() ),
     events: {
-      'click #detailClose': 'close'
+      'click .detailClose': 'close'
     },
     render: function() {
       this.$el.show().animate({right: '1em', opacity: 1}, 100)
