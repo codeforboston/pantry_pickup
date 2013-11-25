@@ -101,12 +101,16 @@ block content
     h2#siteName <%- pantry.get('site_name') %>
 
     | <% if (pantry.get('website') != '') { %>
-    a(href!="<%= pantry.get('website') %>", target="_blank") Visit Website
+    p
+      a(href!="<%= pantry.get('website') %>", target="_blank") Visit Website
     | <% } %>
 
     address
       div <%- pantry.get('address') %>
       div <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
+      div.directions
+        <a href="http://maps.google.com/maps?q=<%- pantry.get('address') %>, <%- pantry.get('city') %>, MA" target="_blank">Get Directions</a>
+
     div.phone <%- pantry.get('phone') %>
 
     | <% if (pantry.get('hours').length > 0) { %>
