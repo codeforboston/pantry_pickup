@@ -196,6 +196,7 @@
       var $form = $(e.target);
       var term = $form.find('[name=term]').val();
       this.collection.search({term: term});
+      $('#searchModal').modal('hide');
     }
   });
 
