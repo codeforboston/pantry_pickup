@@ -21,4 +21,4 @@ To ensure geo indexes on location fields run:
 (this should be a one time operation after creating the db)
 
 To query for all locations within 10000000 meters of <40,-71>, ordered by proximity run:
-    db.pantries.find({"loc":{ $near:{$geometry:{type:"Point",coordinates:[-71.0,40.0]}}, $maxDistance:10000000}})
+    db.pantries.find({"loc":{ $near:{$geometry:{type:"Point",coordinates:[-71.0,40.0]}, $maxDistance:10000000}}})
