@@ -20,4 +20,3 @@ db.once('open', function(){
     mongoose.disconnect();
   });
 });
-
