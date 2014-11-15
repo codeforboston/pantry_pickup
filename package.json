@@ -12,7 +12,8 @@
     "geocoder": "0.1.x",
     "winston": "~0.7.1",
     "config": "~0.4.27",
-    "yaml": "~0.2.3"
+    "yaml": "~0.2.3",
+    "body-parser": "^1.9.2"
   },
   "devDependencies": {
     "mocha": "~1.9.0",
