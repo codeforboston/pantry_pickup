@@ -11,7 +11,7 @@ block content
 
   div#search
     div#searchBar
-      form#searchForm(action='/api/search', method='GET')
+      form#searchForm(action='/api/pantry/search', method='GET')
         input#searchInput(type='text', name='term',
           placeholder='Enter address to find nearby food pantries')
         input#searchSubmit(type='submit', value='Locate')
@@ -67,7 +67,7 @@ block content
             b Search for pantries
         div.modal-body
           div#searchBar
-            form#searchForm(action='/api/search', method='GET')
+            form#searchForm(action='/api/pantry/search', method='GET')
               input#searchInput(type='text', name='term',
                 placeholder='Enter address')
               input#searchSubmit(type='submit', value='Locate')
