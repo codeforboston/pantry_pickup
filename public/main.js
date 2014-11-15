@@ -40,7 +40,7 @@
   });
   PantryPickup.PantryCollection = Backbone.Collection.extend({
     model: PantryPickup.Pantry,
-    url: '/search',
+    url: '/api/search',
     initialize: function() {
       this.locations = {};
     },
