@@ -21,12 +21,11 @@ Initializing the DB
 
 Starting from the root directory of this project:
 
+    pip install -r requirements.txt
     cd files
     ./pantry_import.py
 
-This script has a few dependencies (e.g., `pymongo`); if your system is missing
-any of these, you'll need to install them (via `easy_install` or your python
-package manager) first.
+This script has a few dependencies (e.g., `pymongo`); install them with `pip install -r requirements.txt`
 
 Installing Node Dependencies
 ----------------------------
