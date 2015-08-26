@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "pantry-pickup",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "express": "3.2.4",
+    "extend": "*",
     "jade": "*",
     "mongoose": "3.6.x",
     "geocoder": "0.1.x",
