@@ -12,6 +12,7 @@ pantry_pickup:
     - mongo
   environment:
     - MONGO_HOST=mongo
+    - SERVER_MODE=development
   env_file:
     - ./config/common.env
   volumes:

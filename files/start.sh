@@ -10,6 +10,8 @@ if [ ! -d "/app" ]; then
     exit 1
 fi
 
+echo America/New_York > /etc/timezone && dpkg-reconfigure --frontend noninteractive tzdata
+
 python /app/files/pantry_import.py
 
 cd /app
@@ -19,4 +21,8 @@ if [ -n "$MONGO_HOST" ]; then
     export DATABASE=mongodb://$MONGO_HOST/pantry_pickup
 fi
 
-npm start
+if [ "$SERVER_MODE" = "development" ]; then
+    npm run-script devstart
+else
+    npm start
+fi

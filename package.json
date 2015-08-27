@@ -3,13 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node lib/app.js"
+      "start": "node lib/app.js",
+      "devstart": "supervisor lib/app.js"
   },
   "dependencies": {
     "express": "3.2.4",
     "extend": "*",
     "jade": "*",
-    "mongoose": "3.6.x",
+    "mongoose": "4.1.*",
     "geocoder": "0.1.x",
     "winston": "~0.7.1",
     "config": "~0.4.27",
