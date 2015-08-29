@@ -86,6 +86,14 @@ Where 3001 is the port configured in your config/common.env file. On other platf
 
 A similar process applies if you want to connect directly to other services. For example, you can connect to the Mongo server from a local Mongo client by running `mongo $(docker-machine ip dev)/pantry_pickup`
 
+If you think you'll be doing this sort of thing frequently, you can add a hostname to your /etc/hosts file:
+
+```sh
+    echo "$(docker-machine ip dev) docker-dev" | sudo tee -a /etc/hosts
+```
+
+Once you've done that, you can use `docker-dev` wherever you'd use the IP. You can do `mongo docker-dev/pantry_pickup`, browse to `http://docker-dev:3001/`, etc.
+
 Port Forwarding
 ----------
 
