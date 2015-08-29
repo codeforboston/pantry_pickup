@@ -94,6 +94,11 @@ block content
     div.address
       div.address1 <%- pantry.get('address') %>
       div.address2 <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
+    | <% if (pantry.isOpen()) { %>
+    div.openNow Open Now
+    | <% } else { %>
+    div.closedNow Closed Now
+    | <% } %>
 
   script#pantryDetailsTmpl.template(type="text/template")
     div.right
@@ -124,6 +129,11 @@ block content
           <% if (hours.repeatsOn) { %><%- hours.repeatsOn %>: <% } %>
           <%- hours.start %> to <%- hours.end %>
         | <% }); %>
+      | <% if (pantry.isOpen()) { %>
+      div.openNow Open now
+      | <% } else { %>
+      div.closedNow Closed now
+      | <% } %>
     | <% } %>
 
     p

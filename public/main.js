@@ -19,7 +19,7 @@
     this.pantries = [];
     this.addPantry = function(pantry) {
       this.pantries.push(pantry);
-    }
+    };
   }
   // Backbone Models
   PantryPickup.Pantry = Backbone.Model.extend({
@@ -36,7 +36,22 @@
         loc = this.collection.locations[latLng] = new Location();
       }
       return loc;
-    }
+    },
+      isOpen: function() {
+          return (this.get("open_status") || {}).open;
+      },
+
+      timeTillClose: function() {
+          var ends = (this.get("open_status") || {}).ends;
+
+          return ends && new Date(ends).getTime() - new Date().getTime();
+      },
+
+      nextOpen: function() {
+          var next = (this.get("open_status") || {}).next;
+
+          return next && new Date(next);
+      }
   });
   PantryPickup.PantryCollection = Backbone.Collection.extend({
     model: PantryPickup.Pantry,
