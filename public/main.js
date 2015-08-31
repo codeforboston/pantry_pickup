@@ -37,22 +37,26 @@
       }
       return loc;
     },
+
       isOpen: function() {
           return (this.get("open_status") || {}).open;
       },
 
-      timeTillClose: function() {
-          var ends = (this.get("open_status") || {}).ends;
+      closingTime: function() {
+          var ends = this.get("open_status").ends;
 
-          return ends && new Date(ends).getTime() - new Date().getTime();
+          return new Date(ends);
       },
 
       nextOpen: function() {
-          var next = (this.get("open_status") || {}).next;
+          return (this.get("open_status") || {}).next;
+      },
 
-          return next && new Date(next);
+      getHours: function() {
+
       }
   });
+
   PantryPickup.PantryCollection = Backbone.Collection.extend({
     model: PantryPickup.Pantry,
     url: '/api/pantry/search',
@@ -63,7 +67,10 @@
       var bounds = PantryPickup.map.getBounds();
       var radius = 5000;
       if (bounds) radius = findRadius(bounds);
-      this.fetch({data: {location: coords, radius: radius}, reset: true});
+        this.fetch({data: {location: coords,
+                           radius: radius,
+                           when: new Date().getTime()},
+                    reset: true});
     },
     parse: function(response) {
       this.locations = {};
@@ -71,7 +78,11 @@
       if (response.loc) this.trigger('recenter', response.loc);
       if (response.pantries) return response.pantries;
       else return response;
-    }
+    },
+
+      comparator: function(p1, p2) {
+          return p1.isOpen() ? -1 : p2.isOpen() ? 1 : 0;
+      }
   });
 
 

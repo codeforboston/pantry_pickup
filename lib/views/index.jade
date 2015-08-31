@@ -95,7 +95,7 @@ block content
       div.address1 <%- pantry.get('address') %>
       div.address2 <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
     | <% if (pantry.isOpen()) { %>
-    div.openNow Open Now
+    div.openNow Open Now (Closes <%- moment(pantry.closingTime()).fromNow() %>)
     | <% } else { %>
     div.closedNow Closed Now
     | <% } %>
@@ -130,9 +130,12 @@ block content
           <%- hours.start %> to <%- hours.end %>
         | <% }); %>
       | <% if (pantry.isOpen()) { %>
-      div.openNow Open now
+      div.openNow Open now (Closes <%- moment(pantry.closingTime()).fromNow() %>)
       | <% } else { %>
       div.closedNow Closed now
+      | <% if (pantry.nextOpen()) { %>
+      div.nextOpen Next open <%- moment(pantry.nextOpen()).calendar() %>
+      | <% } %>
       | <% } %>
     | <% } %>
 
