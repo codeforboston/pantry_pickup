@@ -14,6 +14,7 @@
     }
   };
 
+
   // index pantries by location
   function Location() {
     this.pantries = [];
@@ -53,7 +54,23 @@
       },
 
       getHours: function() {
+          return _(this.get("hours")).map(function(hours) {
+              var mstart = hours.start.match(/(\d\d):(\d\d)/),
+                  mend = hours.end.match(/(\d\d):(\d\d)/),
+                  startHours = parseInt(mstart[1], 10),
+                  endHours  = parseInt(mend[1], 10);
 
+              hours.humanStart = [(startHours % 12 || 12),
+                                  ":",
+                                  mstart[2],
+                                  (startHours >= 12 ? " pm" : " am")].join("");
+              hours.humanEnd = [(endHours % 12 || 12),
+                                  ":",
+                                  mend[2],
+                                (endHours >= 12 ? " pm" : " am")].join("");
+
+              return hours;
+          });
       }
   });
 

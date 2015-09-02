@@ -124,17 +124,17 @@ block content
       h4
         b Hours
       ul
-        | <% _(pantry.get('hours')).each(function(hours) { %>
+        | <% _(pantry.getHours()).each(function(hours) { %>
         li.
           <% if (hours.repeatsOn) { %><%- hours.repeatsOn %>: <% } %>
-          <%- hours.start %> to <%- hours.end %>
+          <%- hours.humanStart %> to <%- hours.humanEnd %>
         | <% }); %>
       | <% if (pantry.isOpen()) { %>
       div.openNow Open now (Closes <%- moment(pantry.closingTime()).fromNow() %>)
       | <% } else { %>
       div.closedNow Closed now
       | <% if (pantry.nextOpen()) { %>
-      div.nextOpen Next open <%- moment(pantry.nextOpen()).calendar() %>
+      div.nextOpen Open <%- moment(pantry.nextOpen()).calendar() %>
       | <% } %>
       | <% } %>
     | <% } %>
