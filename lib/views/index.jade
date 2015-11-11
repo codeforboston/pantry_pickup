@@ -94,6 +94,11 @@ block content
     div.address
       div.address1 <%- pantry.get('address') %>
       div.address2 <%- pantry.get('city') %>, MA <%- pantry.get('zipcode') %>
+    | <% if (pantry.isOpen()) { %>
+    div.openNow Open Now (Closes <%- moment(pantry.closingTime()).fromNow() %>)
+    | <% } else { %>
+    div.closedNow Closed Now
+    | <% } %>
 
   script#pantryDetailsTmpl.template(type="text/template")
     div.right
@@ -119,16 +124,22 @@ block content
       h4
         b Hours
       ul
-        | <% _(pantry.get('hours')).each(function(hours) { %>
+        | <% _(pantry.getHours()).each(function(hours) { %>
         li.
           <% if (hours.repeatsOn) { %><%- hours.repeatsOn %>: <% } %>
-          <%- hours.start %> to <%- hours.end %>
+          <%- hours.humanStart %> to <%- hours.humanEnd %>
         | <% }); %>
+      | <% if (pantry.isOpen()) { %>
+      div.openNow Open now (Closes <%- moment(pantry.closingTime()).fromNow() %>)
+      | <% } else { %>
+      div.closedNow Closed now
+      | <% if (pantry.nextOpen()) { %>
+      div.nextOpen Open <%- moment(pantry.nextOpen()).calendar() %>
+      | <% } %>
+      | <% } %>
     | <% } %>
 
     p
       hr
       div#contact Incorrect or Missing Information? <br>
         a(href!="mailto:hello@pantrypickup.org") contact us
-
-

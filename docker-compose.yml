@@ -1,0 +1,20 @@
+mongo:
+  image: mongo
+  hostname: mongodb
+  ports:
+    - "27017:27017"
+
+pantry_pickup:
+  build: .
+  ports:
+    - "3001:3001"
+  links:
+    - mongo
+  environment:
+    - MONGO_HOST=mongo
+    - SERVER_MODE=development
+  env_file:
+    - ./config/common.env
+  volumes:
+    - .:/app
+  command: sh /support/start.sh

@@ -11,8 +11,6 @@
 
 
 """
-
-
 import csv
 import random
 import time
@@ -20,6 +18,8 @@ import datetime
 import calendar
 import urllib2
 import json
+import os
+from os import path
 
 from pymongo import MongoClient
 from pymongo import GEOSPHERE
@@ -27,11 +27,12 @@ from pymongo import ASCENDING
 
 # Data source
 
-FILENAME = 'pantry.csv'
+FILENAME = path.join(path.dirname(path.abspath(__file__)), 'pantry.csv')
 
 # MongoDB connection settings
 
-CON = MongoClient("localhost", 27017)
+MONGO_HOST = os.environ.get("MONGO_HOST", "localhost")
+CON = MongoClient(MONGO_HOST, 27017)
 DB_NAME = 'pantry_pickup'
 COLLECTION = 'pantries'
 
@@ -174,10 +175,10 @@ def import_pantry(filename = FILENAME, db = CON[DB_NAME][COLLECTION]):
 
                 #boolean = ["yes", "no"]
                 obj['timestamp'] = time.time()
-                #obj['food_donations_accepted'] = True if random.choice(boolean) =='yes' else False
+                #obj['food_donations_accepted'] = random.choice(boolean) =='yes'
                 #obj['food_needs'] = random.sample(food,4)
                 #obj['cannot_accept'] = random.sample(food, 2)
-                #obj['volunteers_should_contact'] = True if random.choice(boolean) =='yes' else False
+                #obj['volunteers_should_contact'] = random.choice(boolean) =='yes'
                 #obj['policies'] = random.sample(policies,2)
 
                 # Write result to Mongo
@@ -186,5 +187,5 @@ def import_pantry(filename = FILENAME, db = CON[DB_NAME][COLLECTION]):
     db.ensure_index([("loc", GEOSPHERE)])
 
 if __name__ == '__main__':
+    print("Running pantry_pickup import script.")
     import_pantry()
-

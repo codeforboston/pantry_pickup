@@ -90,6 +90,14 @@ h1, h2, h3, h4, h5, h6 {
 .pantryListItem:hover,.pantryListItem.selected {background-color:rgb(242,242,242);}
 .pantryListItem h2 {font-size:18px; font-weight:normal;}
 
+.openNow {
+    color: green;
+}
+
+.closedNow {
+    color: maroon;
+}
+
 .noPantries {
   padding:1em;
 }

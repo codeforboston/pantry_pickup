@@ -14,12 +14,13 @@
     }
   };
 
+
   // index pantries by location
   function Location() {
     this.pantries = [];
     this.addPantry = function(pantry) {
       this.pantries.push(pantry);
-    }
+    };
   }
   // Backbone Models
   PantryPickup.Pantry = Backbone.Model.extend({
@@ -36,8 +37,43 @@
         loc = this.collection.locations[latLng] = new Location();
       }
       return loc;
-    }
+    },
+
+      isOpen: function() {
+          return (this.get("open_status") || {}).open;
+      },
+
+      closingTime: function() {
+          var ends = this.get("open_status").ends;
+
+          return new Date(ends);
+      },
+
+      nextOpen: function() {
+          return (this.get("open_status") || {}).next;
+      },
+
+      getHours: function() {
+          return _(this.get("hours")).map(function(hours) {
+              var mstart = hours.start.match(/(\d\d):(\d\d)/),
+                  mend = hours.end.match(/(\d\d):(\d\d)/),
+                  startHours = parseInt(mstart[1], 10),
+                  endHours  = parseInt(mend[1], 10);
+
+              hours.humanStart = [(startHours % 12 || 12),
+                                  ":",
+                                  mstart[2],
+                                  (startHours >= 12 ? " pm" : " am")].join("");
+              hours.humanEnd = [(endHours % 12 || 12),
+                                  ":",
+                                  mend[2],
+                                (endHours >= 12 ? " pm" : " am")].join("");
+
+              return hours;
+          });
+      }
   });
+
   PantryPickup.PantryCollection = Backbone.Collection.extend({
     model: PantryPickup.Pantry,
     url: '/api/pantry/search',
@@ -48,7 +84,10 @@
       var bounds = PantryPickup.map.getBounds();
       var radius = 5000;
       if (bounds) radius = findRadius(bounds);
-      this.fetch({data: {location: coords, radius: radius}, reset: true});
+        this.fetch({data: {location: coords,
+                           radius: radius,
+                           when: new Date().getTime()},
+                    reset: true});
     },
     parse: function(response) {
       this.locations = {};
@@ -56,7 +95,11 @@
       if (response.loc) this.trigger('recenter', response.loc);
       if (response.pantries) return response.pantries;
       else return response;
-    }
+    },
+
+      comparator: function(p1, p2) {
+          return p1.isOpen() ? -1 : p2.isOpen() ? 1 : 0;
+      }
   });
 
 
@@ -313,3 +356,10 @@
     }
   });
 })();
+
+// (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+//     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+//     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+//     })(window,document,'script','\//www.google-analytics.com/analytics.js','ga');
+//     ga('create', 'UA-37610225-2', 'pantrypickup.org');
+//     ga('send', 'pageview');
