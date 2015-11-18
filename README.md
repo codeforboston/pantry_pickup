@@ -1,4 +1,4 @@
-Pantry Pickup
+Poo Pickup
 =============
 
 [pantrypickup.com](http://pantrypickup.com/)
