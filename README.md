@@ -1,5 +1,5 @@
 Pantry Pickup
-=============
+===========
 
 [pantrypickup.com](http://pantrypickup.com/)
 
