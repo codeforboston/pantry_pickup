@@ -16,17 +16,6 @@ need to install those three things first. After installing those, you need to
 initialize your database with the pantries and install any application-specific
 dependencies.
 
-Initializing the DB
--------------------
-
-Starting from the root directory of this project:
-
-    pip install -r requirements.txt
-    cd files
-    ./pantry_import.py
-
-This script has a few dependencies (e.g., `pymongo`); install them with `pip install -r requirements.txt`
-
 Installing Node Dependencies
 ----------------------------
 
