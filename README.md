@@ -7,7 +7,7 @@ Combining city data with a list of specific needs from food pantries will allow
 citizens to most effectively make useful and needed donations assisted by the
 Pantry Pick-Up App.
 
-Getting Started
+Getting Started lol
 
 
 **Prerequisites**: PantryPickup is a node.js app sitting on top of a MongoDB
