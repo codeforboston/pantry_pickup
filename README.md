@@ -82,7 +82,7 @@ The application should now be running. To view it on OS X:
     open http://$(docker-machine ip dev):3001
 ```
     
-Where 3001 is the port configured in your config/common.env file. On other platforms, run `docker-machine ip dev` to determine the IP address of the VM, then open your browser to http://**IP address**:3001.
+3001 is the port configured in your config/common.env file. On other platforms, run `docker-machine ip dev` to determine the IP address of the VM, then open your browser to http://**IP address**:3001.
 
 A similar process applies if you want to connect directly to other services. For example, you can connect to the Mongo server from a local Mongo client by running `mongo $(docker-machine ip dev)/pantry_pickup`
 
@@ -133,7 +133,7 @@ Please post a comment on the issue to let us know you're interested, and then
 [fork the repository](http://gun.io/blog/how-to-github-fork-branch-and-pull-
 request/).
 
-If you have any questions at all, please get in touch with us.
+If you have any questions at all, please get in touch with us. Let's get this thing rolling!
 
 [Liam Morley](https://twitter.com/carpeliam) &bull; [Harlan Weber](https://twitter.com/whereshj)
 
