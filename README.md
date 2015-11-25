@@ -1,5 +1,5 @@
 Pantry Pickup
-=============
+===========
 
 [pantrypickup.com](http://pantrypickup.com/)
 
@@ -7,8 +7,8 @@ Combining city data with a list of specific needs from food pantries will allow
 citizens to most effectively make useful and needed donations assisted by the
 Pantry Pick-Up App.
 
-Getting Started
-===============
+Getting Started lol
+
 
 **Prerequisites**: PantryPickup is a node.js app sitting on top of a MongoDB
 database. The script for initializing the database is written in Python. You'll
@@ -17,7 +17,7 @@ initialize your database with the pantries and install any application-specific
 dependencies.
 
 Initializing the DB
--------------------
+
 
 Starting from the root directory of this project:
 
@@ -28,14 +28,13 @@ Starting from the root directory of this project:
 This script has a few dependencies (e.g., `pymongo`); install them with `pip install -r requirements.txt`
 
 Installing Node Dependencies
-----------------------------
 
 Starting from the root directory of this project:
 
     npm install
 
 Running PantryPickup
---------------------
+
 
 Starting from the root directory of this project:
 
@@ -53,7 +52,7 @@ Or create a [config](http://lorenwest.github.io/node-config/latest/) file for
 your host and add it to your system's gitignore.
 
 Getting Started: Docker Edition
-==========
+
 
 If you would like to isolate this project from an existing install, or
 if you'd prefer not to fiddle with dependencies, you can use Docker to
