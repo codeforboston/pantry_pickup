@@ -7,7 +7,7 @@ Combining city data with a list of specific needs from food pantries will allow
 citizens to most effectively make useful and needed donations assisted by the
 Pantry Pick-Up App.
 
-Getting Started
+How to get started:
 ===============
 
 **Prerequisites**: PantryPickup is a node.js app sitting on top of a MongoDB
@@ -52,7 +52,7 @@ The default database is `mongodb://localhost/pantry_pickup`. To use a different 
 Or create a [config](http://lorenwest.github.io/node-config/latest/) file for
 your host and add it to your system's gitignore.
 
-Getting Started: Docker Edition
+Docker Edition
 ==========
 
 If you would like to isolate this project from an existing install, or
@@ -125,7 +125,7 @@ To deploy
 Contributing to PantryPickup
 ============================
 
-PantryPickup is a fledgling app at the moment and is definitely welcoming
+**PantryPickup** is a fledgling app at the moment and is definitely welcoming
 contributions. The best way to contribute right now is to take a look at the
 [open issues](https://github.com/codeforboston/pantry_pickup/issues?state=open)
 and look for something interesting that's not yet assigned to anyone else.
