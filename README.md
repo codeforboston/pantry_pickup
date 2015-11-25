@@ -1,11 +1,11 @@
 Pantry Pickup
-=============
+===========
 
 [pantrypickup.com](http://pantrypickup.com/)
 
 Combining city data with a list of specific needs from food pantries will allow
 citizens to most effectively make useful and needed donations assisted by the
-Pantry Pick-Up App.
+Pantry Pick-Up App. Understanding that food familiarity is crucial to food security, Pantry Pickup works to ensure that culturally appropriate foods are getting to where they are most needed. 
 
 Getting Started
 ===============
